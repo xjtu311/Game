@@ -1,0 +1,81 @@
+AUDIT CONTROL VERSION 1
+DATE string "2017.02.24 16:30:38"
+APPLICATION string "C:\Users\lyz\Documents\My Projects\caseStudy"
+MODULE string "D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"
+CTRL
+FUNCTION "Game()" 401 461
+1 ENTRY 0 "" 22
+2 EXIT 0 "Game()" 24
+END FUNCTION
+
+FUNCTION "main(String[])" 464 583
+1 ENTRY 0 "" 26
+2 STMT 2 "" 28
+3 EXIT 0 "main(String[])" 31
+END FUNCTION
+
+FUNCTION "IntUI()" 586 2099
+1 ENTRY 0 "" 33
+2 STMT 38 "" 35
+3 EXIT 0 "IntUI()" 88
+END FUNCTION
+
+FUNCTION "paint(Graphics)" 2134 4702
+1 ENTRY 0 "" 93
+2 STMT 4 "" 95
+3 FOR 2 "for (int i = 0;i < 4; i++)" 101
+4 FOR 4 "for (int j = 0;j < 4; j++)" 102
+5 STMT 1 "" 104
+6 ENDFOR 3 "" 105
+7 ENDFOR 1 "" 106
+8 FOR 6 "for (int i = 0;i < 4; i++)" 110
+9 FOR 8 "for (int j = 0;j < 4; j++)" 111
+10 IF 9 "if (Numbers[j][i] != 0)" 112
+11 STMT 2 "" 113
+12 SWITCH 0 "switch (Numbers[j][i])" 115
+13 CASE 11 "case 2:" 116
+14 STMT 4 "" 117
+15 BREAK 49 "break;" 121
+16 CASE 12 "case 4:" 123
+17 STMT 4 "" 124
+18 BREAK 49 "break;" 128
+19 CASE 13 "case 8:" 130
+20 STMT 4 "" 131
+21 BREAK 49 "break;" 135
+22 CASE 14 "case 16:" 137
+23 STMT 4 "" 138
+24 BREAK 49 "break;" 142
+25 CASE 15 "case 32:" 144
+26 STMT 4 "" 145
+27 BREAK 49 "break;" 149
+28 CASE 16 "case 64:" 151
+29 STMT 4 "" 152
+30 BREAK 49 "break;" 156
+31 CASE 17 "case 128:" 158
+32 STMT 4 "" 159
+33 BREAK 49 "break;" 163
+34 CASE 18 "case 256:" 165
+35 STMT 4 "" 166
+36 BREAK 49 "break;" 170
+37 CASE 19 "case 512:" 172
+38 STMT 4 "" 173
+39 BREAK 49 "break;" 177
+40 CASE 20 "case 1024:" 179
+41 STMT 4 "" 180
+42 BREAK 49 "break;" 184
+43 CASE 21 "case 2048:" 186
+44 STMT 4 "" 187
+45 BREAK 49 "break;" 191
+46 CASE 22 "default:" 193
+47 STMT 1 "" 194
+48 BREAK 49 "break;" 195
+49 ENDSWITCH 0 "" 197
+50 STMT 4 "" 201
+51 ELSE 10 "" 0
+52 ENDIF 0 "" 209
+53 ENDFOR 7 "" 210
+54 ENDFOR 5 "" 211
+55 EXIT 0 "paint(Graphics)" 213
+END FUNCTION
+
+END CTRL

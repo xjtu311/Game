@@ -1,0 +1,264 @@
+AUDIT CONTROL VERSION 1
+DATE string "2017.02.28 14:33:44"
+APPLICATION string "C:\Users\lyz\Documents\My Projects\caseStudy"
+MODULE string "D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"
+CTRL
+FUNCTION "Listener(Game,int,JButton,JButton,JButton,JLabel)" 805 1081
+1 ENTRY 0 "" 34
+2 STMT 6 "" 36
+3 EXIT 0 "Listener(Game,int,JButton,JButton,JButton,JLabel)" 42
+END FUNCTION
+
+FUNCTION "actionPerformed(ActionEvent)" 1089 3177
+1 ENTRY 0 "" 46
+2 IF 1 "if (e.getSource() == start)" 48
+3 STMT 1 "" 49
+4 FOR 4 "for (int i = 0;i < 4; i++)" 50
+5 FOR 6 "for (int j = 0;j < 4; j++)" 51
+6 STMT 1 "" 52
+7 ENDFOR 5 "" 53
+8 ENDFOR 3 "" 54
+9 STMT 6 "" 57
+10 FOR 8 "while (r1 == r2 && c1 == c2)" 64
+11 STMT 2 "" 65
+12 ENDFOR 7 "" 67
+13 STMT 5 "" 70
+14 ELSE 2 "" 78
+15 IF 9 "if (e.getSource() == about)" 78
+16 STMT 1 "" 79
+17 ELSE 10 "" 95
+18 IF 11 "if (e.getSource() == back && alreadyback == false)" 95
+19 STMT 1 "" 96
+20 IF 13 "if (relive == true)" 97
+21 STMT 2 "" 98
+22 FOR 16 "for (int i = 0;i < BackUp.length; i++)" 100
+23 STMT 1 "" 101
+24 ENDFOR 15 "" 102
+25 ELSE 14 "" 104
+26 STMT 2 "" 105
+27 FOR 18 "for (int i = 0;i < BackUp2.length; i++)" 107
+28 STMT 1 "" 108
+29 ENDFOR 17 "" 109
+30 STMT 1 "" 110
+31 ENDIF 0 "" 111
+32 STMT 1 "" 112
+33 ELSE 12 "" 0
+34 ENDIF 0 "" 113
+35 ENDIF 0 "" 113
+36 ENDIF 0 "" 113
+37 EXIT 0 "actionPerformed(ActionEvent)" 115
+END FUNCTION
+
+FUNCTION "keyPressed(KeyEvent)" 3204 9733
+1 ENTRY 0 "" 118
+2 STMT 4 "" 121
+3 IF 1 "if (BackUp != null || BackUp.length != 0)" 133
+4 STMT 1 "" 136
+5 FOR 4 "for (int i = 0;i < BackUp.length; i++)" 139
+6 STMT 1 "" 140
+7 ENDFOR 3 "" 141
+8 ELSE 2 "" 0
+9 ENDIF 0 "" 143
+10 STMT 1 "" 146
+11 FOR 6 "for (int i = 0;i < Numbers.length; i++)" 147
+12 STMT 1 "" 148
+13 ENDFOR 5 "" 149
+14 IF 7 "if (isWin == false)" 151
+15 SWITCH 0 "switch (event.getKeyCode())" 152
+16 CASE 9 "case 37:" 155
+17 FOR 11 "for (int i = 0;i < 4; i++)" 156
+18 FOR 13 "for (int j = 0;j < 4; j++)" 157
+19 IF 14 "if (Numbers[i][j] != 0)" 158
+20 STMT 2 "" 159
+21 FOR 17 "while (pre >= 0 && Numbers[i][pre] == 0)" 161
+22 STMT 4 "" 162
+23 ENDFOR 16 "" 166
+24 ELSE 15 "" 0
+25 ENDIF 0 "" 167
+26 ENDFOR 12 "" 168
+27 ENDFOR 10 "" 169
+28 FOR 19 "for (int i = 0;i < 4; i++)" 171
+29 FOR 21 "for (int j = 0;j < 4; j++)" 172
+30 IF 22 "if (j + 1 < 4 && Numbers[i][j] == Numbers[i][j + 1] && ( Numbers[i][j] != 0 |..." 173
+31 STMT 4 "" 175
+32 IF 24 "if (Numbers[i][j] == 2048)" 179
+33 STMT 1 "" 180
+34 ELSE 25 "" 0
+35 ENDIF 0 "" 181
+36 ELSE 23 "" 0
+37 ENDIF 0 "" 182
+38 ENDFOR 20 "" 182
+39 ENDFOR 18 "" 182
+40 FOR 27 "for (int i = 0;i < 4; i++)" 184
+41 FOR 29 "for (int j = 0;j < 4; j++)" 185
+42 IF 30 "if (Numbers[i][j] != 0)" 186
+43 STMT 2 "" 187
+44 FOR 33 "while (pre >= 0 && Numbers[i][pre] == 0)" 189
+45 STMT 4 "" 190
+46 ENDFOR 32 "" 194
+47 ELSE 31 "" 0
+48 ENDIF 0 "" 196
+49 ENDFOR 28 "" 196
+50 ENDFOR 26 "" 196
+51 BREAK 161 "break;" 197
+52 CASE 34 "case 39:" 200
+53 FOR 36 "for (int i = 3;i >= 0; i--)" 201
+54 FOR 38 "for (int j = 3;j >= 0; j--)" 202
+55 IF 39 "if (Numbers[i][j] != 0)" 203
+56 STMT 2 "" 204
+57 FOR 42 "while (pre <= 3 && Numbers[i][pre] == 0)" 206
+58 STMT 4 "" 207
+59 ENDFOR 41 "" 211
+60 ELSE 40 "" 0
+61 ENDIF 0 "" 212
+62 ENDFOR 37 "" 212
+63 ENDFOR 35 "" 212
+64 FOR 44 "for (int i = 3;i >= 0; i--)" 213
+65 FOR 46 "for (int j = 3;j >= 0; j--)" 214
+66 IF 47 "if (j + 1 < 4 && Numbers[i][j] == Numbers[i][j + 1] && ( Numbers[i][j] != 0 |..." 215
+67 STMT 4 "" 217
+68 IF 49 "if (Numbers[i][j + 1] == 2048)" 221
+69 STMT 1 "" 222
+70 ELSE 50 "" 0
+71 ENDIF 0 "" 222
+72 ELSE 48 "" 0
+73 ENDIF 0 "" 223
+74 ENDFOR 45 "" 223
+75 ENDFOR 43 "" 223
+76 FOR 52 "for (int i = 3;i >= 0; i--)" 224
+77 FOR 54 "for (int j = 3;j >= 0; j--)" 225
+78 IF 55 "if (Numbers[i][j] != 0)" 226
+79 STMT 2 "" 227
+80 FOR 58 "while (pre <= 3 && Numbers[i][pre] == 0)" 229
+81 STMT 4 "" 230
+82 ENDFOR 57 "" 234
+83 ELSE 56 "" 0
+84 ENDIF 0 "" 235
+85 ENDFOR 53 "" 235
+86 ENDFOR 51 "" 235
+87 BREAK 161 "break;" 236
+88 CASE 59 "case 38:" 238
+89 FOR 61 "for (int j = 0;j < 4; j++)" 240
+90 FOR 63 "for (int i = 0;i < 4; i++)" 241
+91 IF 64 "if (Numbers[i][j] != 0)" 242
+92 STMT 2 "" 243
+93 FOR 67 "while (pre >= 0 && Numbers[pre][j] == 0)" 245
+94 STMT 4 "" 246
+95 ENDFOR 66 "" 250
+96 ELSE 65 "" 0
+97 ENDIF 0 "" 251
+98 ENDFOR 62 "" 251
+99 ENDFOR 60 "" 251
+100 FOR 69 "for (int j = 0;j < 4; j++)" 252
+101 FOR 71 "for (int i = 0;i < 4; i++)" 253
+102 IF 72 "if (i + 1 < 4 && ( Numbers[i][j] == Numbers[i + 1][j] ) && ( Numbers[i][j] !=..." 254
+103 STMT 4 "" 257
+104 IF 74 "if (Numbers[i][j] == 2048)" 261
+105 STMT 1 "" 262
+106 ELSE 75 "" 0
+107 ENDIF 0 "" 263
+108 ELSE 73 "" 0
+109 ENDIF 0 "" 264
+110 ENDFOR 70 "" 264
+111 ENDFOR 68 "" 264
+112 FOR 77 "for (int j = 0;j < 4; j++)" 266
+113 FOR 79 "for (int i = 0;i < 4; i++)" 267
+114 IF 80 "if (Numbers[i][j] != 0)" 268
+115 STMT 2 "" 269
+116 FOR 83 "while (pre >= 0 && Numbers[pre][j] == 0)" 271
+117 STMT 4 "" 272
+118 ENDFOR 82 "" 276
+119 ELSE 81 "" 0
+120 ENDIF 0 "" 277
+121 ENDFOR 78 "" 277
+122 ENDFOR 76 "" 277
+123 BREAK 161 "break;" 278
+124 CASE 84 "case 40:" 280
+125 FOR 86 "for (int j = 3;j >= 0; j--)" 282
+126 FOR 88 "for (int i = 3;i >= 0; i--)" 283
+127 IF 89 "if (Numbers[i][j] != 0)" 284
+128 STMT 2 "" 285
+129 FOR 92 "while (pre <= 3 && Numbers[pre][j] == 0)" 287
+130 STMT 4 "" 288
+131 ENDFOR 91 "" 292
+132 ELSE 90 "" 0
+133 ENDIF 0 "" 293
+134 ENDFOR 87 "" 293
+135 ENDFOR 85 "" 293
+136 FOR 94 "for (int j = 3;j >= 0; j--)" 294
+137 FOR 96 "for (int i = 3;i >= 0; i--)" 295
+138 IF 97 "if (i + 1 < 4 && ( Numbers[i][j] == Numbers[i + 1][j] ) && ( Numbers[i][j] !=..." 296
+139 STMT 4 "" 299
+140 IF 99 "if (Numbers[i + 1][j] == 2048)" 304
+141 STMT 1 "" 305
+142 ELSE 100 "" 0
+143 ENDIF 0 "" 306
+144 ELSE 98 "" 0
+145 ENDIF 0 "" 307
+146 ENDFOR 95 "" 307
+147 ENDFOR 93 "" 307
+148 FOR 102 "for (int j = 3;j >= 0; j--)" 309
+149 FOR 104 "for (int i = 3;i >= 0; i--)" 310
+150 IF 105 "if (Numbers[i][j] != 0)" 311
+151 STMT 2 "" 312
+152 FOR 108 "while (pre <= 3 && Numbers[pre][j] == 0)" 314
+153 STMT 4 "" 315
+154 ENDFOR 107 "" 319
+155 ELSE 106 "" 0
+156 ENDIF 0 "" 320
+157 ENDFOR 103 "" 320
+158 ENDFOR 101 "" 320
+159 BREAK 161 "break;" 321
+160 CASE 109 "" 322
+161 ENDSWITCH 0 "" 322
+162 FOR 111 "for (int i = 0;i < 3; i++)" 325
+163 FOR 113 "for (int j = 0;j < 3; j++)" 326
+164 IF 114 "if (Numbers[i][j] == Numbers[i][j + 1] && Numbers[i][j] != 0)" 327
+165 STMT 1 "" 329
+166 ELSE 115 "" 0
+167 ENDIF 0 "" 330
+168 IF 116 "if (Numbers[i][j] == Numbers[i + 1][j] && Numbers[i][j] != 0)" 331
+169 STMT 1 "" 333
+170 ELSE 117 "" 0
+171 ENDIF 0 "" 334
+172 IF 118 "if (Numbers[3][j] == Numbers[3][j + 1] && Numbers[3][j] != 0)" 335
+173 STMT 1 "" 337
+174 ELSE 119 "" 0
+175 ENDIF 0 "" 338
+176 IF 120 "if (Numbers[i][3] == Numbers[i + 1][3] && Numbers[i][3] != 0)" 339
+177 STMT 1 "" 341
+178 ELSE 121 "" 0
+179 ENDIF 0 "" 342
+180 ENDFOR 112 "" 343
+181 ENDFOR 110 "" 344
+182 FOR 123 "for (int i = 0;i < 4; i++)" 346
+183 FOR 125 "for (int j = 0;j < 4; j++)" 347
+184 IF 126 "if (Numbers[i][j] != 0)" 348
+185 STMT 1 "" 349
+186 ELSE 127 "" 0
+187 ENDIF 0 "" 350
+188 ENDFOR 124 "" 351
+189 ENDFOR 122 "" 352
+190 IF 128 "if (Counter > 0)" 353
+191 STMT 3 "" 355
+192 FOR 131 "while (Numbers[r1][c1] != 0)" 358
+193 STMT 2 "" 359
+194 ENDFOR 130 "" 361
+195 STMT 2 "" 362
+196 ELSE 129 "" 0
+197 ENDIF 0 "" 364
+198 IF 132 "if (isWin == true)" 366
+199 STMT 2 "" 367
+200 ELSE 133 "" 0
+201 ENDIF 0 "" 370
+202 IF 134 "if (NumCounter == 16 && NumNearCounter == 0)" 372
+203 STMT 2 "" 373
+204 ELSE 135 "" 0
+205 ENDIF 0 "" 376
+206 STMT 1 "" 377
+207 ELSE 8 "" 0
+208 ENDIF 0 "" 378
+209 EXIT 0 "keyPressed(KeyEvent)" 381
+END FUNCTION
+
+END CTRL

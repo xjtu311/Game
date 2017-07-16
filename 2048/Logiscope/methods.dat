@@ -1,0 +1,14 @@
+CQL VIEW
+DATE string "2017.05.24 16:33:11"
+APPLICATION string "C:\Users\lyz\Documents\My Projects\caseStudy"
+COLUMNS 26
+module	method	type	start	stop	line	class	methsig	lc_line	lc_comm	lc_stat	lc_dclstat	lc_parse	ic_param	ic_except	ct_nest	ct_decis	ct_loop	ct_bran	ct_exit	ct_node	ct_edge	ct_try	ct_raise	ct_cyclo	ct_degree
+string	string	string	integer	integer	integer	string	string	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer
+DATA
+"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	"Game"	"method"	401	461	22	"game2048.Game"	"Game()"	3	1	1	0	0	0	0	0	0	0	0	0	2	1	0	0	1	1
+"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	"main"	"class_method"	464	583	26	"game2048.Game"	"main(String[])"	6	1	3	1	0	1	0	0	0	0	0	0	3	2	0	0	1	1
+"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	"IntUI"	"method"	586	2099	33	"game2048.Game"	"IntUI()"	56	7	39	8	0	0	0	0	0	0	0	0	3	2	0	0	1	1
+"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	"paint"	"method"	2134	4702	93	"game2048.Game"	"paint(Graphics)"	121	5	75	3	0	1	0	4	2	4	0	0	43	58	0	0	17	12
+"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	"Listener"	"method"	805	1081	34	"game2048.Listener"	"Listener(Game,int,JButton,JButton,JButton,JLabel)"	9	1	7	0	0	6	0	0	0	0	0	0	3	2	0	0	1	1
+"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	"actionPerformed"	"method"	1089	3177	46	"game2048.Listener"	"actionPerformed(ActionEvent)"	70	4	35	6	0	1	0	5	4	5	0	0	34	42	0	0	10	2
+"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	"keyPressed"	"method"	3204	9733	118	"game2048.Listener"	"keyPressed(KeyEvent)"	264	16	164	22	0	1	0	6	27	39	0	0	205	273	0	0	70	5

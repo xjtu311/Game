@@ -1,0 +1,9 @@
+CQL VIEW
+DATE string "2017.05.24 16:33:11"
+APPLICATION string "C:\Users\lyz\Documents\My Projects\caseStudy"
+COLUMNS 13
+module	mtime	package	lc_line	lc_comm	lc_stat	lc_dclstat	lc_parse	ic_import_pack	ic_import_demd	ic_import_type	ic_class	ic_interf
+string	string	string	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer
+DATA
+"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	"2017.02.24 16:30:38"	"game2048"	215	19	118	1	2	0	0	7	1	0
+"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	"2017.02.28 14:33:44"	"game2048"	384	25	206	1	0	1	0	8	1	0

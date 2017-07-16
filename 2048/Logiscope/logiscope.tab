@@ -1,0 +1,7 @@
+CQL VIEW
+COLUMNS 5
+module	module_id	language	options	toupdate
+string	integer	string	string	integer
+DATA
+"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	1	"JAVA"	""	1
+"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	2	"JAVA"	""	1

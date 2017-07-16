@@ -1,0 +1,3885 @@
+FORM {JAVA 1}
+ATN game2048
+OP {1 } identifier {1 1 8 16 8 16}
+OP {2 } package_stmt {1 1 0 17 0 17}
+ATN java
+OP {4 } identifier {3 3 26 30 7 11}
+ATN awt
+OP {6 } identifier {3 3 31 34 12 15}
+ATN event
+OP {8 } identifier {3 3 35 40 16 21}
+OP {5 7 9 } scope {3 3 26 40 7 21}
+ATN ActionEvent
+OP {11 } identifier {3 3 41 52 22 33}
+OP {10 12 } qualified_id {3 3 26 52 7 33}
+OP {13 } import_stmt {3 3 19 53 0 34}
+ATN java
+OP {15 } identifier {4 4 61 65 7 11}
+ATN awt
+OP {17 } identifier {4 4 66 69 12 15}
+ATN event
+OP {19 } identifier {4 4 70 75 16 21}
+OP {16 18 20 } scope {4 4 61 75 7 21}
+ATN ActionListener
+OP {22 } identifier {4 4 76 90 22 36}
+OP {21 23 } qualified_id {4 4 61 90 7 36}
+OP {24 } import_stmt {4 4 54 91 0 37}
+ATN java
+OP {26 } identifier {5 5 99 103 7 11}
+ATN awt
+OP {28 } identifier {5 5 104 107 12 15}
+ATN event
+OP {30 } identifier {5 5 108 113 16 21}
+OP {27 29 31 } scope {5 5 99 113 7 21}
+ATN KeyAdapter
+OP {33 } identifier {5 5 114 124 22 32}
+OP {32 34 } qualified_id {5 5 99 124 7 32}
+OP {35 } import_stmt {5 5 92 125 0 33}
+ATN java
+OP {37 } identifier {6 6 133 137 7 11}
+ATN awt
+OP {39 } identifier {6 6 138 141 12 15}
+ATN event
+OP {41 } identifier {6 6 142 147 16 21}
+OP {38 40 42 } scope {6 6 133 147 7 21}
+ATN KeyEvent
+OP {44 } identifier {6 6 148 156 22 30}
+OP {43 45 } qualified_id {6 6 133 156 7 30}
+OP {46 } import_stmt {6 6 126 157 0 31}
+ATN java
+OP {48 } identifier {7 7 165 169 7 11}
+ATN util
+OP {50 } identifier {7 7 170 174 12 16}
+OP {49 51 } scope {7 7 165 174 7 16}
+ATN Arrays
+OP {53 } identifier {7 7 175 181 17 23}
+OP {52 54 } qualified_id {7 7 165 181 7 23}
+OP {55 } import_stmt {7 7 158 182 0 24}
+ATN java
+OP {57 } identifier {8 8 190 194 7 11}
+ATN util
+OP {59 } identifier {8 8 195 199 12 16}
+OP {58 60 } scope {8 8 190 199 7 16}
+ATN Random
+OP {62 } identifier {8 8 200 206 17 23}
+OP {61 63 } qualified_id {8 8 190 206 7 23}
+OP {64 } import_stmt {8 8 183 207 0 24}
+ATN javax
+OP {66 } identifier {9 9 215 220 7 12}
+ATN swing
+OP {68 } identifier {9 9 221 226 13 18}
+OP {67 69 } scope {9 9 215 226 7 18}
+ATN JButton
+OP {71 } identifier {9 9 227 234 19 26}
+OP {70 72 } qualified_id {9 9 215 234 7 26}
+OP {73 } import_stmt {9 9 208 235 0 27}
+ATN javax
+OP {75 } identifier {10 10 243 248 7 12}
+ATN swing
+OP {77 } identifier {10 10 249 254 13 18}
+OP {76 78 } scope {10 10 243 254 7 18}
+ATN JLabel
+OP {80 } identifier {10 10 255 261 19 25}
+OP {79 81 } qualified_id {10 10 243 261 7 25}
+OP {82 } import_stmt {10 10 236 262 0 26}
+ATN javax
+OP {84 } identifier {11 11 270 275 7 12}
+ATN swing
+OP {86 } identifier {11 11 276 281 13 18}
+OP {85 87 } scope {11 11 270 281 7 18}
+ATN JOptionPane
+OP {89 } identifier {11 11 282 293 19 30}
+OP {88 90 } qualified_id {11 11 270 293 7 30}
+OP {91 } import_stmt {11 11 263 294 0 31}
+OP {14 25 36 47 56 65 74 83 92 } import_stmt_list {3 11 19 294 0 31}
+ATV
+OP {94 } public {13 13 296 302 0 6}
+OP {95 } modifier_list {13 13 296 302 0 6}
+ATN Listener
+OP {97 } identifier {13 13 309 317 13 21}
+OP {96 98 } class_head {13 13 296 317 0 21}
+ATN KeyAdapter
+OP {100 } identifier {13 13 326 336 30 40}
+OP {101 } extends {13 13 318 336 22 40}
+ATN ActionListener
+OP {103 } identifier {13 13 348 362 52 66}
+OP {104 } interface_list {13 13 337 362 41 66}
+OP {102 105 } class_ext {13 13 318 362 22 66}
+ATV
+OP {107 } private {20 20 435 442 1 8}
+OP {108 } modifier_list {20 20 435 442 1 8}
+ATN Game
+OP {110 } identifier {20 20 443 447 9 13}
+ATN UI
+OP {112 } identifier {20 20 448 450 14 16}
+ATV
+OP {114 } none {20 20 450 450 16 16}
+OP {113 115 } var_dcltr_noinit {20 20 448 450 14 16}
+OP {116 } var_dcltr_list {20 20 448 450 14 16}
+OP {109 111 117 } variable_decl {20 20 435 451 1 17} {prefix comment_s {comment {/**
+	 * @author: sly
+	 * @date:2017年2月24日上午9:30:08
+	 */} 0 }} 
+ATV
+OP {119 } private {21 21 453 460 1 8}
+OP {120 } modifier_list {21 21 453 460 1 8}
+ATV
+OP {122 } int {21 21 461 464 9 12}
+ATN Numbers
+OP {124 } identifier {21 21 465 472 13 20}
+ATV
+OP {126 } array_bracket {21 21 472 474 20 22}
+OP {127 } array_dcltr {21 21 472 474 20 22}
+ATV
+OP {129 } array_bracket {21 21 474 476 22 24}
+OP {128 130 } array_dcltr {21 21 472 476 20 24}
+OP {125 131 } var_dcltr_noinit {21 21 465 476 13 24}
+OP {132 } var_dcltr_list {21 21 465 476 13 24}
+OP {121 123 133 } variable_decl {21 21 453 477 1 25}
+ATV
+OP {135 } private {22 22 479 486 1 8}
+OP {136 } modifier_list {22 22 479 486 1 8}
+ATN Random
+OP {138 } identifier {22 22 487 493 9 15}
+ATN rand
+OP {140 } identifier {22 22 494 498 16 20}
+ATV
+OP {142 } none {22 22 498 498 20 20}
+ATV
+OP {144 } none {}
+ATN Random
+OP {146 } identifier {22 22 505 511 27 33}
+OP {} expr_list {22 22 512 512 34 34}
+ATV
+OP {149 } none {22 22 513 513 35 35}
+OP {145 147 148 150 } new_class {22 22 501 513 23 35}
+OP {141 143 151 } var_dcltr_affinit {22 22 494 513 16 35}
+OP {152 } var_dcltr_list {22 22 494 513 16 35}
+OP {137 139 153 } variable_decl {22 22 479 514 1 36}
+ATV
+OP {155 } private {23 23 516 523 1 8}
+OP {156 } modifier_list {23 23 516 523 1 8}
+ATV
+OP {158 } int {23 23 524 527 9 12}
+ATN BackUp
+OP {160 } identifier {23 23 528 534 13 19}
+ATV
+OP {162 } array_bracket {23 23 534 536 19 21}
+OP {163 } array_dcltr {23 23 534 536 19 21}
+ATV
+OP {165 } array_bracket {23 23 536 538 21 23}
+OP {164 166 } array_dcltr {23 23 534 538 19 23}
+ATV
+OP {168 } int {23 23 545 548 30 33}
+ATS 4
+OP {170 } integer {23 23 549 550 34 35}
+OP {171 } array_dim {23 23 548 551 33 36}
+ATS 4
+OP {173 } integer {23 23 552 553 37 38}
+OP {174 } array_dim {23 23 551 554 36 39}
+OP {172 175 } array_dim_list {23 23 548 554 33 39}
+ATV
+OP {177 } none {}
+OP {169 176 178 } new_array {23 23 541 554 26 39}
+OP {161 167 179 } var_dcltr_affinit {23 23 528 554 13 39}
+OP {180 } var_dcltr_list {23 23 528 554 13 39}
+OP {157 159 181 } variable_decl {23 23 516 555 1 40}
+ATV
+OP {183 } private {24 24 557 564 1 8}
+OP {184 } modifier_list {24 24 557 564 1 8}
+ATV
+OP {186 } int {24 24 565 568 9 12}
+ATN BackUp2
+OP {188 } identifier {24 24 569 576 13 20}
+ATV
+OP {190 } array_bracket {24 24 576 578 20 22}
+OP {191 } array_dcltr {24 24 576 578 20 22}
+ATV
+OP {193 } array_bracket {24 24 578 580 22 24}
+OP {192 194 } array_dcltr {24 24 576 580 20 24}
+ATV
+OP {196 } int {24 24 587 590 31 34}
+ATS 4
+OP {198 } integer {24 24 591 592 35 36}
+OP {199 } array_dim {24 24 590 593 34 37}
+ATS 4
+OP {201 } integer {24 24 594 595 38 39}
+OP {202 } array_dim {24 24 593 596 37 40}
+OP {200 203 } array_dim_list {24 24 590 596 34 40}
+ATV
+OP {205 } none {}
+OP {197 204 206 } new_array {24 24 583 596 27 40}
+OP {189 195 207 } var_dcltr_affinit {24 24 569 596 13 40}
+OP {208 } var_dcltr_list {24 24 569 596 13 40}
+OP {185 187 209 } variable_decl {24 24 557 597 1 41}
+ATV
+OP {211 } public {25 25 599 605 1 7}
+OP {212 } modifier_list {25 25 599 605 1 7}
+ATN JLabel
+OP {214 } identifier {25 25 606 612 8 14}
+ATN jscore
+OP {216 } identifier {25 25 613 619 15 21}
+ATV
+OP {218 } none {25 25 619 619 21 21}
+OP {217 219 } var_dcltr_noinit {25 25 613 619 15 21}
+OP {220 } var_dcltr_list {25 25 613 619 15 21}
+OP {213 215 221 } variable_decl {25 25 599 620 1 22}
+ATV
+OP {223 } public {26 26 622 628 1 7}
+OP {224 } modifier_list {26 26 622 628 1 7}
+ATN JButton
+OP {226 } identifier {26 26 629 636 8 15}
+ATN start
+OP {228 } identifier {26 26 637 642 16 21}
+ATV
+OP {230 } none {26 26 642 642 21 21}
+OP {229 231 } var_dcltr_noinit {26 26 637 642 16 21}
+ATN back
+OP {233 } identifier {26 26 643 647 22 26}
+ATV
+OP {235 } none {26 26 647 647 26 26}
+OP {234 236 } var_dcltr_noinit {26 26 643 647 22 26}
+ATN about
+OP {238 } identifier {26 26 648 653 27 32}
+ATV
+OP {240 } none {26 26 653 653 32 32}
+OP {239 241 } var_dcltr_noinit {26 26 648 653 27 32}
+OP {232 237 242 } var_dcltr_list {26 26 637 653 16 32}
+OP {225 227 243 } variable_decl {26 26 622 654 1 33}
+ATV
+OP {245 } private {27 27 656 663 1 8}
+OP {246 } modifier_list {27 27 656 663 1 8}
+ATV
+OP {248 } boolean {27 27 664 671 9 16}
+ATN isWin
+OP {250 } identifier {27 27 672 677 17 22}
+ATV
+OP {252 } none {27 27 677 677 22 22}
+ATV
+OP {254 } false {27 27 680 685 25 30}
+OP {251 253 255 } var_dcltr_affinit {27 27 672 685 17 30}
+ATN alreadyback
+OP {257 } identifier {27 27 687 698 32 43}
+ATV
+OP {259 } none {27 27 698 698 43 43}
+ATV
+OP {261 } false {27 27 701 706 46 51}
+OP {258 260 262 } var_dcltr_affinit {27 27 687 706 32 51}
+ATN relive
+OP {264 } identifier {27 27 709 715 54 60}
+ATV
+OP {266 } none {27 27 715 715 60 60}
+ATV
+OP {268 } false {27 27 718 723 63 68}
+OP {265 267 269 } var_dcltr_affinit {27 27 709 723 54 68}
+OP {256 263 270 } var_dcltr_list {27 27 672 723 17 68}
+OP {247 249 271 } variable_decl {27 27 656 724 1 69}
+ATV
+OP {273 } private {28 28 726 733 1 8}
+OP {274 } modifier_list {28 28 726 733 1 8}
+ATV
+OP {276 } int {28 28 734 737 9 12}
+ATN score
+OP {278 } identifier {28 28 738 743 13 18}
+ATV
+OP {280 } none {28 28 743 743 18 18}
+ATS 0
+OP {282 } integer {28 28 746 747 21 22}
+OP {279 281 283 } var_dcltr_affinit {28 28 738 747 13 22}
+OP {284 } var_dcltr_list {28 28 738 747 13 22}
+OP {275 277 285 } variable_decl {28 28 726 748 1 23}
+ATV
+OP {287 } private {29 29 750 757 1 8}
+OP {288 } modifier_list {29 29 750 757 1 8}
+ATV
+OP {290 } int {29 29 758 761 9 12}
+ATN tempscore
+OP {292 } identifier {29 29 762 771 13 22}
+ATV
+OP {294 } none {29 29 771 771 22 22}
+OP {293 295 } var_dcltr_noinit {29 29 762 771 13 22}
+OP {296 } var_dcltr_list {29 29 762 771 13 22}
+OP {289 291 297 } variable_decl {29 29 750 772 1 23}
+ATV
+OP {299 } private {30 30 774 781 1 8}
+OP {300 } modifier_list {30 30 774 781 1 8}
+ATV
+OP {302 } int {30 30 782 785 9 12}
+ATN tempscore2
+OP {304 } identifier {30 30 786 796 13 23}
+ATV
+OP {306 } none {30 30 796 796 23 23}
+OP {305 307 } var_dcltr_noinit {30 30 786 796 13 23}
+OP {308 } var_dcltr_list {30 30 786 796 13 23}
+OP {301 303 309 } variable_decl {30 30 774 797 1 24}
+ATV
+OP {311 } public {34 34 805 811 1 7}
+OP {312 } modifier_list {34 34 805 811 1 7}
+ATV
+OP {314 } none {}
+ATN Listener
+OP {316 } identifier {34 34 812 820 8 16}
+OP {} modifier_list {}
+ATN Game
+OP {319 } identifier {34 34 821 825 17 21}
+ATN UI
+OP {321 } identifier {34 34 826 828 22 24}
+ATV
+OP {323 } none {34 34 828 828 24 24}
+OP {322 324 } var_dcltr_noinit {34 34 826 828 22 24}
+OP {318 320 325 } param_decl {34 34 821 828 17 24}
+OP {} modifier_list {}
+ATV
+OP {328 } int {34 34 829 832 25 28}
+ATN Numbers
+OP {330 } identifier {34 34 833 840 29 36}
+ATV
+OP {332 } array_bracket {34 34 840 842 36 38}
+OP {333 } array_dcltr {34 34 840 842 36 38}
+ATV
+OP {335 } array_bracket {34 34 842 844 38 40}
+OP {334 336 } array_dcltr {34 34 840 844 36 40}
+OP {331 337 } var_dcltr_noinit {34 34 833 844 29 40}
+OP {327 329 338 } param_decl {34 34 829 844 25 40}
+OP {} modifier_list {}
+ATN JButton
+OP {341 } identifier {34 34 846 853 42 49}
+ATN start
+OP {343 } identifier {34 34 854 859 50 55}
+ATV
+OP {345 } none {34 34 859 859 55 55}
+OP {344 346 } var_dcltr_noinit {34 34 854 859 50 55}
+OP {340 342 347 } param_decl {34 34 846 859 42 55}
+OP {} modifier_list {}
+ATN JButton
+OP {350 } identifier {34 34 861 868 57 64}
+ATN back
+OP {352 } identifier {34 34 869 873 65 69}
+ATV
+OP {354 } none {34 34 873 873 69 69}
+OP {353 355 } var_dcltr_noinit {34 34 869 873 65 69}
+OP {349 351 356 } param_decl {34 34 861 873 57 69}
+OP {} modifier_list {}
+ATN JButton
+OP {359 } identifier {34 34 875 882 71 78}
+ATN about
+OP {361 } identifier {34 34 883 888 79 84}
+ATV
+OP {363 } none {34 34 888 888 84 84}
+OP {362 364 } var_dcltr_noinit {34 34 883 888 79 84}
+OP {358 360 365 } param_decl {34 34 875 888 71 84}
+OP {} modifier_list {}
+ATN JLabel
+OP {368 } identifier {34 34 890 896 86 92}
+ATN jscore
+OP {370 } identifier {34 34 897 903 93 99}
+ATV
+OP {372 } none {34 34 903 903 99 99}
+OP {371 373 } var_dcltr_noinit {34 34 897 903 93 99}
+OP {367 369 374 } param_decl {34 34 890 903 86 99}
+OP {326 339 348 357 366 375 } parameter_list {34 34 821 903 17 99}
+ATV
+OP {377 } none {}
+OP {317 376 378 } method_dcltr {34 34 812 904 8 100}
+ATV
+OP {380 } none {34 34 904 904 100 100}
+ATV
+OP {382 } this {36 36 951 955 2 6}
+ATN UI
+OP {384 } identifier {36 36 956 958 7 9}
+OP {383 385 } field_access {36 36 951 958 2 9}
+ATN UI
+OP {387 } identifier {36 36 961 963 12 14}
+OP {386 388 } ass {36 36 951 963 2 14}
+OP {389 } expr_stmt {36 36 951 964 2 15}
+ATV
+OP {391 } this {37 37 967 971 2 6}
+ATN Numbers
+OP {393 } identifier {37 37 972 979 7 14}
+OP {392 394 } field_access {37 37 967 979 2 14}
+ATN Numbers
+OP {396 } identifier {37 37 982 989 17 24}
+OP {395 397 } ass {37 37 967 989 2 24}
+OP {398 } expr_stmt {37 37 967 990 2 25}
+ATV
+OP {400 } this {38 38 993 997 2 6}
+ATN about
+OP {402 } identifier {38 38 998 1003 7 12}
+OP {401 403 } field_access {38 38 993 1003 2 12}
+ATN about
+OP {405 } identifier {38 38 1006 1011 15 20}
+OP {404 406 } ass {38 38 993 1011 2 20}
+OP {407 } expr_stmt {38 38 993 1012 2 21}
+ATV
+OP {409 } this {39 39 1015 1019 2 6}
+ATN back
+OP {411 } identifier {39 39 1020 1024 7 11}
+OP {410 412 } field_access {39 39 1015 1024 2 11}
+ATN back
+OP {414 } identifier {39 39 1027 1031 14 18}
+OP {413 415 } ass {39 39 1015 1031 2 18}
+OP {416 } expr_stmt {39 39 1015 1032 2 19}
+ATV
+OP {418 } this {40 40 1035 1039 2 6}
+ATN jscore
+OP {420 } identifier {40 40 1040 1046 7 13}
+OP {419 421 } field_access {40 40 1035 1046 2 13}
+ATN jscore
+OP {423 } identifier {40 40 1049 1055 16 22}
+OP {422 424 } ass {40 40 1035 1055 2 22}
+OP {425 } expr_stmt {40 40 1035 1056 2 23}
+ATV
+OP {427 } this {41 41 1059 1063 2 6}
+ATN start
+OP {429 } identifier {41 41 1064 1069 7 12}
+OP {428 430 } field_access {41 41 1059 1069 2 12}
+ATN start
+OP {432 } identifier {41 41 1072 1077 15 20}
+OP {431 433 } ass {41 41 1059 1077 2 20}
+OP {434 } expr_stmt {41 41 1059 1078 2 21}
+OP {390 399 408 417 426 435 } stmts {36 41 951 1078 2 21} {prefix comment_s {comment {// TODO Auto-generated constructor stub
+} 0 }} 
+OP {436 } compound {34 42 905 1081 101 2}
+OP {313 315 379 381 437 } method_decl {34 42 805 1081 1 2}
+ATV
+OP {439 } public {46 46 1089 1095 1 7}
+OP {440 } modifier_list {46 46 1089 1095 1 7}
+ATV
+OP {442 } void_type {46 46 1096 1100 8 12}
+ATN actionPerformed
+OP {444 } identifier {46 46 1101 1116 13 28}
+OP {} modifier_list {}
+ATN ActionEvent
+OP {447 } identifier {46 46 1117 1128 29 40}
+ATN e
+OP {449 } identifier {46 46 1129 1130 41 42}
+ATV
+OP {451 } none {46 46 1130 1130 42 42}
+OP {450 452 } var_dcltr_noinit {46 46 1129 1130 41 42}
+OP {446 448 453 } param_decl {46 46 1117 1130 29 42}
+OP {454 } parameter_list {46 46 1117 1130 29 42}
+ATV
+OP {456 } none {}
+OP {445 455 457 } method_dcltr {46 46 1101 1131 13 43}
+ATV
+OP {459 } none {46 46 1131 1131 43 43}
+ATN e
+OP {461 } identifier {48 48 1176 1177 5 6}
+OP {462 } scope {48 48 1176 1177 5 6}
+ATN getSource
+OP {464 } identifier {48 48 1178 1187 7 16}
+OP {463 465 } qualified_id {48 48 1176 1187 5 16}
+OP {} expr_list {48 48 1188 1188 17 17}
+OP {466 467 } call {48 48 1176 1189 5 18}
+ATN start
+OP {469 } identifier {48 48 1193 1198 22 27}
+OP {468 470 } eq {48 48 1176 1198 5 27}
+ATN isWin
+OP {472 } identifier {49 49 1204 1209 3 8}
+ATV
+OP {474 } false {49 49 1212 1217 11 16}
+OP {473 475 } ass {49 49 1204 1217 3 16}
+OP {476 } expr_stmt {49 49 1204 1218 3 17}
+OP {} modifier_list {}
+ATV
+OP {479 } int {50 50 1227 1230 8 11}
+ATN i
+OP {481 } identifier {50 50 1231 1232 12 13}
+ATV
+OP {483 } none {50 50 1232 1232 13 13}
+ATS 0
+OP {485 } integer {50 50 1235 1236 16 17}
+OP {482 484 486 } var_dcltr_affinit {50 50 1231 1236 12 17}
+OP {487 } var_dcltr_list {50 50 1231 1236 12 17}
+OP {478 480 488 } variable_decl {50 50 1227 1236 8 17}
+ATN i
+OP {490 } identifier {50 50 1238 1239 19 20}
+ATS 4
+OP {492 } integer {50 50 1242 1243 23 24}
+OP {491 493 } lt {50 50 1238 1243 19 24}
+ATN i
+OP {495 } identifier {50 50 1245 1246 26 27}
+OP {496 } post_incr {50 50 1245 1248 26 29}
+OP {497 } expr_list {50 50 1245 1248 26 29}
+OP {} modifier_list {}
+ATV
+OP {500 } int {51 51 1261 1264 9 12}
+ATN j
+OP {502 } identifier {51 51 1265 1266 13 14}
+ATV
+OP {504 } none {51 51 1266 1266 14 14}
+ATS 0
+OP {506 } integer {51 51 1269 1270 17 18}
+OP {503 505 507 } var_dcltr_affinit {51 51 1265 1270 13 18}
+OP {508 } var_dcltr_list {51 51 1265 1270 13 18}
+OP {499 501 509 } variable_decl {51 51 1261 1270 9 18}
+ATN j
+OP {511 } identifier {51 51 1272 1273 20 21}
+ATS 4
+OP {513 } integer {51 51 1276 1277 24 25}
+OP {512 514 } lt {51 51 1272 1277 20 25}
+ATN j
+OP {516 } identifier {51 51 1279 1280 27 28}
+OP {517 } post_incr {51 51 1279 1282 27 30}
+OP {518 } expr_list {51 51 1279 1282 27 30}
+ATN Numbers
+OP {520 } identifier {52 52 1291 1298 5 12}
+ATN j
+OP {522 } identifier {52 52 1299 1300 13 14}
+OP {521 523 } index {52 52 1291 1301 5 15}
+ATN i
+OP {525 } identifier {52 52 1302 1303 16 17}
+OP {524 526 } index {52 52 1291 1304 5 18}
+ATS 0
+OP {528 } integer {52 52 1307 1308 21 22}
+OP {527 529 } ass {52 52 1291 1308 5 22}
+OP {530 } expr_stmt {52 52 1291 1309 5 23}
+OP {531 } stmts {52 52 1291 1309 5 23}
+OP {532 } compound {51 53 1284 1315 32 5}
+OP {533 } stmts {51 53 1284 1315 32 5}
+OP {510 515 519 534 } for {51 53 1256 1315 4 5}
+OP {535 } stmts {51 53 1256 1315 4 5}
+OP {536 } compound {50 54 1250 1320 31 4}
+OP {537 } stmts {50 54 1250 1320 31 4}
+OP {489 494 498 538 } for {50 54 1222 1320 3 4}
+ATN score
+OP {540 } identifier {57 57 1346 1351 3 8}
+ATS 0
+OP {542 } integer {57 57 1355 1356 12 13}
+OP {541 543 } ass {57 57 1346 1356 3 13}
+OP {544 } expr_stmt {57 57 1346 1357 3 14} {prefix comment_s {comment {//reset score 0
+} 0 }} 
+ATN jscore
+OP {546 } identifier {58 58 1361 1367 3 9}
+OP {547 } scope {58 58 1361 1367 3 9}
+ATN setText
+OP {549 } identifier {58 58 1368 1375 10 17}
+OP {548 550 } qualified_id {58 58 1361 1375 3 17}
+ATS {"score："}
+OP {552 } string {58 58 1376 1386 18 28}
+ATN score
+OP {554 } identifier {58 58 1387 1392 29 34}
+OP {553 555 } plus {58 58 1376 1392 18 34}
+OP {556 } expr_list {58 58 1376 1392 18 34}
+OP {551 557 } call {58 58 1361 1393 3 35}
+OP {558 } expr_stmt {58 58 1361 1394 3 36}
+OP {} modifier_list {}
+ATV
+OP {561 } int {59 59 1398 1401 3 6}
+ATN r1
+OP {563 } identifier {59 59 1402 1404 7 9}
+ATV
+OP {565 } none {59 59 1404 1404 9 9}
+ATN rand
+OP {567 } identifier {59 59 1407 1411 12 16}
+OP {568 } scope {59 59 1407 1411 12 16}
+ATN nextInt
+OP {570 } identifier {59 59 1412 1419 17 24}
+OP {569 571 } qualified_id {59 59 1407 1419 12 24}
+ATS 4
+OP {573 } integer {59 59 1420 1421 25 26}
+OP {574 } expr_list {59 59 1420 1421 25 26}
+OP {572 575 } call {59 59 1407 1422 12 27}
+OP {564 566 576 } var_dcltr_affinit {59 59 1402 1422 7 27}
+OP {577 } var_dcltr_list {59 59 1402 1422 7 27}
+OP {560 562 578 } variable_decl {59 59 1398 1423 3 28}
+OP {} modifier_list {}
+ATV
+OP {581 } int {60 60 1427 1430 3 6}
+ATN r2
+OP {583 } identifier {60 60 1431 1433 7 9}
+ATV
+OP {585 } none {60 60 1433 1433 9 9}
+ATN rand
+OP {587 } identifier {60 60 1436 1440 12 16}
+OP {588 } scope {60 60 1436 1440 12 16}
+ATN nextInt
+OP {590 } identifier {60 60 1441 1448 17 24}
+OP {589 591 } qualified_id {60 60 1436 1448 12 24}
+ATS 4
+OP {593 } integer {60 60 1449 1450 25 26}
+OP {594 } expr_list {60 60 1449 1450 25 26}
+OP {592 595 } call {60 60 1436 1451 12 27}
+OP {584 586 596 } var_dcltr_affinit {60 60 1431 1451 7 27}
+OP {597 } var_dcltr_list {60 60 1431 1451 7 27}
+OP {580 582 598 } variable_decl {60 60 1427 1452 3 28}
+OP {} modifier_list {}
+ATV
+OP {601 } int {61 61 1456 1459 3 6}
+ATN c1
+OP {603 } identifier {61 61 1460 1462 7 9}
+ATV
+OP {605 } none {61 61 1462 1462 9 9}
+ATN rand
+OP {607 } identifier {61 61 1465 1469 12 16}
+OP {608 } scope {61 61 1465 1469 12 16}
+ATN nextInt
+OP {610 } identifier {61 61 1470 1477 17 24}
+OP {609 611 } qualified_id {61 61 1465 1477 12 24}
+ATS 4
+OP {613 } integer {61 61 1478 1479 25 26}
+OP {614 } expr_list {61 61 1478 1479 25 26}
+OP {612 615 } call {61 61 1465 1480 12 27}
+OP {604 606 616 } var_dcltr_affinit {61 61 1460 1480 7 27}
+OP {617 } var_dcltr_list {61 61 1460 1480 7 27}
+OP {600 602 618 } variable_decl {61 61 1456 1481 3 28}
+OP {} modifier_list {}
+ATV
+OP {621 } int {62 62 1485 1488 3 6}
+ATN c2
+OP {623 } identifier {62 62 1489 1491 7 9}
+ATV
+OP {625 } none {62 62 1491 1491 9 9}
+ATN rand
+OP {627 } identifier {62 62 1494 1498 12 16}
+OP {628 } scope {62 62 1494 1498 12 16}
+ATN nextInt
+OP {630 } identifier {62 62 1499 1506 17 24}
+OP {629 631 } qualified_id {62 62 1494 1506 12 24}
+ATS 4
+OP {633 } integer {62 62 1507 1508 25 26}
+OP {634 } expr_list {62 62 1507 1508 25 26}
+OP {632 635 } call {62 62 1494 1509 12 27}
+OP {624 626 636 } var_dcltr_affinit {62 62 1489 1509 7 27}
+OP {637 } var_dcltr_list {62 62 1489 1509 7 27}
+OP {620 622 638 } variable_decl {62 62 1485 1510 3 28}
+ATN r1
+OP {640 } identifier {64 64 1524 1526 9 11}
+ATN r2
+OP {642 } identifier {64 64 1530 1532 15 17}
+OP {641 643 } eq {64 64 1524 1532 9 17}
+ATN c1
+OP {645 } identifier {64 64 1536 1538 21 23}
+ATN c2
+OP {647 } identifier {64 64 1541 1543 26 28}
+OP {646 648 } eq {64 64 1536 1543 21 28}
+OP {644 649 } and {64 64 1524 1543 9 28}
+ATN r2
+OP {651 } identifier {65 65 1551 1553 4 6}
+ATN rand
+OP {653 } identifier {65 65 1556 1560 9 13}
+OP {654 } scope {65 65 1556 1560 9 13}
+ATN nextInt
+OP {656 } identifier {65 65 1561 1568 14 21}
+OP {655 657 } qualified_id {65 65 1556 1568 9 21}
+ATS 4
+OP {659 } integer {65 65 1569 1570 22 23}
+OP {660 } expr_list {65 65 1569 1570 22 23}
+OP {658 661 } call {65 65 1556 1571 9 24}
+OP {652 662 } ass {65 65 1551 1571 4 24}
+OP {663 } expr_stmt {65 65 1551 1572 4 25}
+ATN c2
+OP {665 } identifier {66 66 1577 1579 4 6}
+ATN rand
+OP {667 } identifier {66 66 1582 1586 9 13}
+OP {668 } scope {66 66 1582 1586 9 13}
+ATN nextInt
+OP {670 } identifier {66 66 1587 1594 14 21}
+OP {669 671 } qualified_id {66 66 1582 1594 9 21}
+ATS 4
+OP {673 } integer {66 66 1595 1596 22 23}
+OP {674 } expr_list {66 66 1595 1596 22 23}
+OP {672 675 } call {66 66 1582 1597 9 24}
+OP {666 676 } ass {66 66 1577 1597 4 24}
+OP {677 } expr_stmt {66 66 1577 1598 4 25}
+OP {664 678 } stmts {65 66 1551 1598 4 25}
+OP {679 } compound {64 67 1545 1603 30 4}
+OP {680 } stmts {64 67 1545 1603 30 4}
+OP {650 681 } while {64 67 1518 1603 3 4}
+OP {} modifier_list {}
+ATV
+OP {684 } int {70 70 1637 1640 3 6}
+ATN value1
+OP {686 } identifier {70 70 1641 1647 7 13}
+ATV
+OP {688 } none {70 70 1647 1647 13 13}
+ATN rand
+OP {690 } identifier {70 70 1650 1654 16 20}
+OP {691 } scope {70 70 1650 1654 16 20}
+ATN nextInt
+OP {693 } identifier {70 70 1655 1662 21 28}
+OP {692 694 } qualified_id {70 70 1650 1662 16 28}
+ATS 2
+OP {696 } integer {70 70 1663 1664 29 30}
+OP {697 } expr_list {70 70 1663 1664 29 30}
+OP {695 698 } call {70 70 1650 1665 16 31}
+ATS 2
+OP {700 } integer {70 70 1666 1667 32 33}
+OP {699 701 } mul {70 70 1650 1667 16 33}
+ATS 2
+OP {703 } integer {70 70 1670 1671 36 37}
+OP {702 704 } plus {70 70 1650 1671 16 37}
+OP {687 689 705 } var_dcltr_affinit {70 70 1641 1671 7 37}
+OP {706 } var_dcltr_list {70 70 1641 1671 7 37}
+OP {683 685 707 } variable_decl {70 70 1637 1673 3 39} {prefix comment_s {comment {//create number 2 or 4
+} 0 }} 
+OP {} modifier_list {}
+ATV
+OP {710 } int {71 71 1677 1680 3 6}
+ATN value2
+OP {712 } identifier {71 71 1681 1687 7 13}
+ATV
+OP {714 } none {71 71 1687 1687 13 13}
+ATN rand
+OP {716 } identifier {71 71 1690 1694 16 20}
+OP {717 } scope {71 71 1690 1694 16 20}
+ATN nextInt
+OP {719 } identifier {71 71 1695 1702 21 28}
+OP {718 720 } qualified_id {71 71 1690 1702 16 28}
+ATS 2
+OP {722 } integer {71 71 1703 1704 29 30}
+OP {723 } expr_list {71 71 1703 1704 29 30}
+OP {721 724 } call {71 71 1690 1705 16 31}
+ATS 2
+OP {726 } integer {71 71 1706 1707 32 33}
+OP {725 727 } mul {71 71 1690 1707 16 33}
+ATS 2
+OP {729 } integer {71 71 1710 1711 36 37}
+OP {728 730 } plus {71 71 1690 1711 16 37}
+OP {713 715 731 } var_dcltr_affinit {71 71 1681 1711 7 37}
+OP {732 } var_dcltr_list {71 71 1681 1711 7 37}
+OP {709 711 733 } variable_decl {71 71 1677 1713 3 39}
+ATN Numbers
+OP {735 } identifier {74 74 1759 1766 3 10}
+ATN r1
+OP {737 } identifier {74 74 1767 1769 11 13}
+OP {736 738 } index {74 74 1759 1770 3 14}
+ATN c1
+OP {740 } identifier {74 74 1771 1773 15 17}
+OP {739 741 } index {74 74 1759 1774 3 18}
+ATN value1
+OP {743 } identifier {74 74 1777 1783 21 27}
+OP {742 744 } ass {74 74 1759 1783 3 27}
+OP {745 } expr_stmt {74 74 1759 1785 3 29} {prefix comment_s {comment {//store number into rigth position
+} 0 }} 
+ATN Numbers
+OP {747 } identifier {75 75 1789 1796 3 10}
+ATN r2
+OP {749 } identifier {75 75 1797 1799 11 13}
+OP {748 750 } index {75 75 1789 1800 3 14}
+ATN c2
+OP {752 } identifier {75 75 1801 1803 15 17}
+OP {751 753 } index {75 75 1789 1804 3 18}
+ATN value2
+OP {755 } identifier {75 75 1807 1813 21 27}
+OP {754 756 } ass {75 75 1789 1813 3 27}
+OP {757 } expr_stmt {75 75 1789 1815 3 29}
+ATN UI
+OP {759 } identifier {76 76 1819 1821 3 5}
+OP {760 } scope {76 76 1819 1821 3 5}
+ATN paint
+OP {762 } identifier {76 76 1822 1827 6 11}
+OP {761 763 } qualified_id {76 76 1819 1827 3 11}
+ATN UI
+OP {765 } identifier {76 76 1828 1830 12 14}
+OP {766 } scope {76 76 1828 1830 12 14}
+ATN getGraphics
+OP {768 } identifier {76 76 1831 1842 15 26}
+OP {767 769 } qualified_id {76 76 1828 1842 12 26}
+OP {} expr_list {76 76 1843 1843 27 27}
+OP {770 771 } call {76 76 1828 1844 12 28}
+OP {772 } expr_list {76 76 1828 1844 12 28}
+OP {764 773 } call {76 76 1819 1845 3 29}
+OP {774 } expr_stmt {76 76 1819 1846 3 30}
+OP {477 539 545 559 579 599 619 639 682 708 734 746 758 775 } stmts {49 76 1204 1846 3 30}
+OP {776 } compound {48 77 1199 1854 28 3}
+OP {777 } stmts {48 77 1199 1854 28 3}
+ATN e
+OP {779 } identifier {78 78 1865 1866 10 11}
+OP {780 } scope {78 78 1865 1866 10 11}
+ATN getSource
+OP {782 } identifier {78 78 1867 1876 12 21}
+OP {781 783 } qualified_id {78 78 1865 1876 10 21}
+OP {} expr_list {78 78 1877 1877 22 22}
+OP {784 785 } call {78 78 1865 1878 10 23}
+ATN about
+OP {787 } identifier {78 78 1882 1887 27 32}
+OP {786 788 } eq {78 78 1865 1887 10 32}
+ATN JOptionPane
+OP {790 } identifier {79 79 1894 1905 3 14}
+OP {791 } scope {79 79 1894 1905 3 14}
+ATN showMessageDialog
+OP {793 } identifier {79 79 1906 1923 15 32}
+OP {792 794 } qualified_id {79 79 1894 1923 3 32}
+ATN UI
+OP {796 } identifier {79 79 1924 1926 33 35}
+ATS {"游戏规则：\n"}
+OP {798 } string {79 79 1928 1947 37 56}
+ATS {"开始时棋盘内随机出现两个数字，出现的数字仅可能为2或4\n"}
+OP {800 } string {81 81 1960 2041 5 86}
+OP {799 801 } plus {79 81 1928 2041 37 86}
+ATS {"玩家选择的方向上若有相同的数字则合并，每次有效移动可以同时合并，但不可以连续合并\n"}
+OP {803 } string {83 83 2055 2179 5 129}
+OP {802 804 } plus {79 83 1928 2179 37 129}
+ATS {"合并所得的所有新生成数字想加即为该步的有效得分\n"}
+OP {806 } string {85 85 2193 2266 5 78}
+OP {805 807 } plus {79 85 1928 2266 37 78}
+ATS {"玩家选择的方向行或列前方有空格则出现位移\n"}
+OP {809 } string {87 87 2279 2343 5 69}
+OP {808 810 } plus {79 87 1928 2343 37 69}
+ATS {"每有效移动一步，棋盘的空位(无数字处)随机出现一个数字(依然可能为2或4)\n"}
+OP {812 } string {89 89 2357 2460 5 108}
+OP {811 813 } plus {79 89 1928 2460 37 108}
+ATS {"棋盘被数字填满，无法进行有效移动，游戏失败，游戏结束\n"}
+OP {815 } string {91 91 2473 2555 5 87}
+OP {814 816 } plus {79 91 1928 2555 37 87}
+ATS {"棋盘上出现2048，游戏胜利，游戏结束。\n"}
+OP {818 } string {93 93 2569 2625 5 61}
+OP {817 819 } plus {79 93 1928 2625 37 61}
+OP {797 820 } expr_list {79 93 1924 2625 33 61}
+OP {795 821 } call {79 93 1894 2626 3 62}
+OP {822 } expr_stmt {79 93 1894 2627 3 63}
+OP {823 } stmts {79 93 1894 2627 3 63}
+OP {824 } compound {78 94 1889 2631 34 3}
+OP {825 } stmts {78 94 1889 2631 34 3}
+ATN e
+OP {827 } identifier {95 95 2642 2643 10 11}
+OP {828 } scope {95 95 2642 2643 10 11}
+ATN getSource
+OP {830 } identifier {95 95 2644 2653 12 21}
+OP {829 831 } qualified_id {95 95 2642 2653 10 21}
+OP {} expr_list {95 95 2654 2654 22 22}
+OP {832 833 } call {95 95 2642 2655 10 23}
+ATN back
+OP {835 } identifier {95 95 2659 2663 27 31}
+OP {834 836 } eq {95 95 2642 2663 10 31}
+ATN alreadyback
+OP {838 } identifier {95 95 2667 2678 35 46}
+ATV
+OP {840 } false {95 95 2681 2686 49 54}
+OP {839 841 } eq {95 95 2667 2686 35 54}
+OP {837 842 } and {95 95 2642 2686 10 54}
+ATN alreadyback
+OP {844 } identifier {96 96 2692 2703 3 14}
+ATV
+OP {846 } true {96 96 2706 2710 17 21}
+OP {845 847 } ass {96 96 2692 2710 3 21}
+OP {848 } expr_stmt {96 96 2692 2712 3 23}
+ATN relive
+OP {850 } identifier {97 97 2719 2725 6 12}
+ATV
+OP {852 } true {97 97 2728 2732 15 19}
+OP {851 853 } eq {97 97 2719 2732 6 19}
+ATN score
+OP {855 } identifier {98 98 2739 2744 4 9}
+ATN tempscore
+OP {857 } identifier {98 98 2747 2756 12 21}
+OP {856 858 } ass {98 98 2739 2756 4 21}
+OP {859 } expr_stmt {98 98 2739 2757 4 22}
+ATN jscore
+OP {861 } identifier {99 99 2762 2768 4 10}
+OP {862 } scope {99 99 2762 2768 4 10}
+ATN setText
+OP {864 } identifier {99 99 2769 2776 11 18}
+OP {863 865 } qualified_id {99 99 2762 2776 4 18}
+ATS {"分数："}
+OP {867 } string {99 99 2777 2788 19 30}
+ATN score
+OP {869 } identifier {99 99 2789 2794 31 36}
+OP {868 870 } plus {99 99 2777 2794 19 36}
+OP {871 } expr_list {99 99 2777 2794 19 36}
+OP {866 872 } call {99 99 2762 2795 4 37}
+OP {873 } expr_stmt {99 99 2762 2796 4 38}
+OP {} modifier_list {}
+ATV
+OP {876 } int {100 100 2806 2809 9 12}
+ATN i
+OP {878 } identifier {100 100 2810 2811 13 14}
+ATV
+OP {880 } none {100 100 2811 2811 14 14}
+ATS 0
+OP {882 } integer {100 100 2814 2815 17 18}
+OP {879 881 883 } var_dcltr_affinit {100 100 2810 2815 13 18}
+OP {884 } var_dcltr_list {100 100 2810 2815 13 18}
+OP {875 877 885 } variable_decl {100 100 2806 2815 9 18}
+ATN i
+OP {887 } identifier {100 100 2817 2818 20 21}
+ATN BackUp
+OP {889 } identifier {100 100 2821 2827 24 30}
+OP {890 } scope {100 100 2821 2827 24 30}
+ATN length
+OP {892 } identifier {100 100 2828 2834 31 37}
+OP {891 893 } qualified_id {100 100 2821 2834 24 37}
+OP {888 894 } lt {100 100 2817 2834 20 37}
+ATN i
+OP {896 } identifier {100 100 2836 2837 39 40}
+OP {897 } post_incr {100 100 2836 2839 39 42}
+OP {898 } expr_list {100 100 2836 2839 39 42}
+ATN Numbers
+OP {900 } identifier {101 101 2848 2855 5 12}
+ATN i
+OP {902 } identifier {101 101 2856 2857 13 14}
+OP {901 903 } index {101 101 2848 2858 5 15}
+ATN Arrays
+OP {905 } identifier {101 101 2861 2867 18 24}
+OP {906 } scope {101 101 2861 2867 18 24}
+ATN copyOf
+OP {908 } identifier {101 101 2868 2874 25 31}
+OP {907 909 } qualified_id {101 101 2861 2874 18 31}
+ATN BackUp
+OP {911 } identifier {101 101 2875 2881 32 38}
+ATN i
+OP {913 } identifier {101 101 2882 2883 39 40}
+OP {912 914 } index {101 101 2875 2884 32 41}
+ATN BackUp
+OP {916 } identifier {101 101 2886 2892 43 49}
+ATN i
+OP {918 } identifier {101 101 2893 2894 50 51}
+OP {917 919 } index {101 101 2886 2895 43 52}
+ATN length
+OP {921 } identifier {101 101 2896 2902 53 59}
+OP {920 922 } field_access {101 101 2886 2902 43 59}
+OP {915 923 } expr_list {101 101 2875 2902 32 59}
+OP {910 924 } call {101 101 2861 2903 18 60}
+OP {904 925 } ass {101 101 2848 2903 5 60}
+OP {926 } expr_stmt {101 101 2848 2904 5 61}
+OP {927 } stmts {101 101 2848 2904 5 61}
+OP {928 } compound {100 102 2841 2915 44 5}
+OP {929 } stmts {100 102 2841 2915 44 5}
+OP {886 895 899 930 } for {100 102 2801 2915 4 5}
+OP {860 874 931 } stmts {98 102 2739 2915 4 5}
+OP {932 } compound {97 103 2733 2920 20 4}
+OP {933 } stmts {97 103 2733 2920 20 4}
+ATN score
+OP {935 } identifier {105 105 2934 2939 4 9}
+ATN tempscore2
+OP {937 } identifier {105 105 2942 2952 12 22}
+OP {936 938 } ass {105 105 2934 2952 4 22}
+OP {939 } expr_stmt {105 105 2934 2953 4 23}
+ATN jscore
+OP {941 } identifier {106 106 2958 2964 4 10}
+OP {942 } scope {106 106 2958 2964 4 10}
+ATN setText
+OP {944 } identifier {106 106 2965 2972 11 18}
+OP {943 945 } qualified_id {106 106 2958 2972 4 18}
+ATS {"分数："}
+OP {947 } string {106 106 2973 2984 19 30}
+ATN score
+OP {949 } identifier {106 106 2985 2990 31 36}
+OP {948 950 } plus {106 106 2973 2990 19 36}
+OP {951 } expr_list {106 106 2973 2990 19 36}
+OP {946 952 } call {106 106 2958 2991 4 37}
+OP {953 } expr_stmt {106 106 2958 2992 4 38}
+OP {} modifier_list {}
+ATV
+OP {956 } int {107 107 3002 3005 9 12}
+ATN i
+OP {958 } identifier {107 107 3006 3007 13 14}
+ATV
+OP {960 } none {107 107 3007 3007 14 14}
+ATS 0
+OP {962 } integer {107 107 3010 3011 17 18}
+OP {959 961 963 } var_dcltr_affinit {107 107 3006 3011 13 18}
+OP {964 } var_dcltr_list {107 107 3006 3011 13 18}
+OP {955 957 965 } variable_decl {107 107 3002 3011 9 18}
+ATN i
+OP {967 } identifier {107 107 3013 3014 20 21}
+ATN BackUp2
+OP {969 } identifier {107 107 3017 3024 24 31}
+OP {970 } scope {107 107 3017 3024 24 31}
+ATN length
+OP {972 } identifier {107 107 3025 3031 32 38}
+OP {971 973 } qualified_id {107 107 3017 3031 24 38}
+OP {968 974 } lt {107 107 3013 3031 20 38}
+ATN i
+OP {976 } identifier {107 107 3033 3034 40 41}
+OP {977 } post_incr {107 107 3033 3036 40 43}
+OP {978 } expr_list {107 107 3033 3036 40 43}
+ATN Numbers
+OP {980 } identifier {108 108 3045 3052 5 12}
+ATN i
+OP {982 } identifier {108 108 3053 3054 13 14}
+OP {981 983 } index {108 108 3045 3055 5 15}
+ATN Arrays
+OP {985 } identifier {108 108 3057 3063 17 23}
+OP {986 } scope {108 108 3057 3063 17 23}
+ATN copyOf
+OP {988 } identifier {108 108 3064 3070 24 30}
+OP {987 989 } qualified_id {108 108 3057 3070 17 30}
+ATN BackUp2
+OP {991 } identifier {108 108 3071 3078 31 38}
+ATN i
+OP {993 } identifier {108 108 3079 3080 39 40}
+OP {992 994 } index {108 108 3071 3081 31 41}
+ATN BackUp2
+OP {996 } identifier {108 108 3083 3090 43 50}
+ATN i
+OP {998 } identifier {108 108 3091 3092 51 52}
+OP {997 999 } index {108 108 3083 3093 43 53}
+ATN length
+OP {1001 } identifier {108 108 3094 3100 54 60}
+OP {1000 1002 } field_access {108 108 3083 3100 43 60}
+OP {995 1003 } expr_list {108 108 3071 3100 31 60}
+OP {990 1004 } call {108 108 3057 3101 17 61}
+OP {984 1005 } ass {108 108 3045 3101 5 61}
+OP {1006 } expr_stmt {108 108 3045 3102 5 62}
+OP {1007 } stmts {108 108 3045 3102 5 62}
+OP {1008 } compound {107 109 3038 3111 45 5}
+OP {1009 } stmts {107 109 3038 3111 45 5}
+OP {966 975 979 1010 } for {107 109 2997 3111 4 5}
+ATN relive
+OP {1012 } identifier {110 110 3116 3122 4 10}
+ATV
+OP {1014 } true {110 110 3125 3129 13 17}
+OP {1013 1015 } ass {110 110 3116 3129 4 17}
+OP {1016 } expr_stmt {110 110 3116 3131 4 19}
+OP {940 954 1011 1017 } stmts {105 110 2934 3131 4 19}
+OP {1018 } compound {104 111 2928 3136 7 4}
+OP {1019 } stmts {104 111 2928 3136 7 4}
+OP {854 934 1020 } if {97 111 2716 3136 3 4}
+ATN UI
+OP {1022 } identifier {112 112 3140 3142 3 5}
+OP {1023 } scope {112 112 3140 3142 3 5}
+ATN paint
+OP {1025 } identifier {112 112 3143 3148 6 11}
+OP {1024 1026 } qualified_id {112 112 3140 3148 3 11}
+ATN UI
+OP {1028 } identifier {112 112 3149 3151 12 14}
+OP {1029 } scope {112 112 3149 3151 12 14}
+ATN getGraphics
+OP {1031 } identifier {112 112 3152 3163 15 26}
+OP {1030 1032 } qualified_id {112 112 3149 3163 12 26}
+OP {} expr_list {112 112 3164 3164 27 27}
+OP {1033 1034 } call {112 112 3149 3165 12 28}
+OP {1035 } expr_list {112 112 3149 3165 12 28}
+OP {1027 1036 } call {112 112 3140 3166 3 29}
+OP {1037 } expr_stmt {112 112 3140 3167 3 30}
+OP {849 1021 1038 } stmts {96 112 2692 3167 3 30}
+OP {1039 } compound {95 113 2687 3171 55 3}
+OP {1040 } stmts {95 113 2687 3171 55 3}
+ATV
+OP {1042 } none {}
+OP {843 1041 1043 } if {95 113 2639 3171 7 3}
+OP {1044 } stmts {95 113 2639 3171 7 3}
+OP {789 826 1045 } if {78 113 1862 3171 7 3}
+OP {1046 } stmts {78 113 1862 3171 7 3}
+OP {471 778 1047 } if {48 113 1173 3171 2 3}
+OP {1048 } stmts {48 113 1173 3171 2 3} {prefix comment_s {comment {// TODO Auto-generated method stub
+} 0 }} 
+OP {1049 } compound {46 115 1132 3177 44 2}
+OP {441 443 458 460 1050 } method_decl {46 115 1089 3177 1 2}
+ATV
+OP {1052 } public {118 118 3204 3210 1 7}
+OP {1053 } modifier_list {118 118 3204 3210 1 7}
+ATV
+OP {1055 } void_type {118 118 3211 3215 8 12}
+ATN keyPressed
+OP {1057 } identifier {118 118 3216 3226 13 23}
+OP {} modifier_list {}
+ATN KeyEvent
+OP {1060 } identifier {118 118 3227 3235 24 32}
+ATN event
+OP {1062 } identifier {118 118 3236 3241 33 38}
+ATV
+OP {1064 } none {118 118 3241 3241 38 38}
+OP {1063 1065 } var_dcltr_noinit {118 118 3236 3241 33 38}
+OP {1059 1061 1066 } param_decl {118 118 3227 3241 24 38}
+OP {1067 } parameter_list {118 118 3227 3241 24 38}
+ATV
+OP {1069 } none {}
+OP {1058 1068 1070 } method_dcltr {118 118 3216 3242 13 39}
+ATV
+OP {1072 } none {118 118 3242 3242 39 39}
+OP {} modifier_list {}
+ATV
+OP {1075 } int {121 121 3261 3264 2 5}
+ATN Counter
+OP {1077 } identifier {121 121 3265 3272 6 13}
+ATV
+OP {1079 } none {121 121 3272 3272 13 13}
+ATS 0
+OP {1081 } integer {121 121 3275 3276 16 17}
+OP {1078 1080 1082 } var_dcltr_affinit {121 121 3265 3276 6 17}
+OP {1083 } var_dcltr_list {121 121 3265 3276 6 17}
+OP {1074 1076 1084 } variable_decl {121 121 3261 3278 2 19}
+OP {} modifier_list {}
+ATV
+OP {1087 } int {123 123 3304 3307 2 5}
+ATN NumCounter
+OP {1089 } identifier {123 123 3308 3318 6 16}
+ATV
+OP {1091 } none {123 123 3318 3318 16 16}
+ATS 0
+OP {1093 } integer {123 123 3321 3322 19 20}
+OP {1090 1092 1094 } var_dcltr_affinit {123 123 3308 3322 6 20}
+OP {1095 } var_dcltr_list {123 123 3308 3322 6 20}
+OP {1086 1088 1096 } variable_decl {123 123 3304 3323 2 21} {prefix comment_s {comment {//whether cell full 
+} 0 }} 
+OP {} modifier_list {}
+ATV
+OP {1099 } int {125 125 3371 3374 2 5}
+ATN NumNearCounter
+OP {1101 } identifier {125 125 3375 3389 6 20}
+ATV
+OP {1103 } none {125 125 3389 3389 20 20}
+ATS 0
+OP {1105 } integer {125 125 3392 3393 23 24}
+OP {1102 1104 1106 } var_dcltr_affinit {125 125 3375 3393 6 24}
+OP {1107 } var_dcltr_list {125 125 3375 3393 6 24}
+OP {1098 1100 1108 } variable_decl {125 125 3371 3394 2 25} {prefix comment_s {comment {//the number of near cell with same number
+} 0 }} 
+ATN alreadyback
+OP {1110 } identifier {131 131 3477 3488 2 13}
+ATV
+OP {1112 } false {131 131 3491 3496 16 21}
+OP {1111 1113 } ass {131 131 3477 3496 2 21}
+OP {1114 } expr_stmt {131 131 3477 3497 2 22} {prefix comment_s {comment {/*
+		 * value about key
+		 * left:37   rigth:39
+		 *   up:38    down:40
+		 */} 0 }} 
+ATN BackUp
+OP {1116 } identifier {133 133 3506 3512 5 11}
+ATV
+OP {1118 } null {133 133 3516 3520 15 19}
+OP {1117 1119 } neq {133 133 3506 3520 5 19}
+ATN BackUp
+OP {1121 } identifier {133 133 3525 3531 24 30}
+OP {1122 } scope {133 133 3525 3531 24 30}
+ATN length
+OP {1124 } identifier {133 133 3532 3538 31 37}
+OP {1123 1125 } qualified_id {133 133 3525 3538 24 37}
+ATS 0
+OP {1127 } integer {133 133 3542 3543 41 42}
+OP {1126 1128 } neq {133 133 3525 3543 24 42}
+OP {1120 1129 } or {133 133 3506 3543 5 42}
+ATN tempscore2
+OP {1131 } identifier {136 136 3575 3585 3 13}
+ATN tempscore
+OP {1133 } identifier {136 136 3588 3597 16 25}
+OP {1132 1134 } ass {136 136 3575 3597 3 25}
+OP {1135 } expr_stmt {136 136 3575 3598 3 26}
+OP {} modifier_list {}
+ATV
+OP {1138 } int {139 139 3692 3695 8 11}
+ATN i
+OP {1140 } identifier {139 139 3696 3697 12 13}
+ATV
+OP {1142 } none {139 139 3697 3697 13 13}
+ATS 0
+OP {1144 } integer {139 139 3700 3701 16 17}
+OP {1141 1143 1145 } var_dcltr_affinit {139 139 3696 3701 12 17}
+OP {1146 } var_dcltr_list {139 139 3696 3701 12 17}
+OP {1137 1139 1147 } variable_decl {139 139 3692 3701 8 17}
+ATN i
+OP {1149 } identifier {139 139 3703 3704 19 20}
+ATN BackUp
+OP {1151 } identifier {139 139 3707 3713 23 29}
+OP {1152 } scope {139 139 3707 3713 23 29}
+ATN length
+OP {1154 } identifier {139 139 3714 3720 30 36}
+OP {1153 1155 } qualified_id {139 139 3707 3720 23 36}
+OP {1150 1156 } lt {139 139 3703 3720 19 36}
+ATN i
+OP {1158 } identifier {139 139 3722 3723 38 39}
+OP {1159 } post_incr {139 139 3722 3725 38 41}
+OP {1160 } expr_list {139 139 3722 3725 38 41}
+ATN BackUp2
+OP {1162 } identifier {140 140 3733 3740 4 11}
+ATN i
+OP {1164 } identifier {140 140 3741 3742 12 13}
+OP {1163 1165 } index {140 140 3733 3743 4 14}
+ATN Arrays
+OP {1167 } identifier {140 140 3746 3752 17 23}
+OP {1168 } scope {140 140 3746 3752 17 23}
+ATN copyOf
+OP {1170 } identifier {140 140 3753 3759 24 30}
+OP {1169 1171 } qualified_id {140 140 3746 3759 17 30}
+ATN BackUp
+OP {1173 } identifier {140 140 3760 3766 31 37}
+ATN i
+OP {1175 } identifier {140 140 3767 3768 38 39}
+OP {1174 1176 } index {140 140 3760 3769 31 40}
+ATN BackUp
+OP {1178 } identifier {140 140 3771 3777 42 48}
+ATN i
+OP {1180 } identifier {140 140 3778 3779 49 50}
+OP {1179 1181 } index {140 140 3771 3780 42 51}
+ATN length
+OP {1183 } identifier {140 140 3781 3787 52 58}
+OP {1182 1184 } field_access {140 140 3771 3787 42 58}
+OP {1177 1185 } expr_list {140 140 3760 3787 31 58}
+OP {1172 1186 } call {140 140 3746 3788 17 59}
+OP {1166 1187 } ass {140 140 3733 3788 4 59}
+OP {1188 } expr_stmt {140 140 3733 3789 4 60}
+OP {1189 } stmts {140 140 3733 3789 4 60}
+OP {1190 } compound {139 141 3727 3794 43 4}
+OP {1191 } stmts {139 141 3727 3794 43 4}
+OP {1148 1157 1161 1192 } for {139 141 3687 3794 3 4} {prefix comment_s {comment {//call the method java.util.Arrays.copyOf() to copy the array in the for loop
+} 0 }} 
+OP {1136 1193 } stmts {136 141 3575 3794 3 4} {prefix comment_s {comment {//backup the score
+} 0 }} 
+OP {1194 } compound {133 143 3544 3802 43 3}
+OP {1195 } stmts {133 143 3544 3802 43 3}
+ATV
+OP {1197 } none {}
+OP {1130 1196 1198 } if {133 143 3503 3802 2 3}
+ATN tempscore
+OP {1200 } identifier {146 146 3829 3838 2 11}
+ATN score
+OP {1202 } identifier {146 146 3841 3846 14 19}
+OP {1201 1203 } ass {146 146 3829 3846 2 19}
+OP {1204 } expr_stmt {146 146 3829 3847 2 20} {prefix comment_s {comment {//backup the array
+} 0 }} 
+OP {} modifier_list {}
+ATV
+OP {1207 } int {147 147 3855 3858 7 10}
+ATN i
+OP {1209 } identifier {147 147 3859 3860 11 12}
+ATV
+OP {1211 } none {147 147 3860 3860 12 12}
+ATS 0
+OP {1213 } integer {147 147 3863 3864 15 16}
+OP {1210 1212 1214 } var_dcltr_affinit {147 147 3859 3864 11 16}
+OP {1215 } var_dcltr_list {147 147 3859 3864 11 16}
+OP {1206 1208 1216 } variable_decl {147 147 3855 3864 7 16}
+ATN i
+OP {1218 } identifier {147 147 3866 3867 18 19}
+ATN Numbers
+OP {1220 } identifier {147 147 3870 3877 22 29}
+OP {1221 } scope {147 147 3870 3877 22 29}
+ATN length
+OP {1223 } identifier {147 147 3878 3884 30 36}
+OP {1222 1224 } qualified_id {147 147 3870 3884 22 36}
+OP {1219 1225 } lt {147 147 3866 3884 18 36}
+ATN i
+OP {1227 } identifier {147 147 3886 3887 38 39}
+OP {1228 } post_incr {147 147 3886 3889 38 41}
+OP {1229 } expr_list {147 147 3886 3889 38 41}
+ATN BackUp
+OP {1231 } identifier {148 148 3896 3902 3 9}
+ATN i
+OP {1233 } identifier {148 148 3903 3904 10 11}
+OP {1232 1234 } index {148 148 3896 3905 3 12}
+ATN Arrays
+OP {1236 } identifier {148 148 3908 3914 15 21}
+OP {1237 } scope {148 148 3908 3914 15 21}
+ATN copyOf
+OP {1239 } identifier {148 148 3915 3921 22 28}
+OP {1238 1240 } qualified_id {148 148 3908 3921 15 28}
+ATN Numbers
+OP {1242 } identifier {148 148 3922 3929 29 36}
+ATN i
+OP {1244 } identifier {148 148 3930 3931 37 38}
+OP {1243 1245 } index {148 148 3922 3932 29 39}
+ATN Numbers
+OP {1247 } identifier {148 148 3934 3941 41 48}
+ATN i
+OP {1249 } identifier {148 148 3942 3943 49 50}
+OP {1248 1250 } index {148 148 3934 3944 41 51}
+ATN length
+OP {1252 } identifier {148 148 3945 3951 52 58}
+OP {1251 1253 } field_access {148 148 3934 3951 41 58}
+OP {1246 1254 } expr_list {148 148 3922 3951 29 58}
+OP {1241 1255 } call {148 148 3908 3952 15 59}
+OP {1235 1256 } ass {148 148 3896 3952 3 59}
+OP {1257 } expr_stmt {148 148 3896 3953 3 60}
+OP {1258 } stmts {148 148 3896 3953 3 60}
+OP {1259 } compound {147 149 3891 3957 43 3}
+OP {1260 } stmts {147 149 3891 3957 43 3}
+OP {1217 1226 1230 1261 } for {147 149 3850 3957 2 3}
+ATN isWin
+OP {1263 } identifier {151 151 3966 3971 5 10}
+ATV
+OP {1265 } false {151 151 3975 3980 14 19}
+OP {1264 1266 } eq {151 151 3966 3980 5 19}
+ATN event
+OP {1268 } identifier {152 152 3994 3999 10 15}
+OP {1269 } scope {152 152 3994 3999 10 15}
+ATN getKeyCode
+OP {1271 } identifier {152 152 4000 4010 16 26}
+OP {1270 1272 } qualified_id {152 152 3994 4010 10 26}
+OP {} expr_list {152 152 4011 4011 27 27}
+OP {1273 1274 } call {152 152 3994 4012 10 28}
+ATS 37
+OP {1276 } integer {155 155 4042 4044 8 10}
+OP {1277 } case {155 155 4037 4045 3 11}
+OP {} modifier_list {}
+ATV
+OP {1280 } int {156 156 4055 4058 9 12}
+ATN i
+OP {1282 } identifier {156 156 4059 4060 13 14}
+ATV
+OP {1284 } none {156 156 4060 4060 14 14}
+ATS 0
+OP {1286 } integer {156 156 4063 4064 17 18}
+OP {1283 1285 1287 } var_dcltr_affinit {156 156 4059 4064 13 18}
+OP {1288 } var_dcltr_list {156 156 4059 4064 13 18}
+OP {1279 1281 1289 } variable_decl {156 156 4055 4064 9 18}
+ATN i
+OP {1291 } identifier {156 156 4066 4067 20 21}
+ATS 4
+OP {1293 } integer {156 156 4070 4071 24 25}
+OP {1292 1294 } lt {156 156 4066 4071 20 25}
+ATN i
+OP {1296 } identifier {156 156 4073 4074 27 28}
+OP {1297 } post_incr {156 156 4073 4076 27 30}
+OP {1298 } expr_list {156 156 4073 4076 27 30}
+OP {} modifier_list {}
+ATV
+OP {1301 } int {157 157 4090 4093 10 13}
+ATN j
+OP {1303 } identifier {157 157 4094 4095 14 15}
+ATV
+OP {1305 } none {157 157 4095 4095 15 15}
+ATS 0
+OP {1307 } integer {157 157 4098 4099 18 19}
+OP {1304 1306 1308 } var_dcltr_affinit {157 157 4094 4099 14 19}
+OP {1309 } var_dcltr_list {157 157 4094 4099 14 19}
+OP {1300 1302 1310 } variable_decl {157 157 4090 4099 10 19}
+ATN j
+OP {1312 } identifier {157 157 4101 4102 21 22}
+ATS 4
+OP {1314 } integer {157 157 4105 4106 25 26}
+OP {1313 1315 } lt {157 157 4101 4106 21 26}
+ATN j
+OP {1317 } identifier {157 157 4108 4109 28 29}
+OP {1318 } post_incr {157 157 4108 4111 28 31}
+OP {1319 } expr_list {157 157 4108 4111 28 31}
+ATN Numbers
+OP {1321 } identifier {158 158 4124 4131 9 16}
+ATN i
+OP {1323 } identifier {158 158 4132 4133 17 18}
+OP {1322 1324 } index {158 158 4124 4134 9 19}
+ATN j
+OP {1326 } identifier {158 158 4135 4136 20 21}
+OP {1325 1327 } index {158 158 4124 4137 9 22}
+ATS 0
+OP {1329 } integer {158 158 4141 4142 26 27}
+OP {1328 1330 } neq {158 158 4124 4142 9 27}
+OP {} modifier_list {}
+ATV
+OP {1333 } int {159 159 4152 4155 7 10}
+ATN temp
+OP {1335 } identifier {159 159 4156 4160 11 15}
+ATV
+OP {1337 } none {159 159 4160 4160 15 15}
+ATN Numbers
+OP {1339 } identifier {159 159 4163 4170 18 25}
+ATN i
+OP {1341 } identifier {159 159 4171 4172 26 27}
+OP {1340 1342 } index {159 159 4163 4173 18 28}
+ATN j
+OP {1344 } identifier {159 159 4174 4175 29 30}
+OP {1343 1345 } index {159 159 4163 4176 18 31}
+OP {1336 1338 1346 } var_dcltr_affinit {159 159 4156 4176 11 31}
+OP {1347 } var_dcltr_list {159 159 4156 4176 11 31}
+OP {1332 1334 1348 } variable_decl {159 159 4152 4177 7 32}
+OP {} modifier_list {}
+ATV
+OP {1351 } int {160 160 4185 4188 7 10}
+ATN pre
+OP {1353 } identifier {160 160 4189 4192 11 14}
+ATV
+OP {1355 } none {160 160 4192 4192 14 14}
+ATN j
+OP {1357 } identifier {160 160 4195 4196 17 18}
+ATS 1
+OP {1359 } integer {160 160 4199 4200 21 22}
+OP {1358 1360 } minus {160 160 4195 4200 17 22}
+OP {1354 1356 1361 } var_dcltr_affinit {160 160 4189 4200 11 22}
+OP {1362 } var_dcltr_list {160 160 4189 4200 11 22}
+OP {1350 1352 1363 } variable_decl {160 160 4185 4202 7 24}
+ATN pre
+OP {1365 } identifier {161 161 4216 4219 13 16}
+ATS 0
+OP {1367 } integer {161 161 4223 4224 20 21}
+OP {1366 1368 } ge {161 161 4216 4224 13 21}
+ATN Numbers
+OP {1370 } identifier {161 161 4228 4235 25 32}
+ATN i
+OP {1372 } identifier {161 161 4236 4237 33 34}
+OP {1371 1373 } index {161 161 4228 4238 25 35}
+ATN pre
+OP {1375 } identifier {161 161 4239 4242 36 39}
+OP {1374 1376 } index {161 161 4228 4243 25 40}
+ATS 0
+OP {1378 } integer {161 161 4247 4248 44 45}
+OP {1377 1379 } eq {161 161 4228 4248 25 45}
+OP {1369 1380 } and {161 161 4216 4248 13 45}
+ATN Numbers
+OP {1382 } identifier {162 162 4259 4266 8 15}
+ATN i
+OP {1384 } identifier {162 162 4267 4268 16 17}
+OP {1383 1385 } index {162 162 4259 4269 8 18}
+ATN pre
+OP {1387 } identifier {162 162 4270 4273 19 22}
+OP {1386 1388 } index {162 162 4259 4274 8 23}
+ATN temp
+OP {1390 } identifier {162 162 4277 4281 26 30}
+OP {1389 1391 } ass {162 162 4259 4281 8 30}
+OP {1392 } expr_stmt {162 162 4259 4282 8 31}
+ATN Numbers
+OP {1394 } identifier {163 163 4291 4298 8 15}
+ATN i
+OP {1396 } identifier {163 163 4299 4300 16 17}
+OP {1395 1397 } index {163 163 4291 4301 8 18}
+ATN pre
+OP {1399 } identifier {163 163 4302 4305 19 22}
+ATS 1
+OP {1401 } integer {163 163 4306 4307 23 24}
+OP {1400 1402 } plus {163 163 4302 4307 19 24}
+OP {1398 1403 } index {163 163 4291 4308 8 25}
+ATS 0
+OP {1405 } integer {163 163 4311 4312 28 29}
+OP {1404 1406 } ass {163 163 4291 4312 8 29}
+OP {1407 } expr_stmt {163 163 4291 4313 8 30}
+ATN pre
+OP {1409 } identifier {164 164 4322 4325 8 11}
+OP {1410 } post_decr {164 164 4322 4327 8 13}
+OP {1411 } expr_stmt {164 164 4322 4328 8 14}
+ATN Counter
+OP {1413 } identifier {165 165 4337 4344 8 15}
+OP {1414 } post_incr {165 165 4337 4346 8 17}
+OP {1415 } expr_stmt {165 165 4337 4347 8 18}
+OP {1393 1408 1412 1416 } stmts {162 165 4259 4347 8 18}
+OP {1417 } compound {161 166 4249 4356 46 8}
+OP {1418 } stmts {161 166 4249 4356 46 8}
+OP {1381 1419 } while {161 166 4210 4356 7 8}
+OP {1349 1364 1420 } stmts {159 166 4152 4356 7 8}
+OP {1421 } compound {158 167 4143 4364 28 7}
+OP {1422 } stmts {158 167 4143 4364 28 7}
+ATV
+OP {1424 } none {}
+OP {1331 1423 1425 } if {158 167 4121 4364 6 7}
+OP {1426 } stmts {158 167 4121 4364 6 7}
+OP {1427 } compound {157 168 4113 4371 33 6}
+OP {1428 } stmts {157 168 4113 4371 33 6}
+OP {1311 1316 1320 1429 } for {157 168 4085 4371 5 6}
+OP {1430 } stmts {157 168 4085 4371 5 6}
+OP {1431 } compound {156 169 4078 4377 32 5}
+OP {1432 } stmts {156 169 4078 4377 32 5}
+OP {1290 1295 1299 1433 } for {156 169 4050 4377 4 5}
+OP {} modifier_list {}
+ATV
+OP {1436 } int {171 171 4392 4395 9 12}
+ATN i
+OP {1438 } identifier {171 171 4396 4397 13 14}
+ATV
+OP {1440 } none {171 171 4397 4397 14 14}
+ATS 0
+OP {1442 } integer {171 171 4400 4401 17 18}
+OP {1439 1441 1443 } var_dcltr_affinit {171 171 4396 4401 13 18}
+OP {1444 } var_dcltr_list {171 171 4396 4401 13 18}
+OP {1435 1437 1445 } variable_decl {171 171 4392 4401 9 18}
+ATN i
+OP {1447 } identifier {171 171 4403 4404 20 21}
+ATS 4
+OP {1449 } integer {171 171 4407 4408 24 25}
+OP {1448 1450 } lt {171 171 4403 4408 20 25}
+ATN i
+OP {1452 } identifier {171 171 4410 4411 27 28}
+OP {1453 } post_incr {171 171 4410 4413 27 30}
+OP {1454 } expr_list {171 171 4410 4413 27 30}
+OP {} modifier_list {}
+ATV
+OP {1457 } int {172 172 4426 4429 10 13}
+ATN j
+OP {1459 } identifier {172 172 4430 4431 14 15}
+ATV
+OP {1461 } none {172 172 4431 4431 15 15}
+ATS 0
+OP {1463 } integer {172 172 4434 4435 18 19}
+OP {1460 1462 1464 } var_dcltr_affinit {172 172 4430 4435 14 19}
+OP {1465 } var_dcltr_list {172 172 4430 4435 14 19}
+OP {1456 1458 1466 } variable_decl {172 172 4426 4435 10 19}
+ATN j
+OP {1468 } identifier {172 172 4437 4438 21 22}
+ATS 4
+OP {1470 } integer {172 172 4441 4442 25 26}
+OP {1469 1471 } lt {172 172 4437 4442 21 26}
+ATN j
+OP {1473 } identifier {172 172 4444 4445 28 29}
+OP {1474 } post_incr {172 172 4444 4447 28 31}
+OP {1475 } expr_list {172 172 4444 4447 28 31}
+ATN j
+OP {1477 } identifier {173 173 4460 4461 10 11}
+ATS 1
+OP {1479 } integer {173 173 4464 4465 14 15}
+OP {1478 1480 } plus {173 173 4460 4465 10 15}
+ATS 4
+OP {1482 } integer {173 173 4468 4469 18 19}
+OP {1481 1483 } lt {173 173 4460 4469 10 19}
+ATN Numbers
+OP {1485 } identifier {173 173 4473 4480 23 30}
+ATN i
+OP {1487 } identifier {173 173 4481 4482 31 32}
+OP {1486 1488 } index {173 173 4473 4483 23 33}
+ATN j
+OP {1490 } identifier {173 173 4484 4485 34 35}
+OP {1489 1491 } index {173 173 4473 4486 23 36}
+ATN Numbers
+OP {1493 } identifier {173 173 4490 4497 40 47}
+ATN i
+OP {1495 } identifier {173 173 4498 4499 48 49}
+OP {1494 1496 } index {173 173 4490 4500 40 50}
+ATN j
+OP {1498 } identifier {173 173 4501 4502 51 52}
+ATS 1
+OP {1500 } integer {173 173 4503 4504 53 54}
+OP {1499 1501 } plus {173 173 4501 4504 51 54}
+OP {1497 1502 } index {173 173 4490 4505 40 55}
+OP {1492 1503 } eq {173 173 4473 4505 23 55}
+OP {1484 1504 } and {173 173 4460 4505 10 55}
+ATN Numbers
+OP {1506 } identifier {174 174 4519 4526 9 16}
+ATN i
+OP {1508 } identifier {174 174 4527 4528 17 18}
+OP {1507 1509 } index {174 174 4519 4529 9 19}
+ATN j
+OP {1511 } identifier {174 174 4530 4531 20 21}
+OP {1510 1512 } index {174 174 4519 4532 9 22}
+ATS 0
+OP {1514 } integer {174 174 4536 4537 26 27}
+OP {1513 1515 } neq {174 174 4519 4537 9 27}
+ATN Numbers
+OP {1517 } identifier {174 174 4541 4548 31 38}
+ATN i
+OP {1519 } identifier {174 174 4549 4550 39 40}
+OP {1518 1520 } index {174 174 4541 4551 31 41}
+ATN j
+OP {1522 } identifier {174 174 4552 4553 42 43}
+ATS 1
+OP {1524 } integer {174 174 4554 4555 44 45}
+OP {1523 1525 } plus {174 174 4552 4555 42 45}
+OP {1521 1526 } index {174 174 4541 4556 31 46}
+ATS 0
+OP {1528 } integer {174 174 4560 4561 50 51}
+OP {1527 1529 } neq {174 174 4541 4561 31 51}
+OP {1516 1530 } or {174 174 4519 4561 9 51}
+OP {1531 } parenth_expr {174 174 4518 4562 8 52}
+OP {1505 1532 } and {173 174 4460 4562 10 52}
+ATN Numbers
+OP {1534 } identifier {175 175 4572 4579 7 14}
+ATN i
+OP {1536 } identifier {175 175 4580 4581 15 16}
+OP {1535 1537 } index {175 175 4572 4582 7 17}
+ATN j
+OP {1539 } identifier {175 175 4583 4584 18 19}
+OP {1538 1540 } index {175 175 4572 4585 7 20}
+ATN Numbers
+OP {1542 } identifier {175 175 4588 4595 23 30}
+ATN i
+OP {1544 } identifier {175 175 4596 4597 31 32}
+OP {1543 1545 } index {175 175 4588 4598 23 33}
+ATN j
+OP {1547 } identifier {175 175 4599 4600 34 35}
+OP {1546 1548 } index {175 175 4588 4601 23 36}
+ATN Numbers
+OP {1550 } identifier {175 175 4604 4611 39 46}
+ATN i
+OP {1552 } identifier {175 175 4612 4613 47 48}
+OP {1551 1553 } index {175 175 4604 4614 39 49}
+ATN j
+OP {1555 } identifier {175 175 4615 4616 50 51}
+ATS 1
+OP {1557 } integer {175 175 4617 4618 52 53}
+OP {1556 1558 } plus {175 175 4615 4618 50 53}
+OP {1554 1559 } index {175 175 4604 4619 39 54}
+OP {1549 1560 } plus {175 175 4588 4619 23 54}
+OP {1541 1561 } ass {175 175 4572 4619 7 54}
+OP {1562 } expr_stmt {175 175 4572 4620 7 55}
+ATN Numbers
+OP {1564 } identifier {176 176 4628 4635 7 14}
+ATN i
+OP {1566 } identifier {176 176 4636 4637 15 16}
+OP {1565 1567 } index {176 176 4628 4638 7 17}
+ATN j
+OP {1569 } identifier {176 176 4639 4640 18 19}
+ATS 1
+OP {1571 } integer {176 176 4641 4642 20 21}
+OP {1570 1572 } plus {176 176 4639 4642 18 21}
+OP {1568 1573 } index {176 176 4628 4643 7 22}
+ATS 0
+OP {1575 } integer {176 176 4646 4647 25 26}
+OP {1574 1576 } ass {176 176 4628 4647 7 26}
+OP {1577 } expr_stmt {176 176 4628 4648 7 27}
+ATN Counter
+OP {1579 } identifier {177 177 4656 4663 7 14}
+OP {1580 } post_incr {177 177 4656 4665 7 16}
+OP {1581 } expr_stmt {177 177 4656 4666 7 17}
+ATN score
+OP {1583 } identifier {178 178 4674 4679 7 12}
+ATN Numbers
+OP {1585 } identifier {178 178 4683 4690 16 23}
+ATN i
+OP {1587 } identifier {178 178 4691 4692 24 25}
+OP {1586 1588 } index {178 178 4683 4693 16 26}
+ATN j
+OP {1590 } identifier {178 178 4694 4695 27 28}
+OP {1589 1591 } index {178 178 4683 4696 16 29}
+OP {1584 1592 } plus_ass {178 178 4674 4696 7 29}
+OP {1593 } expr_stmt {178 178 4674 4697 7 30}
+ATN Numbers
+OP {1595 } identifier {179 179 4708 4715 10 17}
+ATN i
+OP {1597 } identifier {179 179 4716 4717 18 19}
+OP {1596 1598 } index {179 179 4708 4718 10 20}
+ATN j
+OP {1600 } identifier {179 179 4719 4720 21 22}
+OP {1599 1601 } index {179 179 4708 4721 10 23}
+ATS 2048
+OP {1603 } integer {179 179 4724 4728 26 30}
+OP {1602 1604 } eq {179 179 4708 4728 10 30}
+ATN isWin
+OP {1606 } identifier {180 180 4740 4745 8 13}
+ATV
+OP {1608 } true {180 180 4748 4752 16 20}
+OP {1607 1609 } ass {180 180 4740 4752 8 20}
+OP {1610 } expr_stmt {180 180 4740 4753 8 21}
+OP {1611 } stmts {180 180 4740 4753 8 21}
+OP {1612 } compound {179 181 4730 4762 32 8}
+OP {1613 } stmts {179 181 4730 4762 32 8}
+ATV
+OP {1615 } none {}
+OP {1605 1614 1616 } if {179 181 4705 4762 7 8}
+OP {1563 1578 1582 1594 1617 } stmts {175 181 4572 4762 7 8}
+OP {1618 } compound {174 182 4563 4773 53 5}
+OP {1619 } stmts {174 182 4563 4773 53 5}
+ATV
+OP {1621 } none {}
+OP {1533 1620 1622 } if {173 182 4456 4773 6 5}
+OP {1623 } stmts {173 182 4456 4773 6 5}
+OP {1467 1472 1476 1624 } for {172 182 4421 4773 5 5}
+OP {1625 } stmts {172 182 4421 4773 5 5}
+OP {1446 1451 1455 1626 } for {171 182 4387 4773 4 5}
+OP {} modifier_list {}
+ATV
+OP {1629 } int {184 184 4788 4791 9 12}
+ATN i
+OP {1631 } identifier {184 184 4792 4793 13 14}
+ATV
+OP {1633 } none {184 184 4793 4793 14 14}
+ATS 0
+OP {1635 } integer {184 184 4796 4797 17 18}
+OP {1632 1634 1636 } var_dcltr_affinit {184 184 4792 4797 13 18}
+OP {1637 } var_dcltr_list {184 184 4792 4797 13 18}
+OP {1628 1630 1638 } variable_decl {184 184 4788 4797 9 18}
+ATN i
+OP {1640 } identifier {184 184 4799 4800 20 21}
+ATS 4
+OP {1642 } integer {184 184 4803 4804 24 25}
+OP {1641 1643 } lt {184 184 4799 4804 20 25}
+ATN i
+OP {1645 } identifier {184 184 4806 4807 27 28}
+OP {1646 } post_incr {184 184 4806 4809 27 30}
+OP {1647 } expr_list {184 184 4806 4809 27 30}
+OP {} modifier_list {}
+ATV
+OP {1650 } int {185 185 4822 4825 10 13}
+ATN j
+OP {1652 } identifier {185 185 4826 4827 14 15}
+ATV
+OP {1654 } none {185 185 4827 4827 15 15}
+ATS 0
+OP {1656 } integer {185 185 4830 4831 18 19}
+OP {1653 1655 1657 } var_dcltr_affinit {185 185 4826 4831 14 19}
+OP {1658 } var_dcltr_list {185 185 4826 4831 14 19}
+OP {1649 1651 1659 } variable_decl {185 185 4822 4831 10 19}
+ATN j
+OP {1661 } identifier {185 185 4833 4834 21 22}
+ATS 4
+OP {1663 } integer {185 185 4837 4838 25 26}
+OP {1662 1664 } lt {185 185 4833 4838 21 26}
+ATN j
+OP {1666 } identifier {185 185 4840 4841 28 29}
+OP {1667 } post_incr {185 185 4840 4843 28 31}
+OP {1668 } expr_list {185 185 4840 4843 28 31}
+ATN Numbers
+OP {1670 } identifier {186 186 4855 4862 9 16}
+ATN i
+OP {1672 } identifier {186 186 4863 4864 17 18}
+OP {1671 1673 } index {186 186 4855 4865 9 19}
+ATN j
+OP {1675 } identifier {186 186 4866 4867 20 21}
+OP {1674 1676 } index {186 186 4855 4868 9 22}
+ATS 0
+OP {1678 } integer {186 186 4872 4873 26 27}
+OP {1677 1679 } neq {186 186 4855 4873 9 27}
+OP {} modifier_list {}
+ATV
+OP {1682 } int {187 187 4883 4886 7 10}
+ATN temp
+OP {1684 } identifier {187 187 4887 4891 11 15}
+ATV
+OP {1686 } none {187 187 4891 4891 15 15}
+ATN Numbers
+OP {1688 } identifier {187 187 4894 4901 18 25}
+ATN i
+OP {1690 } identifier {187 187 4902 4903 26 27}
+OP {1689 1691 } index {187 187 4894 4904 18 28}
+ATN j
+OP {1693 } identifier {187 187 4905 4906 29 30}
+OP {1692 1694 } index {187 187 4894 4907 18 31}
+OP {1685 1687 1695 } var_dcltr_affinit {187 187 4887 4907 11 31}
+OP {1696 } var_dcltr_list {187 187 4887 4907 11 31}
+OP {1681 1683 1697 } variable_decl {187 187 4883 4908 7 32}
+OP {} modifier_list {}
+ATV
+OP {1700 } int {188 188 4916 4919 7 10}
+ATN pre
+OP {1702 } identifier {188 188 4920 4923 11 14}
+ATV
+OP {1704 } none {188 188 4923 4923 14 14}
+ATN j
+OP {1706 } identifier {188 188 4926 4927 17 18}
+ATS 1
+OP {1708 } integer {188 188 4930 4931 21 22}
+OP {1707 1709 } minus {188 188 4926 4931 17 22}
+OP {1703 1705 1710 } var_dcltr_affinit {188 188 4920 4931 11 22}
+OP {1711 } var_dcltr_list {188 188 4920 4931 11 22}
+OP {1699 1701 1712 } variable_decl {188 188 4916 4932 7 23}
+ATN pre
+OP {1714 } identifier {189 189 4946 4949 13 16}
+ATS 0
+OP {1716 } integer {189 189 4953 4954 20 21}
+OP {1715 1717 } ge {189 189 4946 4954 13 21}
+ATN Numbers
+OP {1719 } identifier {189 189 4958 4965 25 32}
+ATN i
+OP {1721 } identifier {189 189 4966 4967 33 34}
+OP {1720 1722 } index {189 189 4958 4968 25 35}
+ATN pre
+OP {1724 } identifier {189 189 4969 4972 36 39}
+OP {1723 1725 } index {189 189 4958 4973 25 40}
+ATS 0
+OP {1727 } integer {189 189 4977 4978 44 45}
+OP {1726 1728 } eq {189 189 4958 4978 25 45}
+OP {1718 1729 } and {189 189 4946 4978 13 45}
+ATN Numbers
+OP {1731 } identifier {190 190 4989 4996 8 15}
+ATN i
+OP {1733 } identifier {190 190 4997 4998 16 17}
+OP {1732 1734 } index {190 190 4989 4999 8 18}
+ATN pre
+OP {1736 } identifier {190 190 5000 5003 19 22}
+OP {1735 1737 } index {190 190 4989 5004 8 23}
+ATN temp
+OP {1739 } identifier {190 190 5007 5011 26 30}
+OP {1738 1740 } ass {190 190 4989 5011 8 30}
+OP {1741 } expr_stmt {190 190 4989 5012 8 31}
+ATN Numbers
+OP {1743 } identifier {191 191 5021 5028 8 15}
+ATN i
+OP {1745 } identifier {191 191 5029 5030 16 17}
+OP {1744 1746 } index {191 191 5021 5031 8 18}
+ATN pre
+OP {1748 } identifier {191 191 5032 5035 19 22}
+ATS 1
+OP {1750 } integer {191 191 5036 5037 23 24}
+OP {1749 1751 } plus {191 191 5032 5037 19 24}
+OP {1747 1752 } index {191 191 5021 5038 8 25}
+ATS 0
+OP {1754 } integer {191 191 5041 5042 28 29}
+OP {1753 1755 } ass {191 191 5021 5042 8 29}
+OP {1756 } expr_stmt {191 191 5021 5043 8 30}
+ATN pre
+OP {1758 } identifier {192 192 5052 5055 8 11}
+OP {1759 } post_decr {192 192 5052 5057 8 13}
+OP {1760 } expr_stmt {192 192 5052 5058 8 14}
+ATN Counter
+OP {1762 } identifier {193 193 5067 5074 8 15}
+OP {1763 } post_incr {193 193 5067 5076 8 17}
+OP {1764 } expr_stmt {193 193 5067 5077 8 18}
+OP {1742 1757 1761 1765 } stmts {190 193 4989 5077 8 18}
+OP {1766 } compound {189 194 4979 5086 46 8}
+OP {1767 } stmts {189 194 4979 5086 46 8}
+OP {1730 1768 } while {189 194 4940 5086 7 8}
+OP {1698 1713 1769 } stmts {187 194 4883 5086 7 8}
+OP {1770 } compound {186 196 4874 5102 28 7}
+OP {1771 } stmts {186 196 4874 5102 28 7}
+ATV
+OP {1773 } none {}
+OP {1680 1772 1774 } if {186 196 4852 5102 6 7}
+OP {1775 } stmts {186 196 4852 5102 6 7}
+OP {1660 1665 1669 1776 } for {185 196 4817 5102 5 7}
+OP {1777 } stmts {185 196 4817 5102 5 7}
+OP {1639 1644 1648 1778 } for {184 196 4783 5102 4 7}
+ATV
+OP {1780 } none {}
+OP {1781 } break {197 197 5107 5113 4 10}
+ATS 39
+OP {1783 } integer {200 200 5144 5146 8 10}
+OP {1784 } case {200 200 5139 5147 3 11} {prefix comment_s {comment {//move right
+} 0 }} 
+OP {} modifier_list {}
+ATV
+OP {1787 } int {201 201 5156 5159 8 11}
+ATN i
+OP {1789 } identifier {201 201 5160 5161 12 13}
+ATV
+OP {1791 } none {201 201 5161 5161 13 13}
+ATS 3
+OP {1793 } integer {201 201 5164 5165 16 17}
+OP {1790 1792 1794 } var_dcltr_affinit {201 201 5160 5165 12 17}
+OP {1795 } var_dcltr_list {201 201 5160 5165 12 17}
+OP {1786 1788 1796 } variable_decl {201 201 5156 5165 8 17}
+ATN i
+OP {1798 } identifier {201 201 5167 5168 19 20}
+ATS 0
+OP {1800 } integer {201 201 5172 5173 24 25}
+OP {1799 1801 } ge {201 201 5167 5173 19 25}
+ATN i
+OP {1803 } identifier {201 201 5175 5176 27 28}
+OP {1804 } post_decr {201 201 5175 5178 27 30}
+OP {1805 } expr_list {201 201 5175 5178 27 30}
+OP {} modifier_list {}
+ATV
+OP {1808 } int {202 202 5189 5192 9 12}
+ATN j
+OP {1810 } identifier {202 202 5193 5194 13 14}
+ATV
+OP {1812 } none {202 202 5194 5194 14 14}
+ATS 3
+OP {1814 } integer {202 202 5197 5198 17 18}
+OP {1811 1813 1815 } var_dcltr_affinit {202 202 5193 5198 13 18}
+OP {1816 } var_dcltr_list {202 202 5193 5198 13 18}
+OP {1807 1809 1817 } variable_decl {202 202 5189 5198 9 18}
+ATN j
+OP {1819 } identifier {202 202 5200 5201 20 21}
+ATS 0
+OP {1821 } integer {202 202 5205 5206 25 26}
+OP {1820 1822 } ge {202 202 5200 5206 20 26}
+ATN j
+OP {1824 } identifier {202 202 5209 5210 29 30}
+OP {1825 } post_decr {202 202 5209 5212 29 32}
+OP {1826 } expr_list {202 202 5209 5212 29 32}
+ATN Numbers
+OP {1828 } identifier {203 203 5223 5230 9 16}
+ATN i
+OP {1830 } identifier {203 203 5231 5232 17 18}
+OP {1829 1831 } index {203 203 5223 5233 9 19}
+ATN j
+OP {1833 } identifier {203 203 5234 5235 20 21}
+OP {1832 1834 } index {203 203 5223 5236 9 22}
+ATS 0
+OP {1836 } integer {203 203 5240 5241 26 27}
+OP {1835 1837 } neq {203 203 5223 5241 9 27}
+OP {} modifier_list {}
+ATV
+OP {1840 } int {204 204 5251 5254 7 10}
+ATN temp
+OP {1842 } identifier {204 204 5255 5259 11 15}
+ATV
+OP {1844 } none {204 204 5259 5259 15 15}
+ATN Numbers
+OP {1846 } identifier {204 204 5262 5269 18 25}
+ATN i
+OP {1848 } identifier {204 204 5270 5271 26 27}
+OP {1847 1849 } index {204 204 5262 5272 18 28}
+ATN j
+OP {1851 } identifier {204 204 5273 5274 29 30}
+OP {1850 1852 } index {204 204 5262 5275 18 31}
+OP {1843 1845 1853 } var_dcltr_affinit {204 204 5255 5275 11 31}
+OP {1854 } var_dcltr_list {204 204 5255 5275 11 31}
+OP {1839 1841 1855 } variable_decl {204 204 5251 5276 7 32}
+OP {} modifier_list {}
+ATV
+OP {1858 } int {205 205 5284 5287 7 10}
+ATN pre
+OP {1860 } identifier {205 205 5288 5291 11 14}
+ATV
+OP {1862 } none {205 205 5291 5291 14 14}
+ATN j
+OP {1864 } identifier {205 205 5294 5295 17 18}
+ATS 1
+OP {1866 } integer {205 205 5298 5299 21 22}
+OP {1865 1867 } plus {205 205 5294 5299 17 22}
+OP {1861 1863 1868 } var_dcltr_affinit {205 205 5288 5299 11 22}
+OP {1869 } var_dcltr_list {205 205 5288 5299 11 22}
+OP {1857 1859 1870 } variable_decl {205 205 5284 5300 7 23}
+ATN pre
+OP {1872 } identifier {206 206 5314 5317 13 16}
+ATS 3
+OP {1874 } integer {206 206 5321 5322 20 21}
+OP {1873 1875 } le {206 206 5314 5322 13 21}
+ATN Numbers
+OP {1877 } identifier {206 206 5326 5333 25 32}
+ATN i
+OP {1879 } identifier {206 206 5334 5335 33 34}
+OP {1878 1880 } index {206 206 5326 5336 25 35}
+ATN pre
+OP {1882 } identifier {206 206 5337 5340 36 39}
+OP {1881 1883 } index {206 206 5326 5341 25 40}
+ATS 0
+OP {1885 } integer {206 206 5345 5346 44 45}
+OP {1884 1886 } eq {206 206 5326 5346 25 45}
+OP {1876 1887 } and {206 206 5314 5346 13 45}
+ATN Numbers
+OP {1889 } identifier {207 207 5357 5364 8 15}
+ATN i
+OP {1891 } identifier {207 207 5365 5366 16 17}
+OP {1890 1892 } index {207 207 5357 5367 8 18}
+ATN pre
+OP {1894 } identifier {207 207 5368 5371 19 22}
+OP {1893 1895 } index {207 207 5357 5372 8 23}
+ATN temp
+OP {1897 } identifier {207 207 5375 5379 26 30}
+OP {1896 1898 } ass {207 207 5357 5379 8 30}
+OP {1899 } expr_stmt {207 207 5357 5380 8 31}
+ATN Numbers
+OP {1901 } identifier {208 208 5389 5396 8 15}
+ATN i
+OP {1903 } identifier {208 208 5397 5398 16 17}
+OP {1902 1904 } index {208 208 5389 5399 8 18}
+ATN pre
+OP {1906 } identifier {208 208 5400 5403 19 22}
+ATS 1
+OP {1908 } integer {208 208 5404 5405 23 24}
+OP {1907 1909 } minus {208 208 5400 5405 19 24}
+OP {1905 1910 } index {208 208 5389 5406 8 25}
+ATS 0
+OP {1912 } integer {208 208 5409 5410 28 29}
+OP {1911 1913 } ass {208 208 5389 5410 8 29}
+OP {1914 } expr_stmt {208 208 5389 5411 8 30}
+ATN pre
+OP {1916 } identifier {209 209 5420 5423 8 11}
+OP {1917 } post_incr {209 209 5420 5425 8 13}
+OP {1918 } expr_stmt {209 209 5420 5426 8 14}
+ATN Counter
+OP {1920 } identifier {210 210 5435 5442 8 15}
+OP {1921 } post_incr {210 210 5435 5444 8 17}
+OP {1922 } expr_stmt {210 210 5435 5445 8 18}
+OP {1900 1915 1919 1923 } stmts {207 210 5357 5445 8 18}
+OP {1924 } compound {206 211 5347 5454 46 8}
+OP {1925 } stmts {206 211 5347 5454 46 8}
+OP {1888 1926 } while {206 211 5308 5454 7 8}
+OP {1856 1871 1927 } stmts {204 211 5251 5454 7 8}
+OP {1928 } compound {203 212 5242 5462 28 7}
+OP {1929 } stmts {203 212 5242 5462 28 7}
+ATV
+OP {1931 } none {}
+OP {1838 1930 1932 } if {203 212 5220 5462 6 7}
+OP {1933 } stmts {203 212 5220 5462 6 7}
+OP {1818 1823 1827 1934 } for {202 212 5185 5462 5 7}
+OP {1935 } stmts {202 212 5185 5462 5 7}
+OP {1797 1802 1806 1936 } for {201 212 5152 5462 4 7}
+OP {} modifier_list {}
+ATV
+OP {1939 } int {213 213 5471 5474 8 11}
+ATN i
+OP {1941 } identifier {213 213 5475 5476 12 13}
+ATV
+OP {1943 } none {213 213 5476 5476 13 13}
+ATS 3
+OP {1945 } integer {213 213 5479 5480 16 17}
+OP {1942 1944 1946 } var_dcltr_affinit {213 213 5475 5480 12 17}
+OP {1947 } var_dcltr_list {213 213 5475 5480 12 17}
+OP {1938 1940 1948 } variable_decl {213 213 5471 5480 8 17}
+ATN i
+OP {1950 } identifier {213 213 5482 5483 19 20}
+ATS 0
+OP {1952 } integer {213 213 5487 5488 24 25}
+OP {1951 1953 } ge {213 213 5482 5488 19 25}
+ATN i
+OP {1955 } identifier {213 213 5490 5491 27 28}
+OP {1956 } post_decr {213 213 5490 5493 27 30}
+OP {1957 } expr_list {213 213 5490 5493 27 30}
+OP {} modifier_list {}
+ATV
+OP {1960 } int {214 214 5504 5507 9 12}
+ATN j
+OP {1962 } identifier {214 214 5508 5509 13 14}
+ATV
+OP {1964 } none {214 214 5509 5509 14 14}
+ATS 3
+OP {1966 } integer {214 214 5512 5513 17 18}
+OP {1963 1965 1967 } var_dcltr_affinit {214 214 5508 5513 13 18}
+OP {1968 } var_dcltr_list {214 214 5508 5513 13 18}
+OP {1959 1961 1969 } variable_decl {214 214 5504 5513 9 18}
+ATN j
+OP {1971 } identifier {214 214 5515 5516 20 21}
+ATS 0
+OP {1973 } integer {214 214 5520 5521 25 26}
+OP {1972 1974 } ge {214 214 5515 5521 20 26}
+ATN j
+OP {1976 } identifier {214 214 5524 5525 29 30}
+OP {1977 } post_decr {214 214 5524 5527 29 32}
+OP {1978 } expr_list {214 214 5524 5527 29 32}
+ATN j
+OP {1980 } identifier {215 215 5538 5539 9 10}
+ATS 1
+OP {1982 } integer {215 215 5542 5543 13 14}
+OP {1981 1983 } plus {215 215 5538 5543 9 14}
+ATS 4
+OP {1985 } integer {215 215 5546 5547 17 18}
+OP {1984 1986 } lt {215 215 5538 5547 9 18}
+ATN Numbers
+OP {1988 } identifier {215 215 5551 5558 22 29}
+ATN i
+OP {1990 } identifier {215 215 5559 5560 30 31}
+OP {1989 1991 } index {215 215 5551 5561 22 32}
+ATN j
+OP {1993 } identifier {215 215 5562 5563 33 34}
+OP {1992 1994 } index {215 215 5551 5564 22 35}
+ATN Numbers
+OP {1996 } identifier {215 215 5568 5575 39 46}
+ATN i
+OP {1998 } identifier {215 215 5576 5577 47 48}
+OP {1997 1999 } index {215 215 5568 5578 39 49}
+ATN j
+OP {2001 } identifier {215 215 5579 5580 50 51}
+ATS 1
+OP {2003 } integer {215 215 5581 5582 52 53}
+OP {2002 2004 } plus {215 215 5579 5582 50 53}
+OP {2000 2005 } index {215 215 5568 5583 39 54}
+OP {1995 2006 } eq {215 215 5551 5583 22 54}
+OP {1987 2007 } and {215 215 5538 5583 9 54}
+ATN Numbers
+OP {2009 } identifier {216 216 5595 5602 7 14}
+ATN i
+OP {2011 } identifier {216 216 5603 5604 15 16}
+OP {2010 2012 } index {216 216 5595 5605 7 17}
+ATN j
+OP {2014 } identifier {216 216 5606 5607 18 19}
+OP {2013 2015 } index {216 216 5595 5608 7 20}
+ATS 0
+OP {2017 } integer {216 216 5611 5612 23 24}
+OP {2016 2018 } neq {216 216 5595 5612 7 24}
+ATN Numbers
+OP {2020 } identifier {216 216 5616 5623 28 35}
+ATN i
+OP {2022 } identifier {216 216 5624 5625 36 37}
+OP {2021 2023 } index {216 216 5616 5626 28 38}
+ATN j
+OP {2025 } identifier {216 216 5627 5628 39 40}
+ATS 1
+OP {2027 } integer {216 216 5629 5630 41 42}
+OP {2026 2028 } plus {216 216 5627 5630 39 42}
+OP {2024 2029 } index {216 216 5616 5631 28 43}
+ATS 0
+OP {2031 } integer {216 216 5635 5636 47 48}
+OP {2030 2032 } neq {216 216 5616 5636 28 48}
+OP {2019 2033 } or {216 216 5595 5636 7 48}
+OP {2034 } parenth_expr {216 216 5594 5637 6 49}
+OP {2008 2035 } and {215 216 5538 5637 9 49}
+ATN Numbers
+OP {2037 } identifier {217 217 5647 5654 7 14}
+ATN i
+OP {2039 } identifier {217 217 5655 5656 15 16}
+OP {2038 2040 } index {217 217 5647 5657 7 17}
+ATN j
+OP {2042 } identifier {217 217 5658 5659 18 19}
+ATS 1
+OP {2044 } integer {217 217 5660 5661 20 21}
+OP {2043 2045 } plus {217 217 5658 5661 18 21}
+OP {2041 2046 } index {217 217 5647 5662 7 22}
+ATN Numbers
+OP {2048 } identifier {217 217 5665 5672 25 32}
+ATN i
+OP {2050 } identifier {217 217 5673 5674 33 34}
+OP {2049 2051 } index {217 217 5665 5675 25 35}
+ATN j
+OP {2053 } identifier {217 217 5676 5677 36 37}
+OP {2052 2054 } index {217 217 5665 5678 25 38}
+ATN Numbers
+OP {2056 } identifier {217 217 5681 5688 41 48}
+ATN i
+OP {2058 } identifier {217 217 5689 5690 49 50}
+OP {2057 2059 } index {217 217 5681 5691 41 51}
+ATN j
+OP {2061 } identifier {217 217 5692 5693 52 53}
+ATS 1
+OP {2063 } integer {217 217 5694 5695 54 55}
+OP {2062 2064 } plus {217 217 5692 5695 52 55}
+OP {2060 2065 } index {217 217 5681 5696 41 56}
+OP {2055 2066 } plus {217 217 5665 5696 25 56}
+OP {2047 2067 } ass {217 217 5647 5696 7 56}
+OP {2068 } expr_stmt {217 217 5647 5697 7 57}
+ATN Numbers
+OP {2070 } identifier {218 218 5705 5712 7 14}
+ATN i
+OP {2072 } identifier {218 218 5713 5714 15 16}
+OP {2071 2073 } index {218 218 5705 5715 7 17}
+ATN j
+OP {2075 } identifier {218 218 5716 5717 18 19}
+OP {2074 2076 } index {218 218 5705 5718 7 20}
+ATS 0
+OP {2078 } integer {218 218 5721 5722 23 24}
+OP {2077 2079 } ass {218 218 5705 5722 7 24}
+OP {2080 } expr_stmt {218 218 5705 5723 7 25}
+ATN Counter
+OP {2082 } identifier {219 219 5731 5738 7 14}
+OP {2083 } post_incr {219 219 5731 5740 7 16}
+OP {2084 } expr_stmt {219 219 5731 5741 7 17}
+ATN score
+OP {2086 } identifier {220 220 5749 5754 7 12}
+ATN score
+OP {2088 } identifier {220 220 5757 5762 15 20}
+ATN Numbers
+OP {2090 } identifier {220 220 5765 5772 23 30}
+ATN i
+OP {2092 } identifier {220 220 5773 5774 31 32}
+OP {2091 2093 } index {220 220 5765 5775 23 33}
+ATN j
+OP {2095 } identifier {220 220 5776 5777 34 35}
+ATS 1
+OP {2097 } integer {220 220 5778 5779 36 37}
+OP {2096 2098 } plus {220 220 5776 5779 34 37}
+OP {2094 2099 } index {220 220 5765 5780 23 38}
+OP {2089 2100 } plus {220 220 5757 5780 15 38}
+OP {2087 2101 } ass {220 220 5749 5780 7 38}
+OP {2102 } expr_stmt {220 220 5749 5781 7 39}
+ATN Numbers
+OP {2104 } identifier {221 221 5792 5799 10 17}
+ATN i
+OP {2106 } identifier {221 221 5800 5801 18 19}
+OP {2105 2107 } index {221 221 5792 5802 10 20}
+ATN j
+OP {2109 } identifier {221 221 5803 5804 21 22}
+ATS 1
+OP {2111 } integer {221 221 5805 5806 23 24}
+OP {2110 2112 } plus {221 221 5803 5806 21 24}
+OP {2108 2113 } index {221 221 5792 5807 10 25}
+ATS 2048
+OP {2115 } integer {221 221 5810 5814 28 32}
+OP {2114 2116 } eq {221 221 5792 5814 10 32}
+ATN isWin
+OP {2118 } identifier {222 222 5824 5829 8 13}
+ATV
+OP {2120 } true {222 222 5832 5836 16 20}
+OP {2119 2121 } ass {222 222 5824 5836 8 20}
+OP {2122 } expr_stmt {222 222 5824 5838 8 22}
+OP {2123 } stmts {222 222 5824 5838 8 22}
+ATV
+OP {2125 } none {}
+OP {2117 2124 2126 } if {221 222 5789 5838 7 22}
+OP {2069 2081 2085 2103 2127 } stmts {217 222 5647 5838 7 22}
+OP {2128 } compound {216 223 5638 5852 50 7}
+OP {2129 } stmts {216 223 5638 5852 50 7}
+ATV
+OP {2131 } none {}
+OP {2036 2130 2132 } if {215 223 5535 5852 6 7}
+OP {2133 } stmts {215 223 5535 5852 6 7}
+OP {1970 1975 1979 2134 } for {214 223 5500 5852 5 7}
+OP {2135 } stmts {214 223 5500 5852 5 7}
+OP {1949 1954 1958 2136 } for {213 223 5467 5852 4 7}
+OP {} modifier_list {}
+ATV
+OP {2139 } int {224 224 5862 5865 9 12}
+ATN i
+OP {2141 } identifier {224 224 5866 5867 13 14}
+ATV
+OP {2143 } none {224 224 5867 5867 14 14}
+ATS 3
+OP {2145 } integer {224 224 5870 5871 17 18}
+OP {2142 2144 2146 } var_dcltr_affinit {224 224 5866 5871 13 18}
+OP {2147 } var_dcltr_list {224 224 5866 5871 13 18}
+OP {2138 2140 2148 } variable_decl {224 224 5862 5871 9 18}
+ATN i
+OP {2150 } identifier {224 224 5873 5874 20 21}
+ATS 0
+OP {2152 } integer {224 224 5878 5879 25 26}
+OP {2151 2153 } ge {224 224 5873 5879 20 26}
+ATN i
+OP {2155 } identifier {224 224 5881 5882 28 29}
+OP {2156 } post_decr {224 224 5881 5884 28 31}
+OP {2157 } expr_list {224 224 5881 5884 28 31}
+OP {} modifier_list {}
+ATV
+OP {2160 } int {225 225 5896 5899 10 13}
+ATN j
+OP {2162 } identifier {225 225 5900 5901 14 15}
+ATV
+OP {2164 } none {225 225 5901 5901 15 15}
+ATS 3
+OP {2166 } integer {225 225 5904 5905 18 19}
+OP {2163 2165 2167 } var_dcltr_affinit {225 225 5900 5905 14 19}
+OP {2168 } var_dcltr_list {225 225 5900 5905 14 19}
+OP {2159 2161 2169 } variable_decl {225 225 5896 5905 10 19}
+ATN j
+OP {2171 } identifier {225 225 5907 5908 21 22}
+ATS 0
+OP {2173 } integer {225 225 5912 5913 26 27}
+OP {2172 2174 } ge {225 225 5907 5913 21 27}
+ATN j
+OP {2176 } identifier {225 225 5915 5916 29 30}
+OP {2177 } post_decr {225 225 5915 5918 29 32}
+OP {2178 } expr_list {225 225 5915 5918 29 32}
+ATN Numbers
+OP {2180 } identifier {226 226 5930 5937 10 17}
+ATN i
+OP {2182 } identifier {226 226 5938 5939 18 19}
+OP {2181 2183 } index {226 226 5930 5940 10 20}
+ATN j
+OP {2185 } identifier {226 226 5941 5942 21 22}
+OP {2184 2186 } index {226 226 5930 5943 10 23}
+ATS 0
+OP {2188 } integer {226 226 5947 5948 27 28}
+OP {2187 2189 } neq {226 226 5930 5948 10 28}
+OP {} modifier_list {}
+ATV
+OP {2192 } int {227 227 5959 5962 7 10}
+ATN temp
+OP {2194 } identifier {227 227 5963 5967 11 15}
+ATV
+OP {2196 } none {227 227 5967 5967 15 15}
+ATN Numbers
+OP {2198 } identifier {227 227 5970 5977 18 25}
+ATN i
+OP {2200 } identifier {227 227 5978 5979 26 27}
+OP {2199 2201 } index {227 227 5970 5980 18 28}
+ATN j
+OP {2203 } identifier {227 227 5981 5982 29 30}
+OP {2202 2204 } index {227 227 5970 5983 18 31}
+OP {2195 2197 2205 } var_dcltr_affinit {227 227 5963 5983 11 31}
+OP {2206 } var_dcltr_list {227 227 5963 5983 11 31}
+OP {2191 2193 2207 } variable_decl {227 227 5959 5984 7 32}
+OP {} modifier_list {}
+ATV
+OP {2210 } int {228 228 5992 5995 7 10}
+ATN pre
+OP {2212 } identifier {228 228 5996 5999 11 14}
+ATV
+OP {2214 } none {228 228 5999 5999 14 14}
+ATN j
+OP {2216 } identifier {228 228 6002 6003 17 18}
+ATS 1
+OP {2218 } integer {228 228 6006 6007 21 22}
+OP {2217 2219 } plus {228 228 6002 6007 17 22}
+OP {2213 2215 2220 } var_dcltr_affinit {228 228 5996 6007 11 22}
+OP {2221 } var_dcltr_list {228 228 5996 6007 11 22}
+OP {2209 2211 2222 } variable_decl {228 228 5992 6008 7 23}
+ATN pre
+OP {2224 } identifier {229 229 6023 6026 14 17}
+ATS 3
+OP {2226 } integer {229 229 6030 6031 21 22}
+OP {2225 2227 } le {229 229 6023 6031 14 22}
+ATN Numbers
+OP {2229 } identifier {229 229 6035 6042 26 33}
+ATN i
+OP {2231 } identifier {229 229 6043 6044 34 35}
+OP {2230 2232 } index {229 229 6035 6045 26 36}
+ATN pre
+OP {2234 } identifier {229 229 6046 6049 37 40}
+OP {2233 2235 } index {229 229 6035 6050 26 41}
+ATS 0
+OP {2237 } integer {229 229 6054 6055 45 46}
+OP {2236 2238 } eq {229 229 6035 6055 26 46}
+OP {2228 2239 } and {229 229 6023 6055 14 46}
+ATN Numbers
+OP {2241 } identifier {230 230 6067 6074 8 15}
+ATN i
+OP {2243 } identifier {230 230 6075 6076 16 17}
+OP {2242 2244 } index {230 230 6067 6077 8 18}
+ATN pre
+OP {2246 } identifier {230 230 6078 6081 19 22}
+OP {2245 2247 } index {230 230 6067 6082 8 23}
+ATN temp
+OP {2249 } identifier {230 230 6085 6089 26 30}
+OP {2248 2250 } ass {230 230 6067 6089 8 30}
+OP {2251 } expr_stmt {230 230 6067 6090 8 31}
+ATN Numbers
+OP {2253 } identifier {231 231 6099 6106 8 15}
+ATN i
+OP {2255 } identifier {231 231 6107 6108 16 17}
+OP {2254 2256 } index {231 231 6099 6109 8 18}
+ATN pre
+OP {2258 } identifier {231 231 6110 6113 19 22}
+ATS 1
+OP {2260 } integer {231 231 6116 6117 25 26}
+OP {2259 2261 } minus {231 231 6110 6117 19 26}
+OP {2257 2262 } index {231 231 6099 6118 8 27}
+ATS 0
+OP {2264 } integer {231 231 6121 6122 30 31}
+OP {2263 2265 } ass {231 231 6099 6122 8 31}
+OP {2266 } expr_stmt {231 231 6099 6123 8 32}
+ATN pre
+OP {2268 } identifier {232 232 6132 6135 8 11}
+OP {2269 } post_incr {232 232 6132 6137 8 13}
+OP {2270 } expr_stmt {232 232 6132 6138 8 14}
+ATN Counter
+OP {2272 } identifier {233 233 6147 6154 8 15}
+OP {2273 } post_incr {233 233 6147 6156 8 17}
+OP {2274 } expr_stmt {233 233 6147 6157 8 18}
+OP {2252 2267 2271 2275 } stmts {230 233 6067 6157 8 18}
+OP {2276 } compound {229 234 6057 6166 48 8}
+OP {2277 } stmts {229 234 6057 6166 48 8}
+OP {2240 2278 } while {229 234 6016 6166 7 8}
+OP {2208 2223 2279 } stmts {227 234 5959 6166 7 8}
+OP {2280 } compound {226 235 5950 6174 30 7}
+OP {2281 } stmts {226 235 5950 6174 30 7}
+ATV
+OP {2283 } none {}
+OP {2190 2282 2284 } if {226 235 5926 6174 6 7}
+OP {2285 } stmts {226 235 5926 6174 6 7}
+OP {2170 2175 2179 2286 } for {225 235 5891 6174 5 7}
+OP {2287 } stmts {225 235 5891 6174 5 7}
+OP {2149 2154 2158 2288 } for {224 235 5857 6174 4 7}
+ATV
+OP {2290 } none {}
+OP {2291 } break {236 236 6179 6185 4 10}
+ATS 38
+OP {2293 } integer {238 238 6195 6197 8 10}
+OP {2294 } case {238 238 6190 6198 3 11}
+OP {} modifier_list {}
+ATV
+OP {2297 } int {240 240 6223 6226 9 12}
+ATN j
+OP {2299 } identifier {240 240 6227 6228 13 14}
+ATV
+OP {2301 } none {240 240 6228 6228 14 14}
+ATS 0
+OP {2303 } integer {240 240 6231 6232 17 18}
+OP {2300 2302 2304 } var_dcltr_affinit {240 240 6227 6232 13 18}
+OP {2305 } var_dcltr_list {240 240 6227 6232 13 18}
+OP {2296 2298 2306 } variable_decl {240 240 6223 6232 9 18}
+ATN j
+OP {2308 } identifier {240 240 6234 6235 20 21}
+ATS 4
+OP {2310 } integer {240 240 6238 6239 24 25}
+OP {2309 2311 } lt {240 240 6234 6239 20 25}
+ATN j
+OP {2313 } identifier {240 240 6241 6242 27 28}
+OP {2314 } post_incr {240 240 6241 6244 27 30}
+OP {2315 } expr_list {240 240 6241 6244 27 30}
+OP {} modifier_list {}
+ATV
+OP {2318 } int {241 241 6256 6259 10 13}
+ATN i
+OP {2320 } identifier {241 241 6260 6261 14 15}
+ATV
+OP {2322 } none {241 241 6261 6261 15 15}
+ATS 0
+OP {2324 } integer {241 241 6264 6265 18 19}
+OP {2321 2323 2325 } var_dcltr_affinit {241 241 6260 6265 14 19}
+OP {2326 } var_dcltr_list {241 241 6260 6265 14 19}
+OP {2317 2319 2327 } variable_decl {241 241 6256 6265 10 19}
+ATN i
+OP {2329 } identifier {241 241 6267 6268 21 22}
+ATS 4
+OP {2331 } integer {241 241 6271 6272 25 26}
+OP {2330 2332 } lt {241 241 6267 6272 21 26}
+ATN i
+OP {2334 } identifier {241 241 6274 6275 28 29}
+OP {2335 } post_incr {241 241 6274 6277 28 31}
+OP {2336 } expr_list {241 241 6274 6277 28 31}
+ATN Numbers
+OP {2338 } identifier {242 242 6289 6296 10 17}
+ATN i
+OP {2340 } identifier {242 242 6297 6298 18 19}
+OP {2339 2341 } index {242 242 6289 6299 10 20}
+ATN j
+OP {2343 } identifier {242 242 6300 6301 21 22}
+OP {2342 2344 } index {242 242 6289 6302 10 23}
+ATS 0
+OP {2346 } integer {242 242 6306 6307 27 28}
+OP {2345 2347 } neq {242 242 6289 6307 10 28}
+OP {} modifier_list {}
+ATV
+OP {2350 } int {243 243 6318 6321 7 10}
+ATN temp
+OP {2352 } identifier {243 243 6322 6326 11 15}
+ATV
+OP {2354 } none {243 243 6326 6326 15 15}
+ATN Numbers
+OP {2356 } identifier {243 243 6329 6336 18 25}
+ATN i
+OP {2358 } identifier {243 243 6337 6338 26 27}
+OP {2357 2359 } index {243 243 6329 6339 18 28}
+ATN j
+OP {2361 } identifier {243 243 6340 6341 29 30}
+OP {2360 2362 } index {243 243 6329 6342 18 31}
+OP {2353 2355 2363 } var_dcltr_affinit {243 243 6322 6342 11 31}
+OP {2364 } var_dcltr_list {243 243 6322 6342 11 31}
+OP {2349 2351 2365 } variable_decl {243 243 6318 6343 7 32}
+OP {} modifier_list {}
+ATV
+OP {2368 } int {244 244 6351 6354 7 10}
+ATN pre
+OP {2370 } identifier {244 244 6355 6358 11 14}
+ATV
+OP {2372 } none {244 244 6358 6358 14 14}
+ATN i
+OP {2374 } identifier {244 244 6361 6362 17 18}
+ATS 1
+OP {2376 } integer {244 244 6365 6366 21 22}
+OP {2375 2377 } minus {244 244 6361 6366 17 22}
+OP {2371 2373 2378 } var_dcltr_affinit {244 244 6355 6366 11 22}
+OP {2379 } var_dcltr_list {244 244 6355 6366 11 22}
+OP {2367 2369 2380 } variable_decl {244 244 6351 6367 7 23}
+ATN pre
+OP {2382 } identifier {245 245 6382 6385 14 17}
+ATS 0
+OP {2384 } integer {245 245 6389 6390 21 22}
+OP {2383 2385 } ge {245 245 6382 6390 14 22}
+ATN Numbers
+OP {2387 } identifier {245 245 6394 6401 26 33}
+ATN pre
+OP {2389 } identifier {245 245 6402 6405 34 37}
+OP {2388 2390 } index {245 245 6394 6406 26 38}
+ATN j
+OP {2392 } identifier {245 245 6407 6408 39 40}
+OP {2391 2393 } index {245 245 6394 6409 26 41}
+ATS 0
+OP {2395 } integer {245 245 6413 6414 45 46}
+OP {2394 2396 } eq {245 245 6394 6414 26 46}
+OP {2386 2397 } and {245 245 6382 6414 14 46}
+ATN Numbers
+OP {2399 } identifier {246 246 6426 6433 8 15}
+ATN pre
+OP {2401 } identifier {246 246 6434 6437 16 19}
+OP {2400 2402 } index {246 246 6426 6438 8 20}
+ATN j
+OP {2404 } identifier {246 246 6439 6440 21 22}
+OP {2403 2405 } index {246 246 6426 6441 8 23}
+ATN temp
+OP {2407 } identifier {246 246 6444 6448 26 30}
+OP {2406 2408 } ass {246 246 6426 6448 8 30}
+OP {2409 } expr_stmt {246 246 6426 6449 8 31}
+ATN Numbers
+OP {2411 } identifier {247 247 6458 6465 8 15}
+ATN pre
+OP {2413 } identifier {247 247 6466 6469 16 19}
+ATS 1
+OP {2415 } integer {247 247 6472 6473 22 23}
+OP {2414 2416 } plus {247 247 6466 6473 16 23}
+OP {2412 2417 } index {247 247 6458 6474 8 24}
+ATN j
+OP {2419 } identifier {247 247 6475 6476 25 26}
+OP {2418 2420 } index {247 247 6458 6477 8 27}
+ATS 0
+OP {2422 } integer {247 247 6480 6481 30 31}
+OP {2421 2423 } ass {247 247 6458 6481 8 31}
+OP {2424 } expr_stmt {247 247 6458 6482 8 32}
+ATN pre
+OP {2426 } identifier {248 248 6491 6494 8 11}
+OP {2427 } post_decr {248 248 6491 6496 8 13}
+OP {2428 } expr_stmt {248 248 6491 6497 8 14}
+ATN Counter
+OP {2430 } identifier {249 249 6506 6513 8 15}
+OP {2431 } post_incr {249 249 6506 6515 8 17}
+OP {2432 } expr_stmt {249 249 6506 6516 8 18}
+OP {2410 2425 2429 2433 } stmts {246 249 6426 6516 8 18}
+OP {2434 } compound {245 250 6416 6525 48 8}
+OP {2435 } stmts {245 250 6416 6525 48 8}
+OP {2398 2436 } while {245 250 6375 6525 7 8}
+OP {2366 2381 2437 } stmts {243 250 6318 6525 7 8}
+OP {2438 } compound {242 251 6309 6533 30 7}
+OP {2439 } stmts {242 251 6309 6533 30 7}
+ATV
+OP {2441 } none {}
+OP {2348 2440 2442 } if {242 251 6285 6533 6 7}
+OP {2443 } stmts {242 251 6285 6533 6 7}
+OP {2328 2333 2337 2444 } for {241 251 6251 6533 5 7}
+OP {2445 } stmts {241 251 6251 6533 5 7}
+OP {2307 2312 2316 2446 } for {240 251 6218 6533 4 7} {prefix comment_s {comment {// move up
+} 0 }} 
+OP {} modifier_list {}
+ATV
+OP {2449 } int {252 252 6543 6546 9 12}
+ATN j
+OP {2451 } identifier {252 252 6547 6548 13 14}
+ATV
+OP {2453 } none {252 252 6548 6548 14 14}
+ATS 0
+OP {2455 } integer {252 252 6551 6552 17 18}
+OP {2452 2454 2456 } var_dcltr_affinit {252 252 6547 6552 13 18}
+OP {2457 } var_dcltr_list {252 252 6547 6552 13 18}
+OP {2448 2450 2458 } variable_decl {252 252 6543 6552 9 18}
+ATN j
+OP {2460 } identifier {252 252 6554 6555 20 21}
+ATS 4
+OP {2462 } integer {252 252 6558 6559 24 25}
+OP {2461 2463 } lt {252 252 6554 6559 20 25}
+ATN j
+OP {2465 } identifier {252 252 6561 6562 27 28}
+OP {2466 } post_incr {252 252 6561 6564 27 30}
+OP {2467 } expr_list {252 252 6561 6564 27 30}
+OP {} modifier_list {}
+ATV
+OP {2470 } int {253 253 6576 6579 10 13}
+ATN i
+OP {2472 } identifier {253 253 6580 6581 14 15}
+ATV
+OP {2474 } none {253 253 6581 6581 15 15}
+ATS 0
+OP {2476 } integer {253 253 6584 6585 18 19}
+OP {2473 2475 2477 } var_dcltr_affinit {253 253 6580 6585 14 19}
+OP {2478 } var_dcltr_list {253 253 6580 6585 14 19}
+OP {2469 2471 2479 } variable_decl {253 253 6576 6585 10 19}
+ATN i
+OP {2481 } identifier {253 253 6587 6588 21 22}
+ATS 4
+OP {2483 } integer {253 253 6591 6592 25 26}
+OP {2482 2484 } lt {253 253 6587 6592 21 26}
+ATN i
+OP {2486 } identifier {253 253 6594 6595 28 29}
+OP {2487 } post_incr {253 253 6594 6597 28 31}
+OP {2488 } expr_list {253 253 6594 6597 28 31}
+ATN i
+OP {2490 } identifier {254 254 6609 6610 10 11}
+ATS 1
+OP {2492 } integer {254 254 6613 6614 14 15}
+OP {2491 2493 } plus {254 254 6609 6614 10 15}
+ATS 4
+OP {2495 } integer {254 254 6617 6618 18 19}
+OP {2494 2496 } lt {254 254 6609 6618 10 19}
+ATN Numbers
+OP {2498 } identifier {255 255 6631 6638 12 19}
+ATN i
+OP {2500 } identifier {255 255 6639 6640 20 21}
+OP {2499 2501 } index {255 255 6631 6641 12 22}
+ATN j
+OP {2503 } identifier {255 255 6642 6643 23 24}
+OP {2502 2504 } index {255 255 6631 6644 12 25}
+ATN Numbers
+OP {2506 } identifier {255 255 6648 6655 29 36}
+ATN i
+OP {2508 } identifier {255 255 6656 6657 37 38}
+ATS 1
+OP {2510 } integer {255 255 6660 6661 41 42}
+OP {2509 2511 } plus {255 255 6656 6661 37 42}
+OP {2507 2512 } index {255 255 6648 6662 29 43}
+ATN j
+OP {2514 } identifier {255 255 6663 6664 44 45}
+OP {2513 2515 } index {255 255 6648 6665 29 46}
+OP {2505 2516 } eq {255 255 6631 6665 12 46}
+OP {2517 } parenth_expr {255 255 6630 6666 11 47}
+OP {2497 2518 } and {254 255 6609 6666 10 47}
+ATN Numbers
+OP {2520 } identifier {256 256 6679 6686 12 19}
+ATN i
+OP {2522 } identifier {256 256 6687 6688 20 21}
+OP {2521 2523 } index {256 256 6679 6689 12 22}
+ATN j
+OP {2525 } identifier {256 256 6690 6691 23 24}
+OP {2524 2526 } index {256 256 6679 6692 12 25}
+ATS 0
+OP {2528 } integer {256 256 6696 6697 29 30}
+OP {2527 2529 } neq {256 256 6679 6697 12 30}
+ATN Numbers
+OP {2531 } identifier {256 256 6701 6708 34 41}
+ATN i
+OP {2533 } identifier {256 256 6709 6710 42 43}
+ATS 1
+OP {2535 } integer {256 256 6713 6714 46 47}
+OP {2534 2536 } plus {256 256 6709 6714 42 47}
+OP {2532 2537 } index {256 256 6701 6715 34 48}
+ATN j
+OP {2539 } identifier {256 256 6716 6717 49 50}
+OP {2538 2540 } index {256 256 6701 6718 34 51}
+ATS 0
+OP {2542 } integer {256 256 6722 6723 55 56}
+OP {2541 2543 } neq {256 256 6701 6723 34 56}
+OP {2530 2544 } or {256 256 6679 6723 12 56}
+OP {2545 } parenth_expr {256 256 6678 6724 11 57}
+OP {2519 2546 } and {254 256 6609 6724 10 57}
+ATN Numbers
+OP {2548 } identifier {257 257 6735 6742 7 14}
+ATN i
+OP {2550 } identifier {257 257 6743 6744 15 16}
+OP {2549 2551 } index {257 257 6735 6745 7 17}
+ATN j
+OP {2553 } identifier {257 257 6746 6747 18 19}
+OP {2552 2554 } index {257 257 6735 6748 7 20}
+ATN Numbers
+OP {2556 } identifier {257 257 6751 6758 23 30}
+ATN i
+OP {2558 } identifier {257 257 6759 6760 31 32}
+OP {2557 2559 } index {257 257 6751 6761 23 33}
+ATN j
+OP {2561 } identifier {257 257 6762 6763 34 35}
+OP {2560 2562 } index {257 257 6751 6764 23 36}
+ATN Numbers
+OP {2564 } identifier {257 257 6767 6774 39 46}
+ATN i
+OP {2566 } identifier {257 257 6775 6776 47 48}
+ATS 1
+OP {2568 } integer {257 257 6779 6780 51 52}
+OP {2567 2569 } plus {257 257 6775 6780 47 52}
+OP {2565 2570 } index {257 257 6767 6781 39 53}
+ATN j
+OP {2572 } identifier {257 257 6782 6783 54 55}
+OP {2571 2573 } index {257 257 6767 6784 39 56}
+OP {2563 2574 } plus {257 257 6751 6784 23 56}
+OP {2555 2575 } ass {257 257 6735 6784 7 56}
+OP {2576 } expr_stmt {257 257 6735 6785 7 57}
+ATN Numbers
+OP {2578 } identifier {258 258 6793 6800 7 14}
+ATN i
+OP {2580 } identifier {258 258 6801 6802 15 16}
+ATS 1
+OP {2582 } integer {258 258 6805 6806 19 20}
+OP {2581 2583 } plus {258 258 6801 6806 15 20}
+OP {2579 2584 } index {258 258 6793 6807 7 21}
+ATN j
+OP {2586 } identifier {258 258 6808 6809 22 23}
+OP {2585 2587 } index {258 258 6793 6810 7 24}
+ATS 0
+OP {2589 } integer {258 258 6813 6814 27 28}
+OP {2588 2590 } ass {258 258 6793 6814 7 28}
+OP {2591 } expr_stmt {258 258 6793 6815 7 29}
+ATN Counter
+OP {2593 } identifier {259 259 6823 6830 7 14}
+OP {2594 } post_incr {259 259 6823 6832 7 16}
+OP {2595 } expr_stmt {259 259 6823 6833 7 17}
+ATN score
+OP {2597 } identifier {260 260 6841 6846 7 12}
+ATN Numbers
+OP {2599 } identifier {260 260 6850 6857 16 23}
+ATN i
+OP {2601 } identifier {260 260 6858 6859 24 25}
+OP {2600 2602 } index {260 260 6850 6860 16 26}
+ATN j
+OP {2604 } identifier {260 260 6861 6862 27 28}
+OP {2603 2605 } index {260 260 6850 6863 16 29}
+OP {2598 2606 } plus_ass {260 260 6841 6863 7 29}
+OP {2607 } expr_stmt {260 260 6841 6864 7 30}
+ATN Numbers
+OP {2609 } identifier {261 261 6876 6883 11 18}
+ATN i
+OP {2611 } identifier {261 261 6884 6885 19 20}
+OP {2610 2612 } index {261 261 6876 6886 11 21}
+ATN j
+OP {2614 } identifier {261 261 6887 6888 22 23}
+OP {2613 2615 } index {261 261 6876 6889 11 24}
+ATS 2048
+OP {2617 } integer {261 261 6893 6897 28 32}
+OP {2616 2618 } eq {261 261 6876 6897 11 32}
+ATN isWin
+OP {2620 } identifier {262 262 6909 6914 8 13}
+ATV
+OP {2622 } true {262 262 6917 6921 16 20}
+OP {2621 2623 } ass {262 262 6909 6921 8 20}
+OP {2624 } expr_stmt {262 262 6909 6922 8 21}
+OP {2625 } stmts {262 262 6909 6922 8 21}
+OP {2626 } compound {261 263 6899 6931 34 8}
+OP {2627 } stmts {261 263 6899 6931 34 8}
+ATV
+OP {2629 } none {}
+OP {2619 2628 2630 } if {261 263 6872 6931 7 8}
+OP {2577 2592 2596 2608 2631 } stmts {257 263 6735 6931 7 8}
+OP {2632 } compound {256 264 6726 6939 59 7}
+OP {2633 } stmts {256 264 6726 6939 59 7}
+ATV
+OP {2635 } none {}
+OP {2547 2634 2636 } if {254 264 6605 6939 6 7}
+OP {2637 } stmts {254 264 6605 6939 6 7}
+OP {2480 2485 2489 2638 } for {253 264 6571 6939 5 7}
+OP {2639 } stmts {253 264 6571 6939 5 7}
+OP {2459 2464 2468 2640 } for {252 264 6538 6939 4 7}
+OP {} modifier_list {}
+ATV
+OP {2643 } int {266 266 6950 6953 9 12}
+ATN j
+OP {2645 } identifier {266 266 6954 6955 13 14}
+ATV
+OP {2647 } none {266 266 6955 6955 14 14}
+ATS 0
+OP {2649 } integer {266 266 6958 6959 17 18}
+OP {2646 2648 2650 } var_dcltr_affinit {266 266 6954 6959 13 18}
+OP {2651 } var_dcltr_list {266 266 6954 6959 13 18}
+OP {2642 2644 2652 } variable_decl {266 266 6950 6959 9 18}
+ATN j
+OP {2654 } identifier {266 266 6961 6962 20 21}
+ATS 4
+OP {2656 } integer {266 266 6965 6966 24 25}
+OP {2655 2657 } lt {266 266 6961 6966 20 25}
+ATN j
+OP {2659 } identifier {266 266 6968 6969 27 28}
+OP {2660 } post_incr {266 266 6968 6971 27 30}
+OP {2661 } expr_list {266 266 6968 6971 27 30}
+OP {} modifier_list {}
+ATV
+OP {2664 } int {267 267 6983 6986 10 13}
+ATN i
+OP {2666 } identifier {267 267 6987 6988 14 15}
+ATV
+OP {2668 } none {267 267 6988 6988 15 15}
+ATS 0
+OP {2670 } integer {267 267 6991 6992 18 19}
+OP {2667 2669 2671 } var_dcltr_affinit {267 267 6987 6992 14 19}
+OP {2672 } var_dcltr_list {267 267 6987 6992 14 19}
+OP {2663 2665 2673 } variable_decl {267 267 6983 6992 10 19}
+ATN i
+OP {2675 } identifier {267 267 6994 6995 21 22}
+ATS 4
+OP {2677 } integer {267 267 6998 6999 25 26}
+OP {2676 2678 } lt {267 267 6994 6999 21 26}
+ATN i
+OP {2680 } identifier {267 267 7001 7002 28 29}
+OP {2681 } post_incr {267 267 7001 7004 28 31}
+OP {2682 } expr_list {267 267 7001 7004 28 31}
+ATN Numbers
+OP {2684 } identifier {268 268 7016 7023 10 17}
+ATN i
+OP {2686 } identifier {268 268 7024 7025 18 19}
+OP {2685 2687 } index {268 268 7016 7026 10 20}
+ATN j
+OP {2689 } identifier {268 268 7027 7028 21 22}
+OP {2688 2690 } index {268 268 7016 7029 10 23}
+ATS 0
+OP {2692 } integer {268 268 7033 7034 27 28}
+OP {2691 2693 } neq {268 268 7016 7034 10 28}
+OP {} modifier_list {}
+ATV
+OP {2696 } int {269 269 7045 7048 7 10}
+ATN temp
+OP {2698 } identifier {269 269 7049 7053 11 15}
+ATV
+OP {2700 } none {269 269 7053 7053 15 15}
+ATN Numbers
+OP {2702 } identifier {269 269 7056 7063 18 25}
+ATN i
+OP {2704 } identifier {269 269 7064 7065 26 27}
+OP {2703 2705 } index {269 269 7056 7066 18 28}
+ATN j
+OP {2707 } identifier {269 269 7067 7068 29 30}
+OP {2706 2708 } index {269 269 7056 7069 18 31}
+OP {2699 2701 2709 } var_dcltr_affinit {269 269 7049 7069 11 31}
+OP {2710 } var_dcltr_list {269 269 7049 7069 11 31}
+OP {2695 2697 2711 } variable_decl {269 269 7045 7070 7 32}
+OP {} modifier_list {}
+ATV
+OP {2714 } int {270 270 7078 7081 7 10}
+ATN pre
+OP {2716 } identifier {270 270 7082 7085 11 14}
+ATV
+OP {2718 } none {270 270 7085 7085 14 14}
+ATN i
+OP {2720 } identifier {270 270 7088 7089 17 18}
+ATS 1
+OP {2722 } integer {270 270 7092 7093 21 22}
+OP {2721 2723 } minus {270 270 7088 7093 17 22}
+OP {2717 2719 2724 } var_dcltr_affinit {270 270 7082 7093 11 22}
+OP {2725 } var_dcltr_list {270 270 7082 7093 11 22}
+OP {2713 2715 2726 } variable_decl {270 270 7078 7094 7 23}
+ATN pre
+OP {2728 } identifier {271 271 7109 7112 14 17}
+ATS 0
+OP {2730 } integer {271 271 7116 7117 21 22}
+OP {2729 2731 } ge {271 271 7109 7117 14 22}
+ATN Numbers
+OP {2733 } identifier {271 271 7121 7128 26 33}
+ATN pre
+OP {2735 } identifier {271 271 7129 7132 34 37}
+OP {2734 2736 } index {271 271 7121 7133 26 38}
+ATN j
+OP {2738 } identifier {271 271 7134 7135 39 40}
+OP {2737 2739 } index {271 271 7121 7136 26 41}
+ATS 0
+OP {2741 } integer {271 271 7140 7141 45 46}
+OP {2740 2742 } eq {271 271 7121 7141 26 46}
+OP {2732 2743 } and {271 271 7109 7141 14 46}
+ATN Numbers
+OP {2745 } identifier {272 272 7153 7160 8 15}
+ATN pre
+OP {2747 } identifier {272 272 7161 7164 16 19}
+OP {2746 2748 } index {272 272 7153 7165 8 20}
+ATN j
+OP {2750 } identifier {272 272 7166 7167 21 22}
+OP {2749 2751 } index {272 272 7153 7168 8 23}
+ATN temp
+OP {2753 } identifier {272 272 7171 7175 26 30}
+OP {2752 2754 } ass {272 272 7153 7175 8 30}
+OP {2755 } expr_stmt {272 272 7153 7176 8 31}
+ATN Numbers
+OP {2757 } identifier {273 273 7185 7192 8 15}
+ATN pre
+OP {2759 } identifier {273 273 7193 7196 16 19}
+ATS 1
+OP {2761 } integer {273 273 7199 7200 22 23}
+OP {2760 2762 } plus {273 273 7193 7200 16 23}
+OP {2758 2763 } index {273 273 7185 7201 8 24}
+ATN j
+OP {2765 } identifier {273 273 7202 7203 25 26}
+OP {2764 2766 } index {273 273 7185 7204 8 27}
+ATS 0
+OP {2768 } integer {273 273 7207 7208 30 31}
+OP {2767 2769 } ass {273 273 7185 7208 8 31}
+OP {2770 } expr_stmt {273 273 7185 7209 8 32}
+ATN pre
+OP {2772 } identifier {274 274 7218 7221 8 11}
+OP {2773 } post_decr {274 274 7218 7223 8 13}
+OP {2774 } expr_stmt {274 274 7218 7224 8 14}
+ATN Counter
+OP {2776 } identifier {275 275 7233 7240 8 15}
+OP {2777 } post_incr {275 275 7233 7242 8 17}
+OP {2778 } expr_stmt {275 275 7233 7243 8 18}
+OP {2756 2771 2775 2779 } stmts {272 275 7153 7243 8 18}
+OP {2780 } compound {271 276 7143 7252 48 8}
+OP {2781 } stmts {271 276 7143 7252 48 8}
+OP {2744 2782 } while {271 276 7102 7252 7 8}
+OP {2712 2727 2783 } stmts {269 276 7045 7252 7 8}
+OP {2784 } compound {268 277 7036 7260 30 7}
+OP {2785 } stmts {268 277 7036 7260 30 7}
+ATV
+OP {2787 } none {}
+OP {2694 2786 2788 } if {268 277 7012 7260 6 7}
+OP {2789 } stmts {268 277 7012 7260 6 7}
+OP {2674 2679 2683 2790 } for {267 277 6978 7260 5 7}
+OP {2791 } stmts {267 277 6978 7260 5 7}
+OP {2653 2658 2662 2792 } for {266 277 6945 7260 4 7}
+ATV
+OP {2794 } none {}
+OP {2795 } break {278 278 7265 7271 4 10}
+ATS 40
+OP {2797 } integer {280 280 7281 7283 8 10}
+OP {2798 } case {280 280 7276 7284 3 11}
+OP {} modifier_list {}
+ATV
+OP {2801 } int {282 282 7311 7314 9 12}
+ATN j
+OP {2803 } identifier {282 282 7315 7316 13 14}
+ATV
+OP {2805 } none {282 282 7316 7316 14 14}
+ATS 3
+OP {2807 } integer {282 282 7319 7320 17 18}
+OP {2804 2806 2808 } var_dcltr_affinit {282 282 7315 7320 13 18}
+OP {2809 } var_dcltr_list {282 282 7315 7320 13 18}
+OP {2800 2802 2810 } variable_decl {282 282 7311 7320 9 18}
+ATN j
+OP {2812 } identifier {282 282 7322 7323 20 21}
+ATS 0
+OP {2814 } integer {282 282 7327 7328 25 26}
+OP {2813 2815 } ge {282 282 7322 7328 20 26}
+ATN j
+OP {2817 } identifier {282 282 7330 7331 28 29}
+OP {2818 } post_decr {282 282 7330 7333 28 31}
+OP {2819 } expr_list {282 282 7330 7333 28 31}
+OP {} modifier_list {}
+ATV
+OP {2822 } int {283 283 7345 7348 10 13}
+ATN i
+OP {2824 } identifier {283 283 7349 7350 14 15}
+ATV
+OP {2826 } none {283 283 7350 7350 15 15}
+ATS 3
+OP {2828 } integer {283 283 7353 7354 18 19}
+OP {2825 2827 2829 } var_dcltr_affinit {283 283 7349 7354 14 19}
+OP {2830 } var_dcltr_list {283 283 7349 7354 14 19}
+OP {2821 2823 2831 } variable_decl {283 283 7345 7354 10 19}
+ATN i
+OP {2833 } identifier {283 283 7356 7357 21 22}
+ATS 0
+OP {2835 } integer {283 283 7361 7362 26 27}
+OP {2834 2836 } ge {283 283 7356 7362 21 27}
+ATN i
+OP {2838 } identifier {283 283 7364 7365 29 30}
+OP {2839 } post_decr {283 283 7364 7367 29 32}
+OP {2840 } expr_list {283 283 7364 7367 29 32}
+ATN Numbers
+OP {2842 } identifier {284 284 7379 7386 10 17}
+ATN i
+OP {2844 } identifier {284 284 7387 7388 18 19}
+OP {2843 2845 } index {284 284 7379 7389 10 20}
+ATN j
+OP {2847 } identifier {284 284 7390 7391 21 22}
+OP {2846 2848 } index {284 284 7379 7392 10 23}
+ATS 0
+OP {2850 } integer {284 284 7396 7397 27 28}
+OP {2849 2851 } neq {284 284 7379 7397 10 28}
+OP {} modifier_list {}
+ATV
+OP {2854 } int {285 285 7408 7411 7 10}
+ATN temp
+OP {2856 } identifier {285 285 7412 7416 11 15}
+ATV
+OP {2858 } none {285 285 7416 7416 15 15}
+ATN Numbers
+OP {2860 } identifier {285 285 7419 7426 18 25}
+ATN i
+OP {2862 } identifier {285 285 7427 7428 26 27}
+OP {2861 2863 } index {285 285 7419 7429 18 28}
+ATN j
+OP {2865 } identifier {285 285 7430 7431 29 30}
+OP {2864 2866 } index {285 285 7419 7432 18 31}
+OP {2857 2859 2867 } var_dcltr_affinit {285 285 7412 7432 11 31}
+OP {2868 } var_dcltr_list {285 285 7412 7432 11 31}
+OP {2853 2855 2869 } variable_decl {285 285 7408 7433 7 32}
+OP {} modifier_list {}
+ATV
+OP {2872 } int {286 286 7441 7444 7 10}
+ATN pre
+OP {2874 } identifier {286 286 7445 7448 11 14}
+ATV
+OP {2876 } none {286 286 7448 7448 14 14}
+ATN i
+OP {2878 } identifier {286 286 7451 7452 17 18}
+ATS 1
+OP {2880 } integer {286 286 7455 7456 21 22}
+OP {2879 2881 } plus {286 286 7451 7456 17 22}
+OP {2875 2877 2882 } var_dcltr_affinit {286 286 7445 7456 11 22}
+OP {2883 } var_dcltr_list {286 286 7445 7456 11 22}
+OP {2871 2873 2884 } variable_decl {286 286 7441 7457 7 23}
+ATN pre
+OP {2886 } identifier {287 287 7472 7475 14 17}
+ATS 3
+OP {2888 } integer {287 287 7479 7480 21 22}
+OP {2887 2889 } le {287 287 7472 7480 14 22}
+ATN Numbers
+OP {2891 } identifier {287 287 7484 7491 26 33}
+ATN pre
+OP {2893 } identifier {287 287 7492 7495 34 37}
+OP {2892 2894 } index {287 287 7484 7496 26 38}
+ATN j
+OP {2896 } identifier {287 287 7497 7498 39 40}
+OP {2895 2897 } index {287 287 7484 7499 26 41}
+ATS 0
+OP {2899 } integer {287 287 7503 7504 45 46}
+OP {2898 2900 } eq {287 287 7484 7504 26 46}
+OP {2890 2901 } and {287 287 7472 7504 14 46}
+ATN Numbers
+OP {2903 } identifier {288 288 7516 7523 8 15}
+ATN pre
+OP {2905 } identifier {288 288 7524 7527 16 19}
+OP {2904 2906 } index {288 288 7516 7528 8 20}
+ATN j
+OP {2908 } identifier {288 288 7529 7530 21 22}
+OP {2907 2909 } index {288 288 7516 7531 8 23}
+ATN temp
+OP {2911 } identifier {288 288 7534 7538 26 30}
+OP {2910 2912 } ass {288 288 7516 7538 8 30}
+OP {2913 } expr_stmt {288 288 7516 7539 8 31}
+ATN Numbers
+OP {2915 } identifier {289 289 7548 7555 8 15}
+ATN pre
+OP {2917 } identifier {289 289 7556 7559 16 19}
+ATS 1
+OP {2919 } integer {289 289 7562 7563 22 23}
+OP {2918 2920 } minus {289 289 7556 7563 16 23}
+OP {2916 2921 } index {289 289 7548 7564 8 24}
+ATN j
+OP {2923 } identifier {289 289 7565 7566 25 26}
+OP {2922 2924 } index {289 289 7548 7567 8 27}
+ATS 0
+OP {2926 } integer {289 289 7570 7571 30 31}
+OP {2925 2927 } ass {289 289 7548 7571 8 31}
+OP {2928 } expr_stmt {289 289 7548 7572 8 32}
+ATN pre
+OP {2930 } identifier {290 290 7581 7584 8 11}
+OP {2931 } post_incr {290 290 7581 7586 8 13}
+OP {2932 } expr_stmt {290 290 7581 7587 8 14}
+ATN Counter
+OP {2934 } identifier {291 291 7596 7603 8 15}
+OP {2935 } post_incr {291 291 7596 7605 8 17}
+OP {2936 } expr_stmt {291 291 7596 7606 8 18}
+OP {2914 2929 2933 2937 } stmts {288 291 7516 7606 8 18}
+OP {2938 } compound {287 292 7506 7615 48 8}
+OP {2939 } stmts {287 292 7506 7615 48 8}
+OP {2902 2940 } while {287 292 7465 7615 7 8}
+OP {2870 2885 2941 } stmts {285 292 7408 7615 7 8}
+OP {2942 } compound {284 293 7399 7623 30 7}
+OP {2943 } stmts {284 293 7399 7623 30 7}
+ATV
+OP {2945 } none {}
+OP {2852 2944 2946 } if {284 293 7375 7623 6 7}
+OP {2947 } stmts {284 293 7375 7623 6 7}
+OP {2832 2837 2841 2948 } for {283 293 7340 7623 5 7}
+OP {2949 } stmts {283 293 7340 7623 5 7}
+OP {2811 2816 2820 2950 } for {282 293 7306 7623 4 7} {prefix comment_s {comment {// move down
+} 0 }} 
+OP {} modifier_list {}
+ATV
+OP {2953 } int {294 294 7633 7636 9 12}
+ATN j
+OP {2955 } identifier {294 294 7637 7638 13 14}
+ATV
+OP {2957 } none {294 294 7638 7638 14 14}
+ATS 3
+OP {2959 } integer {294 294 7641 7642 17 18}
+OP {2956 2958 2960 } var_dcltr_affinit {294 294 7637 7642 13 18}
+OP {2961 } var_dcltr_list {294 294 7637 7642 13 18}
+OP {2952 2954 2962 } variable_decl {294 294 7633 7642 9 18}
+ATN j
+OP {2964 } identifier {294 294 7644 7645 20 21}
+ATS 0
+OP {2966 } integer {294 294 7649 7650 25 26}
+OP {2965 2967 } ge {294 294 7644 7650 20 26}
+ATN j
+OP {2969 } identifier {294 294 7652 7653 28 29}
+OP {2970 } post_decr {294 294 7652 7655 28 31}
+OP {2971 } expr_list {294 294 7652 7655 28 31}
+OP {} modifier_list {}
+ATV
+OP {2974 } int {295 295 7667 7670 10 13}
+ATN i
+OP {2976 } identifier {295 295 7671 7672 14 15}
+ATV
+OP {2978 } none {295 295 7672 7672 15 15}
+ATS 3
+OP {2980 } integer {295 295 7675 7676 18 19}
+OP {2977 2979 2981 } var_dcltr_affinit {295 295 7671 7676 14 19}
+OP {2982 } var_dcltr_list {295 295 7671 7676 14 19}
+OP {2973 2975 2983 } variable_decl {295 295 7667 7676 10 19}
+ATN i
+OP {2985 } identifier {295 295 7678 7679 21 22}
+ATS 0
+OP {2987 } integer {295 295 7683 7684 26 27}
+OP {2986 2988 } ge {295 295 7678 7684 21 27}
+ATN i
+OP {2990 } identifier {295 295 7686 7687 29 30}
+OP {2991 } post_decr {295 295 7686 7689 29 32}
+OP {2992 } expr_list {295 295 7686 7689 29 32}
+ATN i
+OP {2994 } identifier {296 296 7701 7702 10 11}
+ATS 1
+OP {2996 } integer {296 296 7705 7706 14 15}
+OP {2995 2997 } plus {296 296 7701 7706 10 15}
+ATS 4
+OP {2999 } integer {296 296 7709 7710 18 19}
+OP {2998 3000 } lt {296 296 7701 7710 10 19}
+ATN Numbers
+OP {3002 } identifier {297 297 7723 7730 12 19}
+ATN i
+OP {3004 } identifier {297 297 7731 7732 20 21}
+OP {3003 3005 } index {297 297 7723 7733 12 22}
+ATN j
+OP {3007 } identifier {297 297 7734 7735 23 24}
+OP {3006 3008 } index {297 297 7723 7736 12 25}
+ATN Numbers
+OP {3010 } identifier {297 297 7740 7747 29 36}
+ATN i
+OP {3012 } identifier {297 297 7748 7749 37 38}
+ATS 1
+OP {3014 } integer {297 297 7752 7753 41 42}
+OP {3013 3015 } plus {297 297 7748 7753 37 42}
+OP {3011 3016 } index {297 297 7740 7754 29 43}
+ATN j
+OP {3018 } identifier {297 297 7755 7756 44 45}
+OP {3017 3019 } index {297 297 7740 7757 29 46}
+OP {3009 3020 } eq {297 297 7723 7757 12 46}
+OP {3021 } parenth_expr {297 297 7722 7758 11 47}
+OP {3001 3022 } and {296 297 7701 7758 10 47}
+ATN Numbers
+OP {3024 } identifier {298 298 7771 7778 12 19}
+ATN i
+OP {3026 } identifier {298 298 7779 7780 20 21}
+OP {3025 3027 } index {298 298 7771 7781 12 22}
+ATN j
+OP {3029 } identifier {298 298 7782 7783 23 24}
+OP {3028 3030 } index {298 298 7771 7784 12 25}
+ATS 0
+OP {3032 } integer {298 298 7788 7789 29 30}
+OP {3031 3033 } neq {298 298 7771 7789 12 30}
+ATN Numbers
+OP {3035 } identifier {298 298 7793 7800 34 41}
+ATN i
+OP {3037 } identifier {298 298 7801 7802 42 43}
+ATS 1
+OP {3039 } integer {298 298 7805 7806 46 47}
+OP {3038 3040 } plus {298 298 7801 7806 42 47}
+OP {3036 3041 } index {298 298 7793 7807 34 48}
+ATN j
+OP {3043 } identifier {298 298 7808 7809 49 50}
+OP {3042 3044 } index {298 298 7793 7810 34 51}
+ATS 0
+OP {3046 } integer {298 298 7814 7815 55 56}
+OP {3045 3047 } neq {298 298 7793 7815 34 56}
+OP {3034 3048 } or {298 298 7771 7815 12 56}
+OP {3049 } parenth_expr {298 298 7770 7816 11 57}
+OP {3023 3050 } and {296 298 7701 7816 10 57}
+ATN Numbers
+OP {3052 } identifier {299 299 7827 7834 7 14}
+ATN i
+OP {3054 } identifier {299 299 7835 7836 15 16}
+ATS 1
+OP {3056 } integer {299 299 7839 7840 19 20}
+OP {3055 3057 } plus {299 299 7835 7840 15 20}
+OP {3053 3058 } index {299 299 7827 7841 7 21}
+ATN j
+OP {3060 } identifier {299 299 7842 7843 22 23}
+OP {3059 3061 } index {299 299 7827 7844 7 24}
+ATN Numbers
+OP {3063 } identifier {299 299 7847 7854 27 34}
+ATN i
+OP {3065 } identifier {299 299 7855 7856 35 36}
+OP {3064 3066 } index {299 299 7847 7857 27 37}
+ATN j
+OP {3068 } identifier {299 299 7858 7859 38 39}
+OP {3067 3069 } index {299 299 7847 7860 27 40}
+ATN Numbers
+OP {3071 } identifier {300 300 7872 7879 11 18}
+ATN i
+OP {3073 } identifier {300 300 7880 7881 19 20}
+ATS 1
+OP {3075 } integer {300 300 7884 7885 23 24}
+OP {3074 3076 } plus {300 300 7880 7885 19 24}
+OP {3072 3077 } index {300 300 7872 7886 11 25}
+ATN j
+OP {3079 } identifier {300 300 7887 7888 26 27}
+OP {3078 3080 } index {300 300 7872 7889 11 28}
+OP {3070 3081 } plus {299 300 7847 7889 27 28}
+OP {3062 3082 } ass {299 300 7827 7889 7 28}
+OP {3083 } expr_stmt {299 300 7827 7890 7 29}
+ATN Numbers
+OP {3085 } identifier {301 301 7898 7905 7 14}
+ATN i
+OP {3087 } identifier {301 301 7906 7907 15 16}
+OP {3086 3088 } index {301 301 7898 7908 7 17}
+ATN j
+OP {3090 } identifier {301 301 7909 7910 18 19}
+OP {3089 3091 } index {301 301 7898 7911 7 20}
+ATS 0
+OP {3093 } integer {301 301 7914 7915 23 24}
+OP {3092 3094 } ass {301 301 7898 7915 7 24}
+OP {3095 } expr_stmt {301 301 7898 7916 7 25}
+ATN Counter
+OP {3097 } identifier {302 302 7924 7931 7 14}
+OP {3098 } post_incr {302 302 7924 7933 7 16}
+OP {3099 } expr_stmt {302 302 7924 7934 7 17}
+ATN score
+OP {3101 } identifier {303 303 7942 7947 7 12}
+ATN Numbers
+OP {3103 } identifier {303 303 7951 7958 16 23}
+ATN i
+OP {3105 } identifier {303 303 7959 7960 24 25}
+ATS 1
+OP {3107 } integer {303 303 7963 7964 28 29}
+OP {3106 3108 } plus {303 303 7959 7964 24 29}
+OP {3104 3109 } index {303 303 7951 7965 16 30}
+ATN j
+OP {3111 } identifier {303 303 7966 7967 31 32}
+OP {3110 3112 } index {303 303 7951 7968 16 33}
+OP {3102 3113 } plus_ass {303 303 7942 7968 7 33}
+OP {3114 } expr_stmt {303 303 7942 7969 7 34}
+ATN Numbers
+OP {3116 } identifier {304 304 7981 7988 11 18}
+ATN i
+OP {3118 } identifier {304 304 7989 7990 19 20}
+ATS 1
+OP {3120 } integer {304 304 7993 7994 23 24}
+OP {3119 3121 } plus {304 304 7989 7994 19 24}
+OP {3117 3122 } index {304 304 7981 7995 11 25}
+ATN j
+OP {3124 } identifier {304 304 7996 7997 26 27}
+OP {3123 3125 } index {304 304 7981 7998 11 28}
+ATS 2048
+OP {3127 } integer {304 304 8002 8006 32 36}
+OP {3126 3128 } eq {304 304 7981 8006 11 36}
+ATN isWin
+OP {3130 } identifier {305 305 8018 8023 8 13}
+ATV
+OP {3132 } true {305 305 8026 8030 16 20}
+OP {3131 3133 } ass {305 305 8018 8030 8 20}
+OP {3134 } expr_stmt {305 305 8018 8031 8 21}
+OP {3135 } stmts {305 305 8018 8031 8 21}
+OP {3136 } compound {304 306 8008 8040 38 8}
+OP {3137 } stmts {304 306 8008 8040 38 8}
+ATV
+OP {3139 } none {}
+OP {3129 3138 3140 } if {304 306 7977 8040 7 8}
+OP {3084 3096 3100 3115 3141 } stmts {299 306 7827 8040 7 8}
+OP {3142 } compound {298 307 7818 8048 59 7}
+OP {3143 } stmts {298 307 7818 8048 59 7}
+ATV
+OP {3145 } none {}
+OP {3051 3144 3146 } if {296 307 7697 8048 6 7}
+OP {3147 } stmts {296 307 7697 8048 6 7}
+OP {2984 2989 2993 3148 } for {295 307 7662 8048 5 7}
+OP {3149 } stmts {295 307 7662 8048 5 7}
+OP {2963 2968 2972 3150 } for {294 307 7628 8048 4 7}
+OP {} modifier_list {}
+ATV
+OP {3153 } int {309 309 8059 8062 9 12}
+ATN j
+OP {3155 } identifier {309 309 8063 8064 13 14}
+ATV
+OP {3157 } none {309 309 8064 8064 14 14}
+ATS 3
+OP {3159 } integer {309 309 8067 8068 17 18}
+OP {3156 3158 3160 } var_dcltr_affinit {309 309 8063 8068 13 18}
+OP {3161 } var_dcltr_list {309 309 8063 8068 13 18}
+OP {3152 3154 3162 } variable_decl {309 309 8059 8068 9 18}
+ATN j
+OP {3164 } identifier {309 309 8070 8071 20 21}
+ATS 0
+OP {3166 } integer {309 309 8075 8076 25 26}
+OP {3165 3167 } ge {309 309 8070 8076 20 26}
+ATN j
+OP {3169 } identifier {309 309 8078 8079 28 29}
+OP {3170 } post_decr {309 309 8078 8081 28 31}
+OP {3171 } expr_list {309 309 8078 8081 28 31}
+OP {} modifier_list {}
+ATV
+OP {3174 } int {310 310 8093 8096 10 13}
+ATN i
+OP {3176 } identifier {310 310 8097 8098 14 15}
+ATV
+OP {3178 } none {310 310 8098 8098 15 15}
+ATS 3
+OP {3180 } integer {310 310 8101 8102 18 19}
+OP {3177 3179 3181 } var_dcltr_affinit {310 310 8097 8102 14 19}
+OP {3182 } var_dcltr_list {310 310 8097 8102 14 19}
+OP {3173 3175 3183 } variable_decl {310 310 8093 8102 10 19}
+ATN i
+OP {3185 } identifier {310 310 8104 8105 21 22}
+ATS 0
+OP {3187 } integer {310 310 8109 8110 26 27}
+OP {3186 3188 } ge {310 310 8104 8110 21 27}
+ATN i
+OP {3190 } identifier {310 310 8112 8113 29 30}
+OP {3191 } post_decr {310 310 8112 8115 29 32}
+OP {3192 } expr_list {310 310 8112 8115 29 32}
+ATN Numbers
+OP {3194 } identifier {311 311 8127 8134 10 17}
+ATN i
+OP {3196 } identifier {311 311 8135 8136 18 19}
+OP {3195 3197 } index {311 311 8127 8137 10 20}
+ATN j
+OP {3199 } identifier {311 311 8138 8139 21 22}
+OP {3198 3200 } index {311 311 8127 8140 10 23}
+ATS 0
+OP {3202 } integer {311 311 8144 8145 27 28}
+OP {3201 3203 } neq {311 311 8127 8145 10 28}
+OP {} modifier_list {}
+ATV
+OP {3206 } int {312 312 8156 8159 7 10}
+ATN temp
+OP {3208 } identifier {312 312 8160 8164 11 15}
+ATV
+OP {3210 } none {312 312 8164 8164 15 15}
+ATN Numbers
+OP {3212 } identifier {312 312 8167 8174 18 25}
+ATN i
+OP {3214 } identifier {312 312 8175 8176 26 27}
+OP {3213 3215 } index {312 312 8167 8177 18 28}
+ATN j
+OP {3217 } identifier {312 312 8178 8179 29 30}
+OP {3216 3218 } index {312 312 8167 8180 18 31}
+OP {3209 3211 3219 } var_dcltr_affinit {312 312 8160 8180 11 31}
+OP {3220 } var_dcltr_list {312 312 8160 8180 11 31}
+OP {3205 3207 3221 } variable_decl {312 312 8156 8181 7 32}
+OP {} modifier_list {}
+ATV
+OP {3224 } int {313 313 8189 8192 7 10}
+ATN pre
+OP {3226 } identifier {313 313 8193 8196 11 14}
+ATV
+OP {3228 } none {313 313 8196 8196 14 14}
+ATN i
+OP {3230 } identifier {313 313 8199 8200 17 18}
+ATS 1
+OP {3232 } integer {313 313 8203 8204 21 22}
+OP {3231 3233 } plus {313 313 8199 8204 17 22}
+OP {3227 3229 3234 } var_dcltr_affinit {313 313 8193 8204 11 22}
+OP {3235 } var_dcltr_list {313 313 8193 8204 11 22}
+OP {3223 3225 3236 } variable_decl {313 313 8189 8205 7 23}
+ATN pre
+OP {3238 } identifier {314 314 8220 8223 14 17}
+ATS 3
+OP {3240 } integer {314 314 8227 8228 21 22}
+OP {3239 3241 } le {314 314 8220 8228 14 22}
+ATN Numbers
+OP {3243 } identifier {314 314 8232 8239 26 33}
+ATN pre
+OP {3245 } identifier {314 314 8240 8243 34 37}
+OP {3244 3246 } index {314 314 8232 8244 26 38}
+ATN j
+OP {3248 } identifier {314 314 8245 8246 39 40}
+OP {3247 3249 } index {314 314 8232 8247 26 41}
+ATS 0
+OP {3251 } integer {314 314 8251 8252 45 46}
+OP {3250 3252 } eq {314 314 8232 8252 26 46}
+OP {3242 3253 } and {314 314 8220 8252 14 46}
+ATN Numbers
+OP {3255 } identifier {315 315 8264 8271 8 15}
+ATN pre
+OP {3257 } identifier {315 315 8272 8275 16 19}
+OP {3256 3258 } index {315 315 8264 8276 8 20}
+ATN j
+OP {3260 } identifier {315 315 8277 8278 21 22}
+OP {3259 3261 } index {315 315 8264 8279 8 23}
+ATN temp
+OP {3263 } identifier {315 315 8282 8286 26 30}
+OP {3262 3264 } ass {315 315 8264 8286 8 30}
+OP {3265 } expr_stmt {315 315 8264 8287 8 31}
+ATN Numbers
+OP {3267 } identifier {316 316 8296 8303 8 15}
+ATN pre
+OP {3269 } identifier {316 316 8304 8307 16 19}
+ATS 1
+OP {3271 } integer {316 316 8310 8311 22 23}
+OP {3270 3272 } minus {316 316 8304 8311 16 23}
+OP {3268 3273 } index {316 316 8296 8312 8 24}
+ATN j
+OP {3275 } identifier {316 316 8313 8314 25 26}
+OP {3274 3276 } index {316 316 8296 8315 8 27}
+ATS 0
+OP {3278 } integer {316 316 8318 8319 30 31}
+OP {3277 3279 } ass {316 316 8296 8319 8 31}
+OP {3280 } expr_stmt {316 316 8296 8320 8 32}
+ATN pre
+OP {3282 } identifier {317 317 8329 8332 8 11}
+OP {3283 } post_incr {317 317 8329 8334 8 13}
+OP {3284 } expr_stmt {317 317 8329 8335 8 14}
+ATN Counter
+OP {3286 } identifier {318 318 8344 8351 8 15}
+OP {3287 } post_incr {318 318 8344 8353 8 17}
+OP {3288 } expr_stmt {318 318 8344 8354 8 18}
+OP {3266 3281 3285 3289 } stmts {315 318 8264 8354 8 18}
+OP {3290 } compound {314 319 8254 8363 48 8}
+OP {3291 } stmts {314 319 8254 8363 48 8}
+OP {3254 3292 } while {314 319 8213 8363 7 8}
+OP {3222 3237 3293 } stmts {312 319 8156 8363 7 8}
+OP {3294 } compound {311 320 8147 8371 30 7}
+OP {3295 } stmts {311 320 8147 8371 30 7}
+ATV
+OP {3297 } none {}
+OP {3204 3296 3298 } if {311 320 8123 8371 6 7}
+OP {3299 } stmts {311 320 8123 8371 6 7}
+OP {3184 3189 3193 3300 } for {310 320 8088 8371 5 7}
+OP {3301 } stmts {310 320 8088 8371 5 7}
+OP {3163 3168 3172 3302 } for {309 320 8054 8371 4 7}
+ATV
+OP {3304 } none {}
+OP {3305 } break {321 321 8376 8382 4 10}
+OP {1278 1434 1627 1779 1782 1785 1937 2137 2289 2292 2295 2447 2641 2793 2796 2799 2951 3151 3303 3306 } stmts {155 321 4037 8382 3 10} {prefix comment_s {comment {//move left
+} 0 }} 
+OP {3307 } compound {152 322 4013 8387 29 4}
+OP {3308 } stmts {152 322 4013 8387 29 4}
+OP {1275 3309 } switch {152 322 3987 8387 3 4}
+OP {} modifier_list {}
+ATV
+OP {3312 } int {325 325 8401 8404 8 11}
+ATN i
+OP {3314 } identifier {325 325 8405 8406 12 13}
+ATV
+OP {3316 } none {325 325 8406 8406 13 13}
+ATS 0
+OP {3318 } integer {325 325 8409 8410 16 17}
+OP {3315 3317 3319 } var_dcltr_affinit {325 325 8405 8410 12 17}
+OP {3320 } var_dcltr_list {325 325 8405 8410 12 17}
+OP {3311 3313 3321 } variable_decl {325 325 8401 8410 8 17}
+ATN i
+OP {3323 } identifier {325 325 8412 8413 19 20}
+ATS 3
+OP {3325 } integer {325 325 8416 8417 23 24}
+OP {3324 3326 } lt {325 325 8412 8417 19 24}
+ATN i
+OP {3328 } identifier {325 325 8419 8420 26 27}
+OP {3329 } post_incr {325 325 8419 8422 26 29}
+OP {3330 } expr_list {325 325 8419 8422 26 29}
+OP {} modifier_list {}
+ATV
+OP {3333 } int {326 326 8435 8438 9 12}
+ATN j
+OP {3335 } identifier {326 326 8439 8440 13 14}
+ATV
+OP {3337 } none {326 326 8440 8440 14 14}
+ATS 0
+OP {3339 } integer {326 326 8443 8444 17 18}
+OP {3336 3338 3340 } var_dcltr_affinit {326 326 8439 8444 13 18}
+OP {3341 } var_dcltr_list {326 326 8439 8444 13 18}
+OP {3332 3334 3342 } variable_decl {326 326 8435 8444 9 18}
+ATN j
+OP {3344 } identifier {326 326 8446 8447 20 21}
+ATS 3
+OP {3346 } integer {326 326 8450 8451 24 25}
+OP {3345 3347 } lt {326 326 8446 8451 20 25}
+ATN j
+OP {3349 } identifier {326 326 8453 8454 27 28}
+OP {3350 } post_incr {326 326 8453 8456 27 30}
+OP {3351 } expr_list {326 326 8453 8456 27 30}
+ATN Numbers
+OP {3353 } identifier {327 327 8469 8476 9 16}
+ATN i
+OP {3355 } identifier {327 327 8477 8478 17 18}
+OP {3354 3356 } index {327 327 8469 8479 9 19}
+ATN j
+OP {3358 } identifier {327 327 8480 8481 20 21}
+OP {3357 3359 } index {327 327 8469 8482 9 22}
+ATN Numbers
+OP {3361 } identifier {327 327 8486 8493 26 33}
+ATN i
+OP {3363 } identifier {327 327 8494 8495 34 35}
+OP {3362 3364 } index {327 327 8486 8496 26 36}
+ATN j
+OP {3366 } identifier {327 327 8497 8498 37 38}
+ATS 1
+OP {3368 } integer {327 327 8501 8502 41 42}
+OP {3367 3369 } plus {327 327 8497 8502 37 42}
+OP {3365 3370 } index {327 327 8486 8503 26 43}
+OP {3360 3371 } eq {327 327 8469 8503 9 43}
+ATN Numbers
+OP {3373 } identifier {328 328 8514 8521 10 17}
+ATN i
+OP {3375 } identifier {328 328 8522 8523 18 19}
+OP {3374 3376 } index {328 328 8514 8524 10 20}
+ATN j
+OP {3378 } identifier {328 328 8525 8526 21 22}
+OP {3377 3379 } index {328 328 8514 8527 10 23}
+ATS 0
+OP {3381 } integer {328 328 8531 8532 27 28}
+OP {3380 3382 } neq {328 328 8514 8532 10 28}
+OP {3372 3383 } and {327 328 8469 8532 9 28}
+ATN NumNearCounter
+OP {3385 } identifier {329 329 8542 8556 6 20}
+OP {3386 } post_incr {329 329 8542 8559 6 23}
+OP {3387 } expr_stmt {329 329 8542 8560 6 24}
+OP {3388 } stmts {329 329 8542 8560 6 24}
+OP {3389 } compound {328 330 8534 8567 30 6}
+OP {3390 } stmts {328 330 8534 8567 30 6}
+ATV
+OP {3392 } none {}
+OP {3384 3391 3393 } if {327 330 8465 8567 5 6}
+ATN Numbers
+OP {3395 } identifier {331 331 8577 8584 9 16}
+ATN i
+OP {3397 } identifier {331 331 8585 8586 17 18}
+OP {3396 3398 } index {331 331 8577 8587 9 19}
+ATN j
+OP {3400 } identifier {331 331 8588 8589 20 21}
+OP {3399 3401 } index {331 331 8577 8590 9 22}
+ATN Numbers
+OP {3403 } identifier {331 331 8594 8601 26 33}
+ATN i
+OP {3405 } identifier {331 331 8602 8603 34 35}
+ATS 1
+OP {3407 } integer {331 331 8606 8607 38 39}
+OP {3406 3408 } plus {331 331 8602 8607 34 39}
+OP {3404 3409 } index {331 331 8594 8608 26 40}
+ATN j
+OP {3411 } identifier {331 331 8609 8610 41 42}
+OP {3410 3412 } index {331 331 8594 8611 26 43}
+OP {3402 3413 } eq {331 331 8577 8611 9 43}
+ATN Numbers
+OP {3415 } identifier {332 332 8622 8629 10 17}
+ATN i
+OP {3417 } identifier {332 332 8630 8631 18 19}
+OP {3416 3418 } index {332 332 8622 8632 10 20}
+ATN j
+OP {3420 } identifier {332 332 8633 8634 21 22}
+OP {3419 3421 } index {332 332 8622 8635 10 23}
+ATS 0
+OP {3423 } integer {332 332 8639 8640 27 28}
+OP {3422 3424 } neq {332 332 8622 8640 10 28}
+OP {3414 3425 } and {331 332 8577 8640 9 28}
+ATN NumNearCounter
+OP {3427 } identifier {333 333 8650 8664 6 20}
+OP {3428 } post_incr {333 333 8650 8666 6 22}
+OP {3429 } expr_stmt {333 333 8650 8667 6 23}
+OP {3430 } stmts {333 333 8650 8667 6 23}
+OP {3431 } compound {332 334 8642 8674 30 6}
+OP {3432 } stmts {332 334 8642 8674 30 6}
+ATV
+OP {3434 } none {}
+OP {3426 3433 3435 } if {331 334 8573 8674 5 6}
+ATN Numbers
+OP {3437 } identifier {335 335 8684 8691 9 16}
+ATS 3
+OP {3439 } integer {335 335 8692 8693 17 18}
+OP {3438 3440 } index {335 335 8684 8694 9 19}
+ATN j
+OP {3442 } identifier {335 335 8695 8696 20 21}
+OP {3441 3443 } index {335 335 8684 8697 9 22}
+ATN Numbers
+OP {3445 } identifier {335 335 8701 8708 26 33}
+ATS 3
+OP {3447 } integer {335 335 8709 8710 34 35}
+OP {3446 3448 } index {335 335 8701 8711 26 36}
+ATN j
+OP {3450 } identifier {335 335 8712 8713 37 38}
+ATS 1
+OP {3452 } integer {335 335 8716 8717 41 42}
+OP {3451 3453 } plus {335 335 8712 8717 37 42}
+OP {3449 3454 } index {335 335 8701 8718 26 43}
+OP {3444 3455 } eq {335 335 8684 8718 9 43}
+ATN Numbers
+OP {3457 } identifier {336 336 8729 8736 10 17}
+ATS 3
+OP {3459 } integer {336 336 8737 8738 18 19}
+OP {3458 3460 } index {336 336 8729 8739 10 20}
+ATN j
+OP {3462 } identifier {336 336 8740 8741 21 22}
+OP {3461 3463 } index {336 336 8729 8742 10 23}
+ATS 0
+OP {3465 } integer {336 336 8746 8747 27 28}
+OP {3464 3466 } neq {336 336 8729 8747 10 28}
+OP {3456 3467 } and {335 336 8684 8747 9 28}
+ATN NumNearCounter
+OP {3469 } identifier {337 337 8757 8771 6 20}
+OP {3470 } post_incr {337 337 8757 8773 6 22}
+OP {3471 } expr_stmt {337 337 8757 8774 6 23}
+OP {3472 } stmts {337 337 8757 8774 6 23}
+OP {3473 } compound {336 338 8749 8781 30 6}
+OP {3474 } stmts {336 338 8749 8781 30 6}
+ATV
+OP {3476 } none {}
+OP {3468 3475 3477 } if {335 338 8680 8781 5 6}
+ATN Numbers
+OP {3479 } identifier {339 339 8791 8798 9 16}
+ATN i
+OP {3481 } identifier {339 339 8799 8800 17 18}
+OP {3480 3482 } index {339 339 8791 8801 9 19}
+ATS 3
+OP {3484 } integer {339 339 8802 8803 20 21}
+OP {3483 3485 } index {339 339 8791 8804 9 22}
+ATN Numbers
+OP {3487 } identifier {339 339 8808 8815 26 33}
+ATN i
+OP {3489 } identifier {339 339 8816 8817 34 35}
+ATS 1
+OP {3491 } integer {339 339 8820 8821 38 39}
+OP {3490 3492 } plus {339 339 8816 8821 34 39}
+OP {3488 3493 } index {339 339 8808 8822 26 40}
+ATS 3
+OP {3495 } integer {339 339 8823 8824 41 42}
+OP {3494 3496 } index {339 339 8808 8825 26 43}
+OP {3486 3497 } eq {339 339 8791 8825 9 43}
+ATN Numbers
+OP {3499 } identifier {340 340 8836 8843 10 17}
+ATN i
+OP {3501 } identifier {340 340 8844 8845 18 19}
+OP {3500 3502 } index {340 340 8836 8846 10 20}
+ATS 3
+OP {3504 } integer {340 340 8847 8848 21 22}
+OP {3503 3505 } index {340 340 8836 8849 10 23}
+ATS 0
+OP {3507 } integer {340 340 8853 8854 27 28}
+OP {3506 3508 } neq {340 340 8836 8854 10 28}
+OP {3498 3509 } and {339 340 8791 8854 9 28}
+ATN NumNearCounter
+OP {3511 } identifier {341 341 8864 8878 6 20}
+OP {3512 } post_incr {341 341 8864 8880 6 22}
+OP {3513 } expr_stmt {341 341 8864 8881 6 23}
+OP {3514 } stmts {341 341 8864 8881 6 23}
+OP {3515 } compound {340 342 8856 8888 30 6}
+OP {3516 } stmts {340 342 8856 8888 30 6}
+ATV
+OP {3518 } none {}
+OP {3510 3517 3519 } if {339 342 8787 8888 5 6}
+OP {3394 3436 3478 3520 } stmts {327 342 8465 8888 5 6}
+OP {3521 } compound {326 343 8458 8894 32 5}
+OP {3522 } stmts {326 343 8458 8894 32 5}
+OP {3343 3348 3352 3523 } for {326 343 8430 8894 4 5}
+OP {3524 } stmts {326 343 8430 8894 4 5}
+OP {3525 } compound {325 344 8424 8899 31 4}
+OP {3526 } stmts {325 344 8424 8899 31 4}
+OP {3322 3327 3331 3527 } for {325 344 8396 8899 3 4}
+OP {} modifier_list {}
+ATV
+OP {3530 } int {346 346 8912 8915 8 11}
+ATN i
+OP {3532 } identifier {346 346 8916 8917 12 13}
+ATV
+OP {3534 } none {346 346 8917 8917 13 13}
+ATS 0
+OP {3536 } integer {346 346 8920 8921 16 17}
+OP {3533 3535 3537 } var_dcltr_affinit {346 346 8916 8921 12 17}
+OP {3538 } var_dcltr_list {346 346 8916 8921 12 17}
+OP {3529 3531 3539 } variable_decl {346 346 8912 8921 8 17}
+ATN i
+OP {3541 } identifier {346 346 8923 8924 19 20}
+ATS 4
+OP {3543 } integer {346 346 8927 8928 23 24}
+OP {3542 3544 } lt {346 346 8923 8928 19 24}
+ATN i
+OP {3546 } identifier {346 346 8930 8931 26 27}
+OP {3547 } post_incr {346 346 8930 8933 26 29}
+OP {3548 } expr_list {346 346 8930 8933 26 29}
+OP {} modifier_list {}
+ATV
+OP {3551 } int {347 347 8946 8949 9 12}
+ATN j
+OP {3553 } identifier {347 347 8950 8951 13 14}
+ATV
+OP {3555 } none {347 347 8951 8951 14 14}
+ATS 0
+OP {3557 } integer {347 347 8954 8955 17 18}
+OP {3554 3556 3558 } var_dcltr_affinit {347 347 8950 8955 13 18}
+OP {3559 } var_dcltr_list {347 347 8950 8955 13 18}
+OP {3550 3552 3560 } variable_decl {347 347 8946 8955 9 18}
+ATN j
+OP {3562 } identifier {347 347 8957 8958 20 21}
+ATS 4
+OP {3564 } integer {347 347 8961 8962 24 25}
+OP {3563 3565 } lt {347 347 8957 8962 20 25}
+ATN j
+OP {3567 } identifier {347 347 8964 8965 27 28}
+OP {3568 } post_incr {347 347 8964 8967 27 30}
+OP {3569 } expr_list {347 347 8964 8967 27 30}
+ATN Numbers
+OP {3571 } identifier {348 348 8980 8987 9 16}
+ATN i
+OP {3573 } identifier {348 348 8988 8989 17 18}
+OP {3572 3574 } index {348 348 8980 8990 9 19}
+ATN j
+OP {3576 } identifier {348 348 8991 8992 20 21}
+OP {3575 3577 } index {348 348 8980 8993 9 22}
+ATS 0
+OP {3579 } integer {348 348 8997 8998 26 27}
+OP {3578 3580 } neq {348 348 8980 8998 9 27}
+ATN NumCounter
+OP {3582 } identifier {349 349 9008 9018 6 16}
+OP {3583 } post_incr {349 349 9008 9021 6 19}
+OP {3584 } expr_stmt {349 349 9008 9022 6 20}
+OP {3585 } stmts {349 349 9008 9022 6 20}
+OP {3586 } compound {348 350 9000 9029 29 6}
+OP {3587 } stmts {348 350 9000 9029 29 6}
+ATV
+OP {3589 } none {}
+OP {3581 3588 3590 } if {348 350 8976 9029 5 6}
+OP {3591 } stmts {348 350 8976 9029 5 6}
+OP {3592 } compound {347 351 8969 9035 32 5}
+OP {3593 } stmts {347 351 8969 9035 32 5}
+OP {3561 3566 3570 3594 } for {347 351 8941 9035 4 5}
+OP {3595 } stmts {347 351 8941 9035 4 5}
+OP {3596 } compound {346 352 8935 9040 31 4}
+OP {3597 } stmts {346 352 8935 9040 31 4}
+OP {3540 3545 3549 3598 } for {346 352 8907 9040 3 4}
+ATN Counter
+OP {3600 } identifier {353 353 9048 9055 7 14}
+ATS 0
+OP {3602 } integer {353 353 9058 9059 17 18}
+OP {3601 3603 } gt {353 353 9048 9059 7 18}
+ATN jscore
+OP {3605 } identifier {355 355 9068 9074 4 10}
+OP {3606 } scope {355 355 9068 9074 4 10}
+ATN setText
+OP {3608 } identifier {355 355 9075 9082 11 18}
+OP {3607 3609 } qualified_id {355 355 9068 9082 4 18}
+ATS {"分数："}
+OP {3611 } string {355 355 9083 9094 19 30}
+ATN score
+OP {3613 } identifier {355 355 9097 9102 33 38}
+OP {3612 3614 } plus {355 355 9083 9102 19 38}
+OP {3615 } expr_list {355 355 9083 9102 19 38}
+OP {3610 3616 } call {355 355 9068 9103 4 39}
+OP {3617 } expr_stmt {355 355 9068 9104 4 40}
+OP {} modifier_list {}
+ATV
+OP {3620 } int {356 356 9109 9112 4 7}
+ATN r1
+OP {3622 } identifier {356 356 9113 9115 8 10}
+ATV
+OP {3624 } none {356 356 9115 9115 10 10}
+ATN rand
+OP {3626 } identifier {356 356 9118 9122 13 17}
+OP {3627 } scope {356 356 9118 9122 13 17}
+ATN nextInt
+OP {3629 } identifier {356 356 9123 9130 18 25}
+OP {3628 3630 } qualified_id {356 356 9118 9130 13 25}
+ATS 4
+OP {3632 } integer {356 356 9131 9132 26 27}
+OP {3633 } expr_list {356 356 9131 9132 26 27}
+OP {3631 3634 } call {356 356 9118 9133 13 28}
+OP {3623 3625 3635 } var_dcltr_affinit {356 356 9113 9133 8 28}
+OP {3636 } var_dcltr_list {356 356 9113 9133 8 28}
+OP {3619 3621 3637 } variable_decl {356 356 9109 9134 4 29}
+OP {} modifier_list {}
+ATV
+OP {3640 } int {357 357 9139 9142 4 7}
+ATN c1
+OP {3642 } identifier {357 357 9143 9145 8 10}
+ATV
+OP {3644 } none {357 357 9145 9145 10 10}
+ATN rand
+OP {3646 } identifier {357 357 9148 9152 13 17}
+OP {3647 } scope {357 357 9148 9152 13 17}
+ATN nextInt
+OP {3649 } identifier {357 357 9153 9160 18 25}
+OP {3648 3650 } qualified_id {357 357 9148 9160 13 25}
+ATS 4
+OP {3652 } integer {357 357 9161 9162 26 27}
+OP {3653 } expr_list {357 357 9161 9162 26 27}
+OP {3651 3654 } call {357 357 9148 9163 13 28}
+OP {3643 3645 3655 } var_dcltr_affinit {357 357 9143 9163 8 28}
+OP {3656 } var_dcltr_list {357 357 9143 9163 8 28}
+OP {3639 3641 3657 } variable_decl {357 357 9139 9164 4 29}
+ATN Numbers
+OP {3659 } identifier {358 358 9176 9183 11 18}
+ATN r1
+OP {3661 } identifier {358 358 9184 9186 19 21}
+OP {3660 3662 } index {358 358 9176 9187 11 22}
+ATN c1
+OP {3664 } identifier {358 358 9188 9190 23 25}
+OP {3663 3665 } index {358 358 9176 9191 11 26}
+ATS 0
+OP {3667 } integer {358 358 9195 9196 30 31}
+OP {3666 3668 } neq {358 358 9176 9196 11 31}
+ATN r1
+OP {3670 } identifier {359 359 9205 9207 5 7}
+ATN rand
+OP {3672 } identifier {359 359 9210 9214 10 14}
+OP {3673 } scope {359 359 9210 9214 10 14}
+ATN nextInt
+OP {3675 } identifier {359 359 9215 9222 15 22}
+OP {3674 3676 } qualified_id {359 359 9210 9222 10 22}
+ATS 4
+OP {3678 } integer {359 359 9223 9224 23 24}
+OP {3679 } expr_list {359 359 9223 9224 23 24}
+OP {3677 3680 } call {359 359 9210 9225 10 25}
+OP {3671 3681 } ass {359 359 9205 9225 5 25}
+OP {3682 } expr_stmt {359 359 9205 9226 5 26}
+ATN c1
+OP {3684 } identifier {360 360 9232 9234 5 7}
+ATN rand
+OP {3686 } identifier {360 360 9237 9241 10 14}
+OP {3687 } scope {360 360 9237 9241 10 14}
+ATN nextInt
+OP {3689 } identifier {360 360 9242 9249 15 22}
+OP {3688 3690 } qualified_id {360 360 9237 9249 10 22}
+ATS 4
+OP {3692 } integer {360 360 9250 9251 23 24}
+OP {3693 } expr_list {360 360 9250 9251 23 24}
+OP {3691 3694 } call {360 360 9237 9252 10 25}
+OP {3685 3695 } ass {360 360 9232 9252 5 25}
+OP {3696 } expr_stmt {360 360 9232 9253 5 26}
+OP {3683 3697 } stmts {359 360 9205 9253 5 26}
+OP {3698 } compound {358 361 9198 9259 33 5}
+OP {3699 } stmts {358 361 9198 9259 33 5}
+OP {3669 3700 } while {358 361 9169 9259 4 5}
+OP {} modifier_list {}
+ATV
+OP {3703 } int {362 362 9264 9267 4 7}
+ATN value1
+OP {3705 } identifier {362 362 9268 9274 8 14}
+ATV
+OP {3707 } none {362 362 9274 9274 14 14}
+ATN rand
+OP {3709 } identifier {362 362 9277 9281 17 21}
+OP {3710 } scope {362 362 9277 9281 17 21}
+ATN nextInt
+OP {3712 } identifier {362 362 9282 9289 22 29}
+OP {3711 3713 } qualified_id {362 362 9277 9289 17 29}
+ATS 2
+OP {3715 } integer {362 362 9290 9291 30 31}
+OP {3716 } expr_list {362 362 9290 9291 30 31}
+OP {3714 3717 } call {362 362 9277 9292 17 32}
+ATS 2
+OP {3719 } integer {362 362 9295 9296 35 36}
+OP {3718 3720 } mul {362 362 9277 9296 17 36}
+ATS 2
+OP {3722 } integer {362 362 9299 9300 39 40}
+OP {3721 3723 } plus {362 362 9277 9300 17 40}
+OP {3706 3708 3724 } var_dcltr_affinit {362 362 9268 9300 8 40}
+OP {3725 } var_dcltr_list {362 362 9268 9300 8 40}
+OP {3702 3704 3726 } variable_decl {362 362 9264 9301 4 41}
+ATN Numbers
+OP {3728 } identifier {363 363 9306 9313 4 11}
+ATN r1
+OP {3730 } identifier {363 363 9314 9316 12 14}
+OP {3729 3731 } index {363 363 9306 9317 4 15}
+ATN c1
+OP {3733 } identifier {363 363 9318 9320 16 18}
+OP {3732 3734 } index {363 363 9306 9321 4 19}
+ATN value1
+OP {3736 } identifier {363 363 9324 9330 22 28}
+OP {3735 3737 } ass {363 363 9306 9330 4 28}
+OP {3738 } expr_stmt {363 363 9306 9331 4 29}
+OP {3618 3638 3658 3701 3727 3739 } stmts {355 363 9068 9331 4 29}
+OP {3740 } compound {353 364 9061 9336 20 4}
+OP {3741 } stmts {353 364 9061 9336 20 4}
+ATV
+OP {3743 } none {}
+OP {3604 3742 3744 } if {353 364 9044 9336 3 4}
+ATN isWin
+OP {3746 } identifier {366 366 9345 9350 7 12}
+ATV
+OP {3748 } true {366 366 9354 9358 16 20}
+OP {3747 3749 } eq {366 366 9345 9358 7 20}
+ATN UI
+OP {3751 } identifier {367 367 9365 9367 4 6}
+OP {3752 } scope {367 367 9365 9367 4 6}
+ATN paint
+OP {3754 } identifier {367 367 9368 9373 7 12}
+OP {3753 3755 } qualified_id {367 367 9365 9373 4 12}
+ATN UI
+OP {3757 } identifier {367 367 9374 9376 13 15}
+OP {3758 } scope {367 367 9374 9376 13 15}
+ATN getGraphics
+OP {3760 } identifier {367 367 9377 9388 16 27}
+OP {3759 3761 } qualified_id {367 367 9374 9388 13 27}
+OP {} expr_list {367 367 9389 9389 28 28}
+OP {3762 3763 } call {367 367 9374 9390 13 29}
+OP {3764 } expr_list {367 367 9374 9390 13 29}
+OP {3756 3765 } call {367 367 9365 9391 4 30}
+OP {3766 } expr_stmt {367 367 9365 9392 4 31}
+ATN JOptionPane
+OP {3768 } identifier {368 368 9397 9408 4 15}
+OP {3769 } scope {368 368 9397 9408 4 15}
+ATN showMessageDialog
+OP {3771 } identifier {368 368 9409 9426 16 33}
+OP {3770 3772 } qualified_id {368 368 9397 9426 4 33}
+ATN UI
+OP {3774 } identifier {368 368 9427 9429 34 36}
+ATS {"** WIN ** !\n"}
+OP {3776 } string {368 368 9431 9446 38 53}
+ATS {"您的最终得分为："}
+OP {3778 } string {369 369 9455 9481 8 34}
+OP {3777 3779 } plus {368 369 9431 9481 38 34}
+ATN score
+OP {3781 } identifier {369 369 9484 9489 37 42}
+OP {3780 3782 } plus {368 369 9431 9489 38 42}
+OP {3775 3783 } expr_list {368 369 9427 9489 34 42}
+OP {3773 3784 } call {368 369 9397 9490 4 43}
+OP {3785 } expr_stmt {368 369 9397 9491 4 44}
+OP {3767 3786 } stmts {367 369 9365 9491 4 44}
+OP {3787 } compound {366 370 9359 9496 21 4}
+OP {3788 } stmts {366 370 9359 9496 21 4}
+ATV
+OP {3790 } none {}
+OP {3750 3789 3791 } if {366 370 9341 9496 3 4}
+ATN NumCounter
+OP {3793 } identifier {372 372 9509 9519 7 17}
+ATS 16
+OP {3795 } integer {372 372 9523 9525 21 23}
+OP {3794 3796 } eq {372 372 9509 9525 7 23}
+ATN NumNearCounter
+OP {3798 } identifier {372 372 9529 9543 27 41}
+ATS 0
+OP {3800 } integer {372 372 9547 9548 45 46}
+OP {3799 3801 } eq {372 372 9529 9548 27 46}
+OP {3797 3802 } and {372 372 9509 9548 7 46}
+ATN relive
+OP {3804 } identifier {373 373 9556 9562 4 10}
+ATV
+OP {3806 } true {373 373 9565 9569 13 17}
+OP {3805 3807 } ass {373 373 9556 9569 4 17}
+OP {3808 } expr_stmt {373 373 9556 9570 4 18}
+ATN JOptionPane
+OP {3810 } identifier {374 374 9575 9586 4 15}
+OP {3811 } scope {374 374 9575 9586 4 15}
+ATN showMessageDialog
+OP {3813 } identifier {374 374 9587 9604 16 33}
+OP {3812 3814 } qualified_id {374 374 9575 9604 4 33}
+ATN UI
+OP {3816 } identifier {374 374 9605 9607 34 36}
+ATS {"没地方可以合并了\n"}
+OP {3818 } string {374 374 9609 9637 38 66}
+ATS {"重新开始或者后退一步"}
+OP {3820 } string {375 375 9646 9678 8 40}
+OP {3819 3821 } plus {374 375 9609 9678 38 40}
+OP {3817 3822 } expr_list {374 375 9605 9678 34 40}
+OP {3815 3823 } call {374 375 9575 9679 4 41}
+OP {3824 } expr_stmt {374 375 9575 9680 4 42}
+OP {3809 3825 } stmts {373 375 9556 9680 4 42}
+OP {3826 } compound {372 376 9550 9685 48 4}
+OP {3827 } stmts {372 376 9550 9685 48 4}
+ATV
+OP {3829 } none {}
+OP {3803 3828 3830 } if {372 376 9505 9685 3 4}
+ATN UI
+OP {3832 } identifier {377 377 9689 9691 3 5}
+OP {3833 } scope {377 377 9689 9691 3 5}
+ATN paint
+OP {3835 } identifier {377 377 9692 9697 6 11}
+OP {3834 3836 } qualified_id {377 377 9689 9697 3 11}
+ATN UI
+OP {3838 } identifier {377 377 9698 9700 12 14}
+OP {3839 } scope {377 377 9698 9700 12 14}
+ATN getGraphics
+OP {3841 } identifier {377 377 9701 9712 15 26}
+OP {3840 3842 } qualified_id {377 377 9698 9712 12 26}
+OP {} expr_list {377 377 9713 9713 27 27}
+OP {3843 3844 } call {377 377 9698 9714 12 28}
+OP {3845 } expr_list {377 377 9698 9714 12 28}
+OP {3837 3846 } call {377 377 9689 9715 3 29}
+OP {3847 } expr_stmt {377 377 9689 9716 3 30}
+OP {3310 3528 3599 3745 3792 3831 3848 } stmts {152 377 3987 9716 3 30}
+OP {3849 } compound {151 378 3982 9720 21 3}
+OP {3850 } stmts {151 378 3982 9720 21 3}
+ATV
+OP {3852 } none {}
+OP {1267 3851 3853 } if {151 378 3963 9720 2 3}
+OP {1085 1097 1109 1115 1199 1205 1262 3854 } stmts {121 378 3261 9720 2 3} {prefix comment_s {comment {// move 
+} 0 }} 
+OP {3855 } compound {118 381 3243 9733 40 3}
+OP {1054 1056 1071 1073 3856 } method_decl {118 381 3204 9733 1 3} {prefix comment_s {comment {//keyboard monitoring
+} 0 }} 
+OP {118 134 154 182 210 222 244 272 286 298 310 438 1051 3857 } field_decl_list {13 382 362 9736 66 2}
+OP {99 106 3858 } class_decl {13 382 296 9736 0 2}
+OP {3859 } type_decl_list {13 382 296 9736 0 2}
+OP {3 93 3860 } comp_unit {1 384 0 9741 0 0}

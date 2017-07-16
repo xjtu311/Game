@@ -1,0 +1,42 @@
+CQL VIEW
+DATE string "2017.05.24 16:33:11"
+TITLE string "Use Graph C:\Users\lyz\Documents\My Projects\caseStudy"
+APPLICATION string "C:\Users\lyz\Documents\My Projects\caseStudy"
+COLUMNS 7
+node1	name	type	module	start	stop	node2
+integer	string	integer	string	integer	integer	integer
+DATA
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	569
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	269
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	567
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	568
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	570
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	28
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	20
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	575
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	564
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	572
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	69
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	571
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	539
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	570
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	568
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	68
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	574
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	573
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	80
+569	"javax.swing.JFrame"	0	""	0	0	0
+269	"java.lang.String"	0	""	0	0	0
+567	"javax.swing.ImageIcon"	0	""	0	0	0
+568	"javax.swing.JButton"	0	""	0	0	0
+570	"javax.swing.JLabel"	0	""	0	0	0
+28	"java.awt.Font"	0	""	0	0	0
+20	"java.awt.Color"	0	""	0	0	0
+564	"java.awt.Graphics"	0	""	0	0	0
+572	"java.awt.event.KeyAdapter"	0	""	0	0	0
+69	"java.awt.event.ActionListener"	0	""	0	0	0
+539	"java.util.Random"	0	""	0	0	0
+68	"java.awt.event.ActionEvent"	0	""	0	0	0
+80	"java.awt.event.KeyEvent"	0	""	0	0	0
+574	"javax.swing.JOptionPane"	0	""	0	0	0
+573	"java.util.Arrays"	0	""	0	0	0

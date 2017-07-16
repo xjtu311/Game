@@ -1,0 +1,4 @@
+incr::DepCommandLine {audit_java_analyze} {-adt} {-ctrl} {-a} {C:\Users\lyz\Documents\My Projects\caseStudy} {-d} {D:\programsets\eclipse\2048\Logiscope} {-l} {D:\programsets\eclipse\2048\Logiscope\logiscope.tab}
+incr::DepMainInput {D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java}
+incr::DepInput {F:\program files (x86)\Telelogic\Logiscope\data\audit_java\Audit.cfg}
+incr::DepOutput {D:\programsets\eclipse\2048\Logiscope\cache\Listener.java.adt_java.dmp}

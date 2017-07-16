@@ -1,0 +1,14 @@
+CQL VIEW
+DATE string "2017.05.24 16:33:11"
+TITLE string "Inheritance Graph C:\Users\lyz\Documents\My Projects\caseStudy"
+APPLICATION string "C:\Users\lyz\Documents\My Projects\caseStudy"
+COLUMNS 7
+node1	name	type	module	start	stop	node2
+integer	string	integer	string	integer	integer	integer
+DATA
+571	"game2048.Game"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Game.java"	204	4706	569
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	572
+575	"game2048.Listener"	5	"D:\programsets\eclipse\2048\src\main\java\game2048\Listener.java"	296	9736	69
+569	"javax.swing.JFrame"	0	""	0	0	0
+572	"java.awt.event.KeyAdapter"	0	""	0	0	0
+69	"java.awt.event.ActionListener"	0	""	0	0	0
